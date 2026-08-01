@@ -1,0 +1,9 @@
+# Everything in tools/ that generates or verifies the contents of docs/.
+# Not needed to run the app.
+#
+#   .venv/bin/pip install -r requirements-dev.txt && .venv/bin/playwright install chromium
+
+-r requirements.txt
+
+# Screenshot capture, the Excalidraw renderer and the link audit.
+playwright==1.60.0

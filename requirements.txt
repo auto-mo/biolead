@@ -1,0 +1,38 @@
+# Runtime dependencies, pinned exactly.
+#
+# Pinned rather than ranged because the ambient anaconda environment on the development
+# machine holds langgraph 1.0.10 against langgraph-prebuilt 1.0.13, and
+# `from langgraph.prebuilt import ...` raises
+# `cannot import name 'ExecutionInfo' from 'langgraph.runtime'`. Inheriting an ambient
+# install failed at import time, so the project owns its interpreter.
+#
+#   python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+#
+# Versions are what the app is verified running on.
+
+fastapi==0.135.1
+uvicorn==0.41.0
+httpx==0.28.1
+pydantic==2.12.5
+PyYAML==6.0.3
+
+# The adjudicator's second read. Optional at runtime: without a key the deterministic stub
+# runs instead and the UI says so.
+#
+# The floor on this is set by langchain-anthropic rather than chosen here. The adjudicator's
+# call shape resolves against it: `output_config`, `max_tokens` and the structured schema all
+# work, verified by running `make eval-model` against a real key. `messages.create` does not
+# take `betas`, which this project never sent.
+anthropic==0.120.2
+
+# The outcome subgraph. StateGraph rather than the Functional API because the graph
+# has to be visualisable, and ToolNode rather than `create_agent`, which carries
+# `__deprecated__` in this version.
+#
+# DEFAULT_RECURSION_LIMIT IS 10007 IN THIS RELEASE, not 25 and not the 1000 the docs claim.
+# Anyone treating the old default as an implicit runaway guard has no guard. `recursion_limit`
+# is set explicitly wherever the graph is invoked.
+langgraph==1.2.10
+langgraph-prebuilt==1.1.0
+langchain-core==1.5.3
+langchain-anthropic==1.5.3

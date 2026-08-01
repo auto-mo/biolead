@@ -1,0 +1,21 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+node_modules/
+frontend/dist/
+.DS_Store
+
+# scratch
+*.log
+
+# access log, if written into the repo dir
+access.log
+*.access.log
+
+# project interpreter
+.venv/
+
+# build artifact
+frontend/tsconfig.tsbuildinfo

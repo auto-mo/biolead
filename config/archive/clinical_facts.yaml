@@ -1,0 +1,418 @@
+# config/clinical_facts.yaml
+#
+# TIER 1b: asserted clinical evidence. Not retrievable through an API.
+#
+# TWO HARD RULES, enforced at load time:
+#   1. An entry does not load unless `sources` is non-empty. Fail loudly at startup.
+#   2. Tier 1b evidence alone can never reach HIGH confidence. Capped at MODERATE.
+#
+# These are not precautionary. The MMP1 fact below was wrong TWICE before it was right: once as
+# folklore ("MMP inhibitors failed in humans for photoaging") and once as the correction to the
+# folklore, which itself contained four sourcing errors. Both read as authoritative.
+#
+# Every claim is marked `retrieved: false` and is rendered in the UI as ASSERTED, visually
+# distinct from evidence that was fetched.
+
+version: 1
+
+facts:
+
+  - id: mmp1_photoaging_no_trials
+    gene: MMP1
+    condition: photoaging
+    claim: >
+      No synthetic matrix metalloproteinase inhibitor has ever been trialled against a
+      photoaging, wrinkle, or skin-elasticity endpoint in humans. The widely repeated belief
+      that MMP inhibitors "failed for photoaging" is a cross-field translation error from
+      oncology, where they were trialled and failed for different reasons.
+    evidence_type: documented_absence_of_trials
+    direction: NEUTRAL          # absence is not negative evidence for targetability
+    strength: MODERATE
+    retrieved: false
+    verified: true
+    verified_on: "2026-07-30"
+    sources:
+      - "ClinicalTrials.gov v2 API, systematic search 2026-07-30. Calibration: 'photoaging'
+         alone returns 181 trials, 'wrinkle' 1104, 'matrix metalloproteinase inhibitor' 111.
+         Intersection: 0. Intervention-field queries (query.intr x query.cond) return 0 for
+         MMP inhibitor x photoaging and MMP inhibitor x skin aging."
+      - "Coussens LM, Fingleton B, Matrisian LM. Science 2002;295:2387-92. PMID 11923519.
+         Oncology trial failures."
+      - "Winer A, Adams S, Mignatti P. Mol Cancer Ther 2018. PMID 29735645."
+    caveats:
+      - "Registry coverage before 2000 is partial, so absence is weaker evidence for 1990s
+         programmes. A cosmetic indication would be modern and registered, so the absence is
+         strong where it matters."
+      - "Not searched: EU CTR, ISRCTN, WHO ICTRP, Japanese registries."
+    note: >
+      This entry exists to PREVENT a passenger call, not to support one. Absence of a trial is
+      not evidence that the target does not work. It is evidence that nobody has looked.
+
+  - id: mmp1_no_selective_inhibitor
+    gene: MMP1
+    condition: photoaging
+    claim: >
+      No selective MMP-1 inhibitor has ever been developed, so no experiment isolates MMP1 from
+      the other collagenases. Retinoid efficacy on wrinkles is real but is not attributable to
+      MMP-1: a 2022 biopsy-based RCT found no significant change in MMP1 while MMP2 fell and
+      MMP2 change correlated with fine-wrinkle improvement.
+    evidence_type: absence_of_selective_tool_compound
+    direction: TARGETABILITY_UNKNOWN
+    strength: MODERATE
+    retrieved: false
+    verified: true
+    verified_on: "2026-07-30"
+    sources:
+      - "Europe PMC title search for 'selective MMP-1 inhibitor': 0 hits."
+      - "Chien AL, ..., Kang S. JAMA Dermatol 2022. PMID 35675051. n=20, biopsy-based.
+         No significant change in procollagen I or MMP1/3/9 mRNA; MMP2 fell, r=0.54 P=.01
+         with fine-wrinkle improvement."
+      - "Agren MS, Mirastschijski U, et al. Exp Dermatol 2001;10:337-48. PMID 11589731.
+         Topical GM6001/ilomastat on volunteer forearms DELAYED epidermal regeneration by
+         2-4 days. Endpoint is wound healing, not photoaging, but it is a direct adverse
+         signal for topical anti-MMP skin strategies."
+      - "Fisher GJ, et al. NEJM 1997;337:1419-28. PMID 9358139. States UV induced TIMP-1 and
+         'Induction of the inhibitor was not affected by tretinoin' - contradicting the claim
+         that retinoids raise TIMP-1."
+    caveats:
+      - "JAMA Dermatol 2022 is n=20, single centre. The null MMP1 result is reported for the
+         retinol-precursor arm; the tretinoin arm could not be confirmed from the abstract."
+    note: >
+      MMP1 is a well-supported mechanistic MEDIATOR with essentially zero target validation.
+      Unvalidated is not the same as passenger, and the output must not claim the latter.
+
+  # ---------------------------------------------------------------------------
+  # This entry asserts ONE claim, and note what it does NOT license: an absence of trials is
+  # NOT a negative result.
+  # ---------------------------------------------------------------------------
+  - id: tnf_acne_no_trials
+    gene: TNF
+    condition: acne_vulgaris
+    claim: >
+      No controlled trial of a systemic anti-TNF biologic for common acne vulgaris exists on
+      ClinicalTrials.gov. The apparent hits are all hidradenitis suppurativa, which is formally
+      synonymous with "acne inversa" and therefore keyword-matches acne searches.
+    evidence_type: documented_absence_of_trials
+    direction: NEUTRAL          # NOT negative. See the note below - this is the whole point.
+    strength: MODERATE          # HIGH for the registry claim; MODERATE for the fact as scoped.
+    retrieved: false
+    verified: true
+    verified_on: "2026-07-30"
+    sources:
+      - "ClinicalTrials.gov v2 API, systematic search 2026-07-30. Decisive query:
+         query.cond=acne NOT hidradenitis x query.intr=(adalimumab OR infliximab OR etanercept
+         OR certolizumab OR golimumab) returns 0."
+      - "Calibration: 'acne' alone returns 1397 trials; adalimumab 879, infliximab 751,
+         etanercept 569, certolizumab 201, golimumab 194. Both literatures are richly
+         populated, so the zero intersection carries weight."
+      - "Positive controls confirming the query finds real acne drug trials: acne vulgaris x
+         isotretinoin returns 50; acne vulgaris x adapalene returns 103."
+      - "All 12 apparent hits pulled as full records and individually adjudicated as false
+         positives. Six are hidradenitis suppurativa (NCT03221621, NCT01635764, NCT01468207,
+         NCT01468233, NCT07021495, NCT05322473). NCT07069075 is observational and only
+         measures TNF-alpha. NCT01074502 is apremilast, a PDE4 inhibitor, not an anti-TNF."
+      - "False-positive mechanism verified rather than assumed: Europe PMC returns 1095 papers
+         using both 'hidradenitis suppurativa' and 'acne inversa'."
+    caveats:
+      - "Scope is ClinicalTrials.gov only. EU CTR, WHO ICTRP and jRCT were not searched, so
+         'no registered trial anywhere' is NOT established."
+      - "Severe acne variants were searched but their base rates are too low to be informative
+         either way: acne conglobata 3 trials, fulminans 1, nodulocystic 3."
+    note: >
+      READ THIS BEFORE USING THE ENTRY. It asserts an ABSENCE, and an absence is not a negative
+      result. Nobody trialled anti-TNF for acne and had it fail; nobody trialled it at all.
+      So this entry does NOT support a NOT_ACTIONABLE call, and direction is NEUTRAL for exactly
+      that reason. It behaves like the MMP1 entries: it exists to prevent an unearned passenger
+      call, not to support one. TNF against acne therefore evaluates as DOWNSTREAM position with
+      UNKNOWN targetability, on retrieved evidence of literature 0.87 and nothing else.
+      That is a weaker claim than the eval set originally carried, and it is the correct one.
+      The tier 5 inversion argument survives intact: heavy literature, zero genetics, zero
+      clinical is the passenger fingerprint, and the reading is "unassessed," not
+      "passenger."
+
+      THREE CLAIMS WERE CUT from the original entry because they could not be sourced:
+      that anti-TNF induces paradoxical acneiform eruptions (unverified); that anti-TNF has been
+      shown ineffective for acne (no such study found); and that no trial exists BECAUSE
+      observational data already showed no efficacy plus exacerbation risk. That last one is a
+      causal claim about why something was never done, which is the same shape as the MMP
+      folklore, and it remains unsourced.
+
+  - id: tnf_acne_bidirectional_case_evidence
+    gene: TNF
+    condition: acne_vulgaris
+    claim: >
+      The case-level evidence on anti-TNF and acne points BOTH WAYS and does not resolve.
+      A 2023 JAMA Dermatology systematic review of 53 studies and 64 patients found 17 patients
+      who developed acne after receiving a TNF inhibitor for another condition, and separately
+      47 patients in whom a TNF inhibitor was used to TREAT refractory acne, with 93.6%
+      achieving partial improvement or clearance. Both arms are pooled case reports, not
+      controlled data.
+    evidence_type: systematic_review_of_case_reports
+    direction: TARGETABILITY_UNKNOWN
+    strength: LOW
+    retrieved: false
+    verified: true
+    verified_on: "2026-07-30"
+    sources:
+      - "Sandoval AGW, Vaughn LT, Huang JT, Barbieri JS. Role of Tumor Necrosis Factor-alpha
+         Inhibitors in the Treatment and Occurrence of Acne: A Systematic Review.
+         JAMA Dermatol. 2023;159:504-9. PMID 36930143.
+         https://pubmed.ncbi.nlm.nih.gov/36930143/"
+      - "Acne treated with tumor necrosis factor inhibitors. JAAD International 2026.
+         PMID 42256605. Retrospective cohort, 31 patients across two UCSF-affiliated centres.
+         Acne improved in 90.3%. In the 7 patients with acne alone and no follicular occlusion
+         comorbidity, 7/7 improved. All 11 acne fulminans patients improved. Median time to
+         improvement 1.5 months. https://pmc.ncbi.nlm.nih.gov/articles/PMC13240783/"
+      - "Taudorf EH, Jensen MB, Bouazzi D. Tumor necrosis factor-alpha inhibitor treatment of
+         acne fulminans. JDDG 2024;22:23-27. PMID 38128111. Successful in 2/3 clinical cases
+         and 11/12 literature cases; adverse effects mild and reversible."
+      - "Is There a Place for Biologics in Acne? Am J Clin Dermatol 2025.
+         https://pmc.ncbi.nlm.nih.gov/articles/PMC12436545/ States there are currently no
+         registered clinical trials using biologics in acne, and attributes the absence of
+         biologic success to inadequate patient selection, lack of early treatment, suboptimal
+         dosing, and the possibility that acne is not driven by a single dominant cytokine
+         pathway. It does NOT attribute it to demonstrated anti-TNF failure."
+      - "Acneiform drug eruptions: update on pathophysiology and culprit drugs. Front Med 2026.
+         PMID 41810246. Lists TNF-alpha inhibitors (infliximab, adalimumab) in its culprit-drug
+         table. https://pmc.ncbi.nlm.nih.gov/articles/PMC12969058/"
+      - "Acneiform eruption following anti-TNF-alpha treatment: a report of three cases.
+         J Drugs Dermatol 2008. PMID 18246701. https://pubmed.ncbi.nlm.nih.gov/18246701/"
+      - "DISCONFIRMING, included: Paradoxical Skin Reactions to Biologics in
+         Patients With Rheumatologic Disorders. Front Pharmacol 2019. PMID 30971924.
+         'acne' appears 0 times; 'acneiform' 0 times.
+         https://pmc.ncbi.nlm.nih.gov/articles/PMC6443901/"
+    caveats:
+      - "'Paradoxical reaction' is NOT an established classification for acne. Two dedicated
+         reviews of paradoxical cutaneous reactions to biologics contain zero mentions of acne
+         or acneiform. The canonical entities are psoriasis (described as prototypic),
+         eczematous and lichenoid eruptions, hidradenitis suppurativa, pyoderma gangrenosum,
+         Sweet's syndrome, lupus-like reactions, alopecia areata and bullous pemphigoid.
+         Acne is on none of those lists. Do not use the word paradoxical."
+      - "Only adalimumab, infliximab and etanercept appear in the review-level evidence.
+         Certolizumab and golimumab are unsupported; claiming a class effect overstates it."
+      - "No incidence or prevalence figure exists. The 17 occurrence cases are pooled case
+         reports with no denominator and give no risk estimate."
+      - "'acne' appears 0 times in adverse_reactions and warnings_and_cautions on every
+         anti-TNF label checked, including the originator Humira record. No regulator has
+         adopted this as labeled language."
+      - "FAERS raw counts were retrieved but are NOT used. They are spontaneous reports with
+         no denominator, no disproportionality analysis (no PRR, ROR or EBGM), and acne does
+         not appear in the top 100 reported reaction terms for adalimumab. A raw count cannot
+         support causation."
+    note: >
+      THIS ENTRY EXISTS TO PREVENT A CALL, NOT TO SUPPORT ONE, and it is the sharpest example
+      of that in the config.
+      The original design asserted that anti-TNF "does not resolve common acne vulgaris" and
+      used it to make TNF a high-confidence passenger. Verification found a worse problem than
+      the one expected. The claim is not merely unsourced. IT IS INVERTED. Across roughly 100
+      observational patients in three independent series, TNF blockade appears to HELP:
+      47 patients at 93.6% partial improvement or clearance (JAMA Derm 2023), 31 patients at
+      90.3% improvement including 7/7 with acne alone (JAAD Int 2026), and 13/15 successful in
+      acne fulminans (JDDG 2024).
+      The stated reason for the absence of trials was also refuted. No published source says
+      anti-TNF went untrialled BECAUSE observational data showed no efficacy. The field's own
+      review attributes the absence of biologic success in acne to patient selection, dosing,
+      timing, multi-cytokine biology, and diagnostic confusion with hidradenitis suppurativa.
+      Nobody is arguing the drug does not work.
+      TWO REASONS THIS STILL DOES NOT BECOME TARGETABILITY_POSITIVE. Every one of those series
+      is uncontrolled and retrospective. And they concentrate in SEVERE variants - fulminans,
+      conglobata, nodulocystic - not common acne vulgaris, with a live argument that many
+      published TNF-responsive "acne" cases are misdiagnosed conglobate hidradenitis
+      suppurativa. Set against 17 documented induction cases, the question is genuinely OPEN.
+      Hence TARGETABILITY_UNKNOWN at LOW strength. TNF against acne is an UNASSESSED target,
+      not a demonstrated passenger, and the output must say so.
+
+  - id: tnf_sapho_syndromic_exception
+    gene: TNF
+    condition: sapho_syndrome
+    claim: >
+      Anti-TNF is under controlled investigation in SAPHO syndrome, a distinct condition whose
+      presentation includes acne. This is the ready answer to "so is TNF never a target in
+      acne": it is a target in a different disease that shares the word.
+    evidence_type: registered_controlled_trial
+    direction: TARGETABILITY_POSITIVE
+    strength: MODERATE
+    retrieved: false
+    verified: true
+    verified_on: "2026-07-30"
+    sources:
+      - "NCT06011889 - randomised placebo-controlled etanercept trial in SAPHO syndrome,
+         Phase 2/3, estimated n=60. Full record pulled 2026-07-30.
+         https://clinicaltrials.gov/study/NCT06011889"
+    caveats:
+      - "PASH syndrome was not verified. Do not claim it without a source."
+      - "A registered trial is evidence of serious investigation, not of demonstrated efficacy.
+         Do not present this as proof that anti-TNF works in SAPHO."
+    note: >
+      Scoped to SAPHO. This entry does not apply to common acne vulgaris and must
+      not be allowed to leak into that assessment.
+
+  # ---------------------------------------------------------------------------
+  # THE PASSENGER CASES. Both carry an nct_id, so the pipeline FETCHES the trial
+  # result at runtime rather than asserting it. That makes them tier 1a retrieved,
+  # not 1b asserted, which is what lets a passenger call reach HIGH confidence.
+  # ---------------------------------------------------------------------------
+
+  - id: il36r_acne_trial_failed
+    gene: IL1RL2
+    condition: oily_skin
+    nct_id: NCT04856917
+    claim: >
+      Imsidolimab, an anti-IL-36R antibody, was taken into a Phase 2 trial for acne vulgaris
+      and FAILED on its primary endpoint. Change in facial inflammatory lesion count at week 12
+      was -6.8 (400/200 mg, p=0.3757) and -7.4 (200/100 mg, p=0.6183) against -9.6 on placebo.
+      Placebo beat both drug arms, and at week 4 placebo was significantly better (p=0.0040).
+    evidence_type: completed_trial_with_posted_negative_results
+    direction: TARGETABILITY_NEGATIVE
+    strength: HIGH
+    retrieved: false          # the CLAIM is curated; the RESULT is fetched via nct_id
+    verified: true
+    verified_on: "2026-07-30"
+    sources:
+      - "NCT04856917 - imsidolimab Phase 2 in acne vulgaris, n=123, completed 2022-03-29,
+         results posted. https://clinicaltrials.gov/study/NCT04856917"
+      - "Modality control: the SAME antibody at the same doses is effective in generalised
+         pustular psoriasis (NCT05352893, Phase 3), where 8 and 8 patients reached
+         clear/almost-clear against 2 on placebo. So the drug engages IL-36R and produces
+         benefit where IL-36 is causal. It does nothing in acne.
+         https://clinicaltrials.gov/study/NCT05352893"
+      - "No human genetic association: GWAS Catalog trait MONDO_0011438 (acne) returns 147
+         associations across 225 distinct author-reported genes. IL1RL2 is not among them.
+         https://www.ebi.ac.uk/gwas/rest/api/efoTraits/MONDO_0011438/associations?size=1000"
+      - "Heavy literature: Europe PMC returns 453 hits for '\"IL-36\" AND \"acne\"'."
+    caveats:
+      - "The precise claim is that no cytokine ligand or receptor that has been DRUGGED in acne
+         is a GWAS locus for acne. IL17REL and RELA do appear in the acne GWAS gene list, so do
+         not present 'no inflammatory genetics in acne' as a clean binary."
+    note: >
+      THIS IS THE PASSENGER CASE, and it is the only one in the set that reaches the bar.
+      All three parts are present: heavy literature, no human genetics, and a human intervention
+      that ran, was measured, and failed. The modality control is what lifts it from
+      "drug failed" toward "target disproven" - the same antibody works elsewhere.
+
+  - id: il17a_acne_trial_failed
+    gene: IL17A
+    condition: oily_skin
+    nct_id: NCT02998671
+    claim: >
+      CJM112, an anti-IL-17A antibody, was taken into a Phase 2 trial for acne vulgaris and did
+      not beat placebo. Geometric mean inflammatory lesion count at day 85 was 21.9 (high dose)
+      and 20.3 (low dose) against 18.5 on placebo; drug-to-placebo ratios were 1.18 and 1.10,
+      where above 1.0 is worse than placebo.
+    evidence_type: completed_trial_with_posted_negative_results
+    direction: TARGETABILITY_NEGATIVE
+    strength: MODERATE
+    retrieved: false
+    verified: true
+    verified_on: "2026-07-30"
+    sources:
+      - "NCT02998671 - CJM112 Phase 2 in acne vulgaris, n=52, results posted.
+         https://clinicaltrials.gov/study/NCT02998671"
+      - "No human genetic association: IL17A is absent from all 225 author-reported genes in
+         the acne GWAS trait MONDO_0011438."
+      - "Heaviest literature association of any candidate: 3291 Europe PMC hits for
+         '\"IL-17\" AND \"acne\"', 2706 for '\"Th17\" AND \"acne\"'."
+    caveats:
+      - "n=52, Bayesian proof-of-concept. The credible intervals still admit a modest benefit
+         at the low end (0.79 and 0.66). Present this as failed and pointing away from the
+         target, NOT as disproven. Strength is MODERATE, not HIGH."
+    note: >
+      Second passenger case, weaker than IL36R and kept for that reason. It shows
+      the system distinguishing a well-powered failure from an underpowered one rather than
+      treating every negative trial as equivalent.
+
+  - id: srd5a2_androgenetic_alopecia_finasteride
+    # Keyed to SRD5A2 and not to AR, because no database records the AR attribution.
+    #
+    # Finasteride's ChEMBL mechanism record names SRD5A2 and nothing else. Dutasteride names
+    # SRD5A1, SRD5A2 and SRD5A3. Neither names AR. Attributing this trial to the receptor was
+    # a human inference, reasonable in itself (finasteride lowers DHT, DHT acts on AR) and
+    # recorded in no database. The rebuild follows the mechanism, so this fact moves to the
+    # enzyme the drug actually inhibits.
+    #
+    # AR keeps its own case and it is a different one: clascoterone is a genuine androgen
+    # receptor antagonist whose two androgenetic alopecia trials, NCT02279823 (n=95) and
+    # NCT05914805 (n=762), both completed with no results posted. Tested and silent, which
+    # is not the same as untested.
+    gene: SRD5A2
+    # Keyed to the disease NCT01231607 actually studied, which its conditions field gives as
+    # "Androgenetic Alopecia", and not to non-clinical hair thinning. Both endpoints reach it:
+    # androgenetic_alopecia matches on the endpoint, hair_thinning matches on borrowed_from
+    # and is marked as measured on the borrowed disease.
+    condition: androgenetic_alopecia
+    nct_id: NCT01231607
+    claim: >
+      Finasteride, a 5-alpha-reductase type II inhibitor that reduces DHT and therefore
+      androgen receptor activation in the follicle, is FDA-approved for androgenetic alopecia
+      in men at 1 mg daily and increases hair count against placebo. This is a human
+      intervention that moved the endpoint, not merely a drug programme that existed.
+    evidence_type: approved_drug_with_endpoint_benefit
+    direction: TARGETABILITY_POSITIVE
+    strength: HIGH
+    retrieved: false
+    verified: true
+    verified_on: "2026-07-30"
+    sources:
+      - "Propecia (finasteride) 1 mg, FDA approved 1997 for androgenetic alopecia in men.
+         Label carries hair-count endpoint data against placebo."
+      - "Mechanistically indirect: finasteride inhibits 5-alpha-reductase rather than binding
+         AR itself, so it reduces ligand availability rather than blocking the receptor."
+      - "NCT01231607 - completed, results posted. Dutasteride versus placebo AND finasteride
+         in men with androgenetic alopecia, with hair-count endpoints. Fetched at runtime, so
+         this fact is tier 1a retrieved rather than 1b asserted.
+         https://clinicaltrials.gov/study/NCT01231607"
+    caveats:
+      - "Indirect modulation. The evidence is that lowering DHT moves the endpoint, which
+         implicates the androgen axis rather than AR protein specifically."
+      - "Approval is for men. Efficacy in female-pattern hair loss is materially less
+         established, and most affected women have normal circulating androgens."
+      - "NCT01231607 is primarily a DUTASTERIDE trial; finasteride is a comparator arm. It is
+         cited as a registered, results-posted trial containing a finasteride-versus-placebo
+         comparison, not as a dedicated finasteride study."
+    note: >
+      Clinical PRECEDENCE is NEUTRAL: it says a drug programme existed, while this entry says
+      the endpoint moved. Only the second earns ACTIONABLE.
+
+  - id: ptgdr2_hair_thinning_setipiprant_failed
+    gene: PTGDR2
+    condition: hair_thinning
+    nct_id: NCT02781311
+    claim: >
+      Setipiprant, an antagonist of the prostaglandin D2 receptor CRTH2/PTGDR2, was taken into
+      a Phase 2a trial for androgenetic alopecia and FAILED. Change from baseline in target
+      area hair count at week 24 was 7.1 hairs on setipiprant against 6.7 on placebo
+      (n=78 vs 70). Subject self-assessment of hair growth was also no different: -0.3 against
+      -0.2. The target was nominated by a widely cited finding that prostaglandin D2 is
+      elevated in the bald scalp of men with androgenetic alopecia.
+    evidence_type: completed_trial_with_posted_negative_results
+    direction: TARGETABILITY_NEGATIVE
+    strength: HIGH
+    retrieved: false
+    verified: true
+    verified_on: "2026-07-30"
+    sources:
+      - "NCT02781311 - setipiprant Phase 2a in androgenetic alopecia in males, enrollment 169,
+         COMPLETED with results posted. Primary endpoint target area hair count at week 24:
+         placebo 6.7, setipiprant 7.1. https://clinicaltrials.gov/study/NCT02781311"
+      - "The nominating paper: Garza LA et al., 'Prostaglandin D2 inhibits hair growth and is
+         elevated in bald scalp of men with androgenetic alopecia', Sci Transl Med 2012.
+         PMID 22440736, cited 202 times."
+      - "Heavy literature: Europe PMC returns 239 hits for '\"PGD2\" AND \"alopecia\"',
+         149 for '\"prostaglandin D2\" AND \"hair loss\"', 158 for '\"CRTH2\" AND \"hair\"'."
+      - "No human genetic association: Open Targets PTGDR2 x androgenetic alopecia
+         (MONDO_0005339) returns literature 0.04 and clinical 0.12 and NO genetic_association
+         datatype at all."
+    caveats:
+      - "The trial included an 11-patient open-label finasteride reference arm, but no
+         finasteride comparison is reported in the outcome measures, so there is no internal
+         positive control. The setipiprant-versus-placebo comparison itself is clean at n=148."
+      - "The clinical score of 0.12 in Open Targets is PRECEDENCE generated by this very
+         trial. It must not be read as evidence the target works - that is exactly the error
+         the precedence mapping was corrected for."
+    note: >
+      THE CLEANEST FIRE TRUCK IN THE PROJECT, and it is in hair rather than acne, so the set
+      now demonstrates a passenger in two different conditions.
+      The full shape: prostaglandin D2 is genuinely elevated in bald scalp, the observation is
+      real and highly cited, an entire target programme was built on it, and blocking the
+      receptor moved hair count by 0.4 hairs against placebo. Elevated because the process is
+      happening, not causing it. That is the metaphor with a trial attached.

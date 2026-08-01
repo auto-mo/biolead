@@ -1,0 +1,134 @@
+# config/tiers.yaml
+#
+# Evidence hierarchy and the thresholds the rule engine uses.
+#
+# The "cannot_prove" text on each tier is rendered in the output. It is more important than
+# the tier ordering, because it is what stops a reader over-reading a high tier.
+
+version: 2
+
+tiers:
+
+  "1a":
+    name: "Human clinical intervention outcome, RETRIEVED"
+    proves: >
+      The strongest available. If modulating the target moved the endpoint in people, the target
+      is causal for it. Fetched at runtime and cited with an identifier.
+    cannot_prove: >
+      Drugs hit off-targets, so a success does not cleanly implicate the intended target. A
+      failure can be wrong modality, wrong dose, wrong population, or wrong endpoint measurement
+      rather than a wrong target.
+    sources: [clinicaltrials_gov, opentargets_knowndrugs, drug_labels]
+    max_confidence: HIGH
+
+  "1b":
+    name: "Human clinical intervention outcome, ASSERTED"
+    proves: >
+      Same evidence class as 1a, but not retrievable through an API. Pharmacovigilance signal,
+      clinical practice consensus, and the documented absence of trials. For the passenger
+      direction the strongest evidence is frequently the trial nobody ran, and silence is not
+      retrievable through the same channel as evidence.
+    cannot_prove: >
+      Everything 1a cannot, plus: this came from a curated file rather than a fetch, so it
+      carries whatever error the curator carried. In this project the MMP1 clinical fact was
+      wrong twice before it was right.
+    sources: [curated_clinical_facts]
+    max_confidence: MODERATE      # HARD RULE: 1b alone can never reach HIGH.
+    requires_sources_field: true  # HARD RULE: entry does not load without sources. Fail loudly.
+
+  "2":
+    name: "Human genetics"
+    proves: >
+      Naturally occurring variation in the gene associates with the trait across a population.
+      Nature ran the experiment without anyone choosing who received which version, which removes
+      most confounding. Nelson et al. 2015: human genetic support roughly doubles success rate
+      through development.
+    cannot_prove: >
+      Association is not effect size in a treated adult. Lifelong small genetic differences do not
+      predict what happens when you inhibit the target pharmacologically for eight weeks.
+      Common-variant genetics is also biased toward regulatory rather than coding effects.
+    sources: [opentargets_genetic_association]
+    max_confidence: HIGH
+
+  "3":
+    name: "Functional perturbation in a relevant human cell type"
+    proves: >
+      CRISPR knockout, knockdown or small-molecule inhibition in melanocytes, dermal papilla
+      cells, keratinocytes, sebocytes or fibroblasts. The gene does something in the tissue that
+      matters. Direct and interventional.
+    cannot_prove: >
+      Monolayer culture lacks tissue architecture, extracellular matrix, paracrine cross-talk
+      between cell types, and mechanical tension. Short-term readouts miss differentiation, lipid
+      synthesis and matrix assembly.
+    sources: [opentargets_functional]
+    max_confidence: MODERATE
+
+  "4":
+    name: "Animal model, or perturbation in a non-relevant human cell type"
+    proves: >
+      Suggestive. In vivo context that cell culture cannot provide.
+    cannot_prove: >
+      Mouse skin and hair biology diverges substantially from human: synchronous versus
+      asynchronous follicle cycling, different keratin profiles, no interfollicular eccrine
+      glands. A result in a cancer line says nothing about a melanocyte.
+    sources: [opentargets_animal_model]
+    max_confidence: LOW
+
+  "5":
+    name: "Expression correlation and literature volume"
+    proves: >
+      Almost nothing on its own. It establishes that the gene is involved, which is the starting
+      question and not the answer.
+    cannot_prove: >
+      This is the fire truck signal. It is what most target lists are made of and it is the
+      reason this agent exists.
+    sources: [opentargets_rna_expression, opentargets_literature, europepmc]
+    max_confidence: LOW
+    inverted: true
+    inversion_note: >
+      Publication volume is used as a NEGATIVE indicator, not a positive one. Heavy and rising
+      literature combined with absent human genetics is the classic passenger fingerprint.
+      Treating citation counts as supporting evidence would be the fire truck error committed by
+      the tool built to detect it. Same data, opposite sign.
+
+# ---------------------------------------------------------------------------
+# Rule thresholds. Both verdict fields are DERIVED from the tier profile.
+# No curation, no model input, no provenance flag.
+# ---------------------------------------------------------------------------
+
+position_rules:
+  # Germline variation exists before the phenotype does, so tier 2 presence is temporal
+  # evidence of upstream position. That is also the real reason genetics sits high.
+  - id: POS_UPSTREAM_GENETIC
+    when: "tier_2_present"
+    position: UPSTREAM_DRIVER
+  - id: POS_DOWNSTREAM_NO_GENETICS
+    when: "not tier_2_present and (tier_3_present or tier_5_present)"
+    position: DOWNSTREAM
+  - id: POS_INSUFFICIENT
+    when: "otherwise"
+    position: INSUFFICIENT
+  # CUT: a further split of DOWNSTREAM into effector (chokepoint) vs amplifier (one voice in a
+  # chorus). Not derivable from an evidence profile; would have required a curated table plus a
+  # model fallback, reintroducing the only non-deterministic path in the verdict. No case in the
+  # set is a confirmed chokepoint. Targetability already carries what it was meant to express.
+
+targetability_rules:
+  # Essentially a direct readout of tier 1. Documented as such rather than dressed up as an
+  # independent axis.
+  - id: TGT_ACTIONABLE
+    when: "tier_1_positive"
+    targetability: ACTIONABLE
+  - id: TGT_NOT_ACTIONABLE
+    when: "tier_1_negative"
+    targetability: NOT_ACTIONABLE
+  - id: TGT_UNKNOWN
+    when: "otherwise"
+    targetability: UNKNOWN
+
+confidence_caps:
+  mechanism_mode: MODERATE          # the natural experiment genetics provides was never run
+  proxy_rating_low: LOW
+  proxy_rating_moderate: MODERATE
+  tier_1b_only: MODERATE
+  borrow_present: MODERATE          # any borrow caps at MODERATE unless tier 1a is present

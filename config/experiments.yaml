@@ -1,0 +1,77 @@
+# config/experiments.yaml
+#
+# Gap type -> resolving experiment. TEMPLATED, NOT GENERATED.
+#
+# The model writes the sentence but can only SELECT from this list. This constraint is stated
+# out loud in the pitch: the agent can only recommend experiments this lab actually runs.
+#
+# Every assay below is drawn from ODDITY LABS' own granted patent US 12,564,547 B2. A generated
+# recommendation could invent an assay ODDITY does not run, which is the single most detectable
+# possible failure in front of a principal scientist.
+
+version: 1
+source: "US 12,564,547 B2 (granted 2026-03-03, assignee ODDITY LABS LLC)"
+
+experiments:
+
+  - gap: no_functional_evidence_pigment_cell
+    label: "No functional evidence in a pigment-producing cell"
+    assay: "Primary melanocyte assay"
+    what_a_positive_would_change: >
+      Would establish tier 3 evidence in the cell type that performs the relevant biology,
+      lifting a mechanism-mode assessment out of its confidence cap.
+
+  - gap: no_functional_evidence_follicle
+    label: "No evidence in a hair follicle context"
+    assay: "Dermal papilla cell ROS assay"
+    what_a_positive_would_change: >
+      Would establish tier 3 evidence in the follicle compartment, which is where the
+      androgen-driven miniaturisation axis actually operates.
+
+  - gap: no_human_endpoint_measurement
+    label: "No human endpoint measurement"
+    assay: "Cutometer at 8 weeks"
+    what_a_positive_would_change: >
+      Would move the assessment from predicted to measured, which is the only route from
+      UNKNOWN to ACTIONABLE targetability.
+
+  - gap: no_irritation_or_sensitisation_data
+    label: "No irritation or sensitisation data"
+    assay: "KeratinoSens Nrf2-ARE, plus dendritic cell activation"
+    what_a_positive_would_change: >
+      Would not change the causal call, but a positive here would stop a formulation programme
+      regardless of how strong the target evidence is. Worth knowing early.
+
+  - gap: no_genotoxicity_data
+    label: "No genotoxicity data"
+    assay: "TK6 micronucleus, plus SOS chromotest"
+    what_a_positive_would_change: >
+      As above: orthogonal to causality, decisive for programme viability.
+
+  - gap: no_barrier_or_matrix_evidence
+    label: "No barrier or matrix evidence"
+    assay: "Human dermal fibroblast assay"
+    what_a_positive_would_change: >
+      Would establish whether the gene acts on matrix synthesis or degradation, which is the
+      distinction between a target and a marker for firmness endpoints.
+
+  - gap: no_cytotoxicity_baseline
+    label: "No cytotoxicity baseline"
+    assay: "Caspase 3/7"
+    what_a_positive_would_change: >
+      Would distinguish a genuine functional effect from cell death confounding an apparent
+      knockdown phenotype.
+
+  - gap: no_vascular_evidence
+    label: "No evidence in a vascular or perfusion context"
+    assay: "Dermal microvascular endothelial cell assay"
+    what_a_positive_would_change: >
+      Would test whether an apparent effect is mediated through perfusion rather than through
+      the target cell type directly.
+
+  - gap: no_keratinocyte_evidence
+    label: "No evidence in an epidermal keratinocyte context"
+    assay: "Keratinocyte assay"
+    what_a_positive_would_change: >
+      Would establish whether the gene acts in the epidermal compartment, which is where barrier
+      and differentiation endpoints are decided.

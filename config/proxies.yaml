@@ -1,0 +1,232 @@
+# config/proxies.yaml
+#
+# The curated borrow table. This file IS deliverable one made executable: it holds the
+# scientific judgments, version-controlled and separate from the machinery, so a scientist
+# who disagrees can open it and change it.
+#
+# Every rating here is one person's judgment, not a computed quantity. Each row should be
+# reviewed by someone who knows the biology. The `what_it_misses` text is rendered verbatim
+# in the output, not paraphrased, so write it for a reader.
+#
+# TAXONOMY: borrow or none. There is no "direct" category. The endpoint predicted to be
+# near-direct (pigmentation) turned out to have no genetics of its own: TYR against
+# "skin pigmentation" returns no association at all. Every cosmetic endpoint here requires
+# a borrow, including the one predicted not to.
+#
+# Lookup is EXACT match on a normalised endpoint string plus the synonym list.
+# No fuzzy matching, no model inference. A miss returns None -> abstention trigger 1.
+#
+# Ratings are checked against Open Targets data version 26.06 and against primary sources.
+
+version: 2
+opentargets_data_version_at_curation: "26.06"
+
+proxies:
+
+  # CONTROL CASE. Atopic dermatitis is a real disease with a real ontology term, so nothing
+  # is borrowed. This row exists so the pipeline can be exercised WITHOUT the proxy layer,
+  # and so that the benign synonym resolution (atopic dermatitis -> atopic eczema) is
+  # declared rather than firing abstention trigger 7 as an undeclared substitution.
+  - endpoint: atopic_dermatitis
+    formal_name: "Atopic dermatitis"
+    plain_name: "eczema"
+    display_name: "Atopic dermatitis"
+    synonyms: ["atopic dermatitis", "atopic eczema", "eczema"]
+    borrow_type: NO_BORROW_NEEDED
+    borrowed_from: null
+    search_term: "atopic dermatitis"
+    expected_resolved_name: "atopic eczema"
+    rating: NONE
+    rationale: >
+      Not a cosmetic endpoint and not a borrow. A real disease with its own ontology term and
+      its own genetics, used as the control that tests the pipeline without the proxy layer.
+    what_it_misses: >
+      Nothing is borrowed, so nothing is missed by the borrow. The limitations here are the
+      ordinary ones of the evidence itself rather than of a translation.
+    population_caveat: null
+
+  - endpoint: hair_thinning
+    formal_name: "Androgenetic hair thinning"
+    plain_name: "male and female pattern hair loss"
+    display_name: "Hair thinning (non-clinical)"
+    # "androgenetic alopecia" is NOT a synonym here any more. It is its own endpoint below,
+    # and leaving it here made the loader ambiguous and, worse, routed a query about the
+    # disease into the borrow that stands in for it.
+    synonyms: ["hair thinning", "hair loss", "thinning hair", "hair density"]
+    borrow_type: DISEASE_BORROW
+    borrowed_from: "Androgenetic alopecia"
+    search_term: "androgenetic alopecia"
+    expected_resolved_name: "androgenetic alopecia"
+    rating: MODERATE
+    rationale: >
+      Same androgen-driven miniaturisation axis, and the borrow returns real evidence.
+      This rating was set on AR against androgenetic alopecia, which scores 0.60 genetic
+      association plus 0.46 clinical. Those numbers describe the endpoint pair, not the gene
+      you have queried.
+    what_it_misses: >
+      A threshold effect exists at clinical androgenetic alopecia: elevated local DHT plus high
+      receptor sensitivity drives perifollicular micro-inflammation and irreversible bulge stem
+      cell niche degradation, which is not simply more of the same. Most women with
+      female-pattern loss have normal circulating androgens, so a large fraction of population
+      thinning sits outside this borrow entirely. Unweighted scores also import X-linked AR
+      locus dominance and male-pattern androgen sensitivity.
+    population_caveat: null
+    # MODERATE, not HIGH: the difference from non-clinical thinning is not severity alone.
+
+  # SECOND CONTROL. The disease behind the hair_thinning borrow, queried directly. Nothing is
+  # borrowed, so the outcome axis is not marked and the confidence cap does not apply.
+  #
+  # This is the FLG pair repeated on the other axis. FLG shows the cost of a borrow on
+  # POSITION, by giving the same gene the same call through a borrow and without one. AR
+  # against these two endpoints shows the cost on OUTCOME: the same finasteride trial reaches
+  # HIGH here and MODERATE through hair_thinning, marked as measured on androgenetic alopecia.
+  #
+  # "androgenetic alopecia" resolves exactly to androgenetic alopecia
+  # (MONDO_0005339) with no substitution, AR scores genetic_association 0.604 and clinical
+  # 0.456 against it, and NCT01231607 registers its condition as "Androgenetic Alopecia".
+  - endpoint: androgenetic_alopecia
+    formal_name: "Androgenetic alopecia"
+    plain_name: "clinical pattern hair loss"
+    display_name: "Androgenetic alopecia (clinical)"
+    synonyms: ["androgenetic alopecia", "androgenic alopecia", "male pattern baldness",
+               "female pattern hair loss", "pattern hair loss"]
+    borrow_type: NO_BORROW_NEEDED
+    borrowed_from: null
+    search_term: "androgenetic alopecia"
+    expected_resolved_name: "androgenetic alopecia"
+    rating: NONE
+    rationale: >
+      A real disease with its own ontology term and its own genetics. Not a cosmetic endpoint
+      and not a borrow. It is the disease hair_thinning borrows FROM, so querying it directly
+      is what makes the cost of that borrow measurable rather than asserted.
+    what_it_misses: >
+      Nothing is borrowed, so nothing is missed by the borrow. This is clinical androgenetic
+      alopecia, which is not the same population as non-clinical thinning: the threshold
+      effect and the normal-androgen population that hair_thinning has to account for do not
+      arise here, because here they are out of scope rather than translated over.
+    population_caveat: null
+
+  - endpoint: uneven_tone
+    formal_name: "Facial hyperpigmentation"
+    plain_name: "dark spots and uneven tone"
+    display_name: "Uneven tone / hyperpigmentation"
+    synonyms: ["uneven tone", "hyperpigmentation", "dark spots", "tone evenness", "pigmentation", "melasma"]
+    borrow_type: DISEASE_BORROW
+    borrowed_from: "Freckles / pigmented-spot genetics"
+    search_term: "melasma"
+    # The source answers about freckles when asked about melasma. That substitution is
+    # DECLARED here, so it is a documented borrow. Trigger 7 fires
+    # only when the resolved term differs from this expectation.
+    expected_resolved_name: "freckles"
+    rating: MODERATE
+    rationale: >
+      The cosmetic endpoint has no genetics of its own. TYR against "skin pigmentation" returns
+      no association at all. Pigmentation genetics is reachable only through freckles, where TYR
+      scores 0.55 genetic association.
+    what_it_misses: >
+      Freckling is UV-responsive focal pigmentation, not constitutive tone, and says little about
+      change in evenness over time. The borrow is also only reachable because the source silently
+      substitutes the term: querying melasma returns freckles without saying so.
+    population_caveat: null
+    # A MODERATE borrow and not a near-direct row: the endpoint has no genetics of its own,
+    # which is why the taxonomy is borrow or none with no direct category.
+
+  # The refusal is carried by `refuse: true` and rendered as state in the interface. It is
+  # not written into the name: a name is what the endpoint is, not a note about the row.
+  - endpoint: hyperpigmentation_via_vitiligo
+    formal_name: "Hyperpigmentation, via vitiligo genetics"
+    plain_name: "dark spots, routed through patchy pigment loss"
+    display_name: "Hyperpigmentation via vitiligo genetics"
+    synonyms: ["vitiligo"]
+    borrow_type: DISEASE_BORROW
+    borrowed_from: "Vitiligo"
+    search_term: "vitiligo"
+    expected_resolved_name: "vitiligo"
+    rating: LOW
+    refuse: true
+    rationale: >
+      Included as a borrow the agent must refuse. Real pigmentation-machinery genes
+      appear: TYR rs1126809 is a vitiligo locus at P=7E-32. A naive validator checking for shared
+      loci would pass this borrow.
+    what_it_misses: >
+      The direction is inverted, and more sharply, the same TYR allele points opposite ways across
+      traits. The hypopigmenting 402Q allele is protective for vitiligo while being a melanoma
+      risk allele (Jin et al., Nature Genetics 2016). Shared loci do not mean transferable
+      mechanism. This is the clearest argument in the project for why the borrow must be a curated
+      human judgment rather than a computed similarity score.
+    population_caveat: null
+
+  - endpoint: oily_skin
+    formal_name: "Sebum overproduction"
+    plain_name: "oily skin"
+    display_name: "Oily skin / sebum overproduction"
+    synonyms: ["oily skin", "sebum", "sebum production", "seborrhea", "acne", "acne vulgaris"]
+    borrow_type: DISEASE_BORROW
+    borrowed_from: "Acne vulgaris"
+    search_term: "acne vulgaris"
+    expected_resolved_name: "acne"
+    rating: LOW
+    rationale: >
+      Acne genetics is the only large-scale study touching the pilosebaceous unit.
+    what_it_misses: >
+      The field's own review states there is no evidence for a causal role of sebum composition in
+      acne, and comedone-associated sebaceous glands are atrophic, producing less sebum rather
+      than more. No GWAS of sebum production exists anywhere, so there is nothing to validate a
+      sebum proxy against. Published acne loci group by follicle cycle and stem-cell niche
+      biology, not by sebum.
+    population_caveat: null
+    # LOW. A sub-pathway split rating a "sebum cluster" HIGH is not supportable: the literature
+    # does not produce that partition, and the proposed clusters contradict each other on WNT10A.
+
+  - endpoint: photoaging
+    formal_name: "Dermal photoaging"
+    plain_name: "loss of firmness and wrinkling"
+    display_name: "Skin firmness / photoaging"
+    synonyms: ["photoaging", "photoageing", "skin firmness", "firmness", "wrinkles", "skin aging", "elasticity"]
+    borrow_type: NONE
+    borrowed_from: null
+    search_term: null
+    rating: NONE
+    rationale: >
+      No defensible proxy exists, and the term does not resolve: "photoaging" returns zero hits
+      from the search API. Monogenic cutis laxa and progeroid syndromes remain correctly rejected
+      as mechanistically unrelated to normal photoaging.
+    what_it_misses: >
+      Everything. This row records that the borrow was considered, attempted, and rejected.
+    population_caveat: null
+    # A population-GWAS borrow is not available here: four candidate loci (STAG3, HAS2, COL1A1,
+    # FBLN5) cannot be sourced to any skin ageing GWAS, and BNC2 is a pigmentation locus rather
+    # than a sagging locus.
+
+  - endpoint: cosmetic_dry_skin
+    formal_name: "Stratum corneum dehydration"
+    plain_name: "cosmetic dry skin"
+    display_name: "Cosmetic dry skin"
+    synonyms: ["dry skin", "cosmetic dry skin", "xerosis", "skin hydration", "moisturisation"]
+    borrow_type: DISEASE_BORROW
+    borrowed_from: "Atopic dermatitis, restricted to FLG"
+    search_term: "xerosis"
+    expected_resolved_name: "Dry skin"
+    restricted_to_genes: ["FLG"]
+    rating: MODERATE
+    rationale: >
+      FLG is a genuine non-atopic barrier gene. The cleanest evidence is ichthyosis vulgaris, a
+      cohort from which atopic dermatitis, rhinitis and asthma were explicitly excluded, where
+      barrier function still degrades by gene dose: stratum corneum hydration down about 30% in
+      biallelic carriers, with 83 to 96% penetrance. Non-atopic carriers also absorb chemicals
+      measurably faster through skin, independently of atopic dermatitis.
+    what_it_misses: >
+      Keyed to natural moisturising factor, not transepidermal water loss. TEWL tracks
+      inflammation and biallelic loss rather than heterozygous carriage, and is not a reliable
+      FLG readout. Whole-disease atopic dermatitis genetics is excluded because it spans innate
+      defence, T-cell regulation and Th1/Th17 biology that has nothing to do with barrier
+      function.
+    population_caveat: >
+      FLG null carriage is approximately 5.8% of the general population, 7.7% European ancestry,
+      3.0% Asian ancestry, and near-absent in African ancestry. Roughly 94% of people with dry
+      skin carry no FLG null at all, so this borrow explains a slice of the trait rather than
+      the trait.
+    # SPINK5 and the cornified-envelope genes (LCE3B/3C, hornerin, involucrin, loricrin, TCHH)
+    # are excluded. No study measures barrier biophysics against SPINK5 genotype in the general
+    # population, and there are zero human studies linking cornified-envelope variants to
+    # measured TEWL, hydration or NMF.
