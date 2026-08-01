@@ -1,0 +1,360 @@
+{
+ "runs": 2,
+ "results": {
+  "SRD5A2 x androgenetic alopecia": [
+   {
+    "position": "UPSTREAM_DRIVER",
+    "targetability": "ACTIONABLE",
+    "confidence": "HIGH",
+    "outcome_state": "TESTED_REPORTED",
+    "consensus": "UNANIMOUS",
+    "split": "1 readable trial(s): 1 BENEFIT.",
+    "provider": "graph",
+    "trials": 16,
+    "readable": [
+     "NCT03004469"
+    ],
+    "excluded": 12,
+    "could_not_check": 0
+   },
+   {
+    "position": "UPSTREAM_DRIVER",
+    "targetability": "ACTIONABLE",
+    "confidence": "HIGH",
+    "outcome_state": "TESTED_REPORTED",
+    "consensus": "UNANIMOUS",
+    "split": "2 readable trial(s): 2 BENEFIT.",
+    "provider": "graph",
+    "trials": 16,
+    "readable": [
+     "NCT01231607",
+     "NCT03004469"
+    ],
+    "excluded": 12,
+    "could_not_check": 0
+   }
+  ],
+  "SRD5A2 x hair thinning": [
+   {
+    "position": "UPSTREAM_DRIVER",
+    "targetability": "ACTIONABLE",
+    "confidence": "MODERATE",
+    "outcome_state": "TESTED_REPORTED",
+    "consensus": "UNANIMOUS",
+    "split": "2 readable trial(s): 2 BENEFIT.",
+    "provider": "graph",
+    "trials": 16,
+    "readable": [
+     "NCT01231607",
+     "NCT03004469"
+    ],
+    "excluded": 12,
+    "could_not_check": 0
+   },
+   {
+    "position": "UPSTREAM_DRIVER",
+    "targetability": "ACTIONABLE",
+    "confidence": "MODERATE",
+    "outcome_state": "TESTED_REPORTED",
+    "consensus": "UNANIMOUS",
+    "split": "2 readable trial(s): 2 BENEFIT.",
+    "provider": "graph",
+    "trials": 16,
+    "readable": [
+     "NCT01231607",
+     "NCT03004469"
+    ],
+    "excluded": 12,
+    "could_not_check": 0
+   }
+  ],
+  "AR x androgenetic alopecia": [
+   {
+    "position": "UPSTREAM_DRIVER",
+    "targetability": "UNKNOWN",
+    "confidence": "MODERATE",
+    "outcome_state": "TESTED_UNREPORTED",
+    "consensus": "NONE",
+    "split": "No trial resolved.",
+    "provider": "graph",
+    "trials": 3,
+    "readable": [],
+    "excluded": 0,
+    "could_not_check": 0
+   },
+   {
+    "position": "UPSTREAM_DRIVER",
+    "targetability": "UNKNOWN",
+    "confidence": "MODERATE",
+    "outcome_state": "TESTED_UNREPORTED",
+    "consensus": "NONE",
+    "split": "No trial resolved.",
+    "provider": "graph",
+    "trials": 3,
+    "readable": [],
+    "excluded": 0,
+    "could_not_check": 0
+   }
+  ],
+  "AR x hair thinning": [
+   {
+    "position": "UPSTREAM_DRIVER",
+    "targetability": "UNKNOWN",
+    "confidence": "MODERATE",
+    "outcome_state": "TESTED_UNREPORTED",
+    "consensus": "NONE",
+    "split": "No trial resolved.",
+    "provider": "graph",
+    "trials": 3,
+    "readable": [],
+    "excluded": 0,
+    "could_not_check": 0
+   },
+   {
+    "position": "UPSTREAM_DRIVER",
+    "targetability": "UNKNOWN",
+    "confidence": "MODERATE",
+    "outcome_state": "TESTED_UNREPORTED",
+    "consensus": "NONE",
+    "split": "No trial resolved.",
+    "provider": "graph",
+    "trials": 3,
+    "readable": [],
+    "excluded": 0,
+    "could_not_check": 0
+   }
+  ],
+  "SRD5A1 x hair thinning": [
+   {
+    "position": "DOWNSTREAM",
+    "targetability": "UNKNOWN",
+    "confidence": "MODERATE",
+    "outcome_state": "NO_ATTRIBUTABLE_DRUG",
+    "consensus": "NONE",
+    "split": "No trial resolved.",
+    "provider": "graph",
+    "trials": 0,
+    "readable": [],
+    "excluded": 8,
+    "could_not_check": 0
+   },
+   {
+    "position": "DOWNSTREAM",
+    "targetability": "UNKNOWN",
+    "confidence": "MODERATE",
+    "outcome_state": "NO_ATTRIBUTABLE_DRUG",
+    "consensus": "NONE",
+    "split": "No trial resolved.",
+    "provider": "graph",
+    "trials": 0,
+    "readable": [],
+    "excluded": 8,
+    "could_not_check": 0
+   }
+  ],
+  "IL17A x oily skin": [
+   {
+    "position": "DOWNSTREAM",
+    "targetability": "NOT_ACTIONABLE",
+    "confidence": "LOW",
+    "outcome_state": "TESTED_REPORTED",
+    "consensus": "UNANIMOUS",
+    "split": "1 readable trial(s): 1 NO_BENEFIT.",
+    "provider": "graph",
+    "trials": 1,
+    "readable": [
+     "NCT02998671"
+    ],
+    "excluded": 0,
+    "could_not_check": 0
+   },
+   {
+    "position": "DOWNSTREAM",
+    "targetability": "NOT_ACTIONABLE",
+    "confidence": "LOW",
+    "outcome_state": "TESTED_REPORTED",
+    "consensus": "UNANIMOUS",
+    "split": "1 readable trial(s): 1 NO_BENEFIT.",
+    "provider": "graph",
+    "trials": 1,
+    "readable": [
+     "NCT02998671"
+    ],
+    "excluded": 0,
+    "could_not_check": 0
+   }
+  ],
+  "IL1RL2 x oily skin": [
+   {
+    "position": "DOWNSTREAM",
+    "targetability": "UNKNOWN",
+    "confidence": "LOW",
+    "outcome_state": "NO_ATTRIBUTABLE_DRUG",
+    "consensus": "NONE",
+    "split": "No trial resolved.",
+    "provider": "graph",
+    "trials": 0,
+    "readable": [],
+    "excluded": 1,
+    "could_not_check": 0
+   },
+   {
+    "position": "DOWNSTREAM",
+    "targetability": "UNKNOWN",
+    "confidence": "LOW",
+    "outcome_state": "NO_ATTRIBUTABLE_DRUG",
+    "consensus": "NONE",
+    "split": "No trial resolved.",
+    "provider": "graph",
+    "trials": 0,
+    "readable": [],
+    "excluded": 1,
+    "could_not_check": 0
+   }
+  ],
+  "PTGDR2 x hair thinning": [
+   {
+    "position": "DOWNSTREAM",
+    "targetability": "NOT_ACTIONABLE",
+    "confidence": "MODERATE",
+    "outcome_state": "TESTED_REPORTED",
+    "consensus": "UNANIMOUS",
+    "split": "1 readable trial(s): 1 NO_BENEFIT.",
+    "provider": "graph",
+    "trials": 1,
+    "readable": [
+     "NCT02781311"
+    ],
+    "excluded": 0,
+    "could_not_check": 0
+   },
+   {
+    "position": "DOWNSTREAM",
+    "targetability": "NOT_ACTIONABLE",
+    "confidence": "MODERATE",
+    "outcome_state": "TESTED_REPORTED",
+    "consensus": "UNANIMOUS",
+    "split": "1 readable trial(s): 1 NO_BENEFIT.",
+    "provider": "graph",
+    "trials": 1,
+    "readable": [
+     "NCT02781311"
+    ],
+    "excluded": 0,
+    "could_not_check": 0
+   }
+  ],
+  "FLG x atopic dermatitis": [
+   {
+    "position": "UPSTREAM_DRIVER",
+    "targetability": "UNKNOWN",
+    "confidence": "MODERATE",
+    "outcome_state": "NO_DRUG",
+    "consensus": "NONE",
+    "split": "No trial resolved.",
+    "provider": "graph",
+    "trials": 0,
+    "readable": [],
+    "excluded": 0,
+    "could_not_check": 0
+   },
+   {
+    "position": "UPSTREAM_DRIVER",
+    "targetability": "UNKNOWN",
+    "confidence": "MODERATE",
+    "outcome_state": "NO_DRUG",
+    "consensus": "NONE",
+    "split": "No trial resolved.",
+    "provider": "graph",
+    "trials": 0,
+    "readable": [],
+    "excluded": 0,
+    "could_not_check": 0
+   }
+  ],
+  "FLG x cosmetic dry skin": [
+   {
+    "position": "UPSTREAM_DRIVER",
+    "targetability": "UNKNOWN",
+    "confidence": "MODERATE",
+    "outcome_state": "NO_DRUG",
+    "consensus": "NONE",
+    "split": "No trial resolved.",
+    "provider": "graph",
+    "trials": 0,
+    "readable": [],
+    "excluded": 0,
+    "could_not_check": 0
+   },
+   {
+    "position": "UPSTREAM_DRIVER",
+    "targetability": "UNKNOWN",
+    "confidence": "MODERATE",
+    "outcome_state": "NO_DRUG",
+    "consensus": "NONE",
+    "split": "No trial resolved.",
+    "provider": "graph",
+    "trials": 0,
+    "readable": [],
+    "excluded": 0,
+    "could_not_check": 0
+   }
+  ],
+  "FASN x oily skin": [
+   {
+    "position": "INSUFFICIENT",
+    "targetability": "UNKNOWN",
+    "confidence": null,
+    "outcome_state": "NO_DRUG",
+    "consensus": "NONE",
+    "split": "No trial resolved.",
+    "provider": "graph",
+    "trials": 0,
+    "readable": [],
+    "excluded": 0,
+    "could_not_check": 0
+   },
+   {
+    "position": "INSUFFICIENT",
+    "targetability": "UNKNOWN",
+    "confidence": null,
+    "outcome_state": "NO_DRUG",
+    "consensus": "NONE",
+    "split": "No trial resolved.",
+    "provider": "graph",
+    "trials": 0,
+    "readable": [],
+    "excluded": 0,
+    "could_not_check": 0
+   }
+  ],
+  "AR x rosacea": [
+   {
+    "position": "INSUFFICIENT",
+    "targetability": "UNKNOWN",
+    "confidence": null,
+    "outcome_state": "NO_DRUG",
+    "consensus": "NONE",
+    "split": "No trial resolved.",
+    "provider": "graph",
+    "trials": 0,
+    "readable": [],
+    "excluded": 0,
+    "could_not_check": 0
+   },
+   {
+    "position": "INSUFFICIENT",
+    "targetability": "UNKNOWN",
+    "confidence": null,
+    "outcome_state": "NO_DRUG",
+    "consensus": "NONE",
+    "split": "No trial resolved.",
+    "provider": "graph",
+    "trials": 0,
+    "readable": [],
+    "excluded": 0,
+    "could_not_check": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,4269 @@
+{
+ "model": "claude-haiku-4-5",
+ "cases": [
+  {
+   "gene": "SRD5A2",
+   "condition": "androgenetic alopecia",
+   "disease": "androgenetic alopecia",
+   "kind": "known",
+   "expect_nct": "NCT01231607",
+   "expect_read": "BENEFIT",
+   "seconds": 8.0,
+   "cited_ok": true,
+   "read_ok": true,
+   "result": {
+    "state": "TESTED_REPORTED",
+    "read": "BENEFIT",
+    "measured_disease": "androgenetic alopecia",
+    "endpoint_asked": "androgenetic alopecia",
+    "borrowed": false,
+    "consensus": "UNANIMOUS",
+    "split": "2 readable trial(s): 2 BENEFIT.",
+    "minority": [],
+    "count_tally": {
+     "BENEFIT": 2
+    },
+    "enrollment_tally": {
+     "BENEFIT": 1375
+    },
+    "reason": "All 2 readable trial(s) read BENEFIT.",
+    "trials": [
+     {
+      "nct_id": "NCT00396175",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 355,
+      "drug": "FINASTERIDE",
+      "title": "Effects of Finasteride on Serum Prostate-Specific Antigen (0906-111)",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT01052870",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 12,
+      "drug": "FINASTERIDE",
+      "title": "Association of Polymorphisms in the Androgen Receptor Gene and Finasteride Response in Women With Androgenetic Alopecia",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT01231607",
+      "read": "BENEFIT",
+      "path": "MODEL",
+      "why": "This completed trial compared dutasteride and finasteride against placebo for androgenetic alopecia (hair count at vertex). Dutasteride 0.5 mg showed the largest effect: LS mean difference of 94.4 hairs vs placebo (p<0.001, 98.33% CI: 67.8\u2013121.0). Finasteride 1 mg showed a smaller but still significant effect: LS mean difference of 61.4 hairs vs placebo (p<0.001, 98.33% CI: 34.4\u201388.4). Even the lowest dutasteride dose (0.02 mg) showed a trend vs placebo (difference 22, p=0.046, though CI crossed zero: -4.4\u201348.4). All active treatments improved hair count significantly over placebo, with dutasteride 0.5 mg superior to finasteride. The trial measured the requested endpoint (androgenetic alopecia via hair count) and demonstrated clear benefit of the SRD5A2 inhibitors over placebo.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 917,
+      "title": "Dutasteride Versus Placebo and Finasteride in Men With Androgenetic Alopecia",
+      "drug": "FINASTERIDE",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT01643629",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "UNKNOWN",
+      "enrollment": 20,
+      "drug": "FINASTERIDE",
+      "title": "A Study to Determine the Safety and Efficacy of Autologous Human Platelet Lysate for Treatment of Androgenetic Alopecia",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT02280603",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 60,
+      "drug": "FINASTERIDE",
+      "title": "Clinical Trial to Explore the Efficacy and Safety of DA-4001 After Topical Application",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT02791243",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 58,
+      "drug": "FINASTERIDE",
+      "title": "Photosensitization Study in Androgenetic Alopecia",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03004469",
+      "read": "BENEFIT",
+      "path": "DETERMINISTIC",
+      "why": "The effect 13.6 excludes the null value 0, and for 'Adjusted Mean Change From Baseline in Hair Growth Assessed by Target Area Hair Count (TAHC) in the Vertex at Week 24' higher is better.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 458,
+      "title": "Study to Evaluate the Efficacy and Safety of P-3074 Topical Solution in the Treatment of Androgenetic Alopecia",
+      "drug": "FINASTERIDE",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT04594018",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 190,
+      "drug": "FINASTERIDE",
+      "title": "Efficacy and Safety of Finl\u00e2ndia Hair Lotion Association on Androgenetic Alopecia",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT04945226",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 40,
+      "drug": "FINASTERIDE",
+      "title": "A Clinical Trial to Assess Pharmacokinetic/Pharmacodynamic Profiles and Safety of IVL3001",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05135468",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 270,
+      "drug": "FINASTERIDE",
+      "title": "A Phase 3 Clinical Study Patients With Androgenetic Alopecia (AGA)",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05611593",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "UNKNOWN",
+      "enrollment": 90,
+      "drug": "FINASTERIDE",
+      "title": "Study to Evaluate Safety & Usability of a New Formulation for Male Androgenetic Alopecia",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05990400",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "UNKNOWN",
+      "enrollment": 40,
+      "drug": "FINASTERIDE",
+      "title": "Effectiveness and Safety of Topical Finasteride and Minoxidil Combination Compared to Topical Minoxidil for The Treatment of Male Androgenetic Alopecia",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT06590779",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "NOT_YET_RECRUITING",
+      "enrollment": 140,
+      "drug": "FINASTERIDE",
+      "title": "Benefits of a Cosmetic Anti-hair Loss in Males With Hair Loss",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT06826001",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "NOT_YET_RECRUITING",
+      "enrollment": 190,
+      "drug": "FINASTERIDE",
+      "title": "Various Procedural Treatment Options for Androgenetic Alopecia",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT07076706",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 110,
+      "drug": "FINASTERIDE",
+      "title": "Clinical Trial to Evaluate CG2001 in Chinese Adult Male Participants With Androgenetic Alopecia",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT07435012",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 420,
+      "drug": "FINASTERIDE",
+      "title": "Androgenic Alopecia TH07 Clinical Trial",
+      "provenance": "LIVE"
+     }
+    ],
+    "excluded_by_attribution": [
+     {
+      "nct_id": "NCT00441116",
+      "drug": "DUTASTERIDE",
+      "named_targets": [
+       "SRD5A1",
+       "SRD5A2",
+       "SRD5A3"
+      ],
+      "why": "Reached only through DUTASTERIDE, whose mechanism record names SRD5A1, SRD5A2, SRD5A3. A result on it does not isolate SRD5A2."
+     },
+     {
+      "nct_id": "NCT01004809",
+      "drug": "DUTASTERIDE",
+      "named_targets": [
+       "SRD5A1",
+       "SRD5A2",
+       "SRD5A3"
+      ],
+      "why": "Reached only through DUTASTERIDE, whose mechanism record names SRD5A1, SRD5A2, SRD5A3. A result on it does not isolate SRD5A2."
+     },
+     {
+      "nct_id": "NCT01227031",
+      "drug": "FINASTERIDE",
+      "named_targets": [
+       "SRD5A2"
+      ],
+      "why": "FINASTERIDE reaches this trial only through a name search, and does not appear in an arm the trial is testing. A comparator arm is not what a trial is about."
+     },
+     {
+      "nct_id": "NCT01391156",
+      "drug": "FINASTERIDE",
+      "named_targets": [
+       "SRD5A2"
+      ],
+      "why": "FINASTERIDE reaches this trial only through a name search, and does not appear in an arm the trial is testing. A comparator arm is not what a trial is about."
+     },
+     {
+      "nct_id": "NCT01831791",
+      "drug": "DUTASTERIDE",
+      "named_targets": [
+       "SRD5A1",
+       "SRD5A2",
+       "SRD5A3"
+      ],
+      "why": "Reached only through DUTASTERIDE, whose mechanism record names SRD5A1, SRD5A2, SRD5A3. A result on it does not isolate SRD5A2."
+     },
+     {
+      "nct_id": "NCT02014584",
+      "drug": "DUTASTERIDE",
+      "named_targets": [
+       "SRD5A1",
+       "SRD5A2",
+       "SRD5A3"
+      ],
+      "why": "Reached only through DUTASTERIDE, whose mechanism record names SRD5A1, SRD5A2, SRD5A3. A result on it does not isolate SRD5A2."
+     },
+     {
+      "nct_id": "NCT02781311",
+      "drug": "FINASTERIDE",
+      "named_targets": [
+       "SRD5A2"
+      ],
+      "why": "FINASTERIDE reaches this trial only through a name search, and does not appear in an arm the trial is testing. A comparator arm is not what a trial is about."
+     },
+     {
+      "nct_id": "NCT02824380",
+      "drug": "FINASTERIDE",
+      "named_targets": [
+       "SRD5A2"
+      ],
+      "why": "FINASTERIDE reaches this trial only through a name search, and does not appear in an arm the trial is testing. A comparator arm is not what a trial is about."
+     },
+     {
+      "nct_id": "NCT04825561",
+      "drug": "DUTASTERIDE",
+      "named_targets": [
+       "SRD5A1",
+       "SRD5A2",
+       "SRD5A3"
+      ],
+      "why": "Reached only through DUTASTERIDE, whose mechanism record names SRD5A1, SRD5A2, SRD5A3. A result on it does not isolate SRD5A2."
+     },
+     {
+      "nct_id": "NCT05599243",
+      "drug": "DUTASTERIDE",
+      "named_targets": [
+       "SRD5A1",
+       "SRD5A2",
+       "SRD5A3"
+      ],
+      "why": "Reached only through DUTASTERIDE, whose mechanism record names SRD5A1, SRD5A2, SRD5A3. A result on it does not isolate SRD5A2."
+     },
+     {
+      "nct_id": "NCT06916793",
+      "drug": "DUTASTERIDE",
+      "named_targets": [
+       "SRD5A1",
+       "SRD5A2",
+       "SRD5A3"
+      ],
+      "why": "Reached only through DUTASTERIDE, whose mechanism record names SRD5A1, SRD5A2, SRD5A3. A result on it does not isolate SRD5A2."
+     },
+     {
+      "nct_id": "NCT07038941",
+      "drug": "FINASTERIDE",
+      "named_targets": [
+       "SRD5A2"
+      ],
+      "why": "FINASTERIDE reaches this trial only through a name search, and does not appear in an arm the trial is testing. A comparator arm is not what a trial is about."
+     }
+    ],
+    "rule_model_disagreements": [],
+    "could_not_determine": [
+     "NCT01831791: Trial is a single-arm safety/tolerability study with no efficacy endpoint for androgenetic alopecia reported and no control group. Per-arm adverse event and laboratory data alone cannot establish efficacy or lack thereof."
+    ],
+    "could_not_check": [],
+    "evidence_cited": [
+     "CHEMBL1200969",
+     "CHEMBL710",
+     "NCT00396175",
+     "NCT00441116",
+     "NCT01004809",
+     "NCT01052870",
+     "NCT01227031",
+     "NCT01231607",
+     "NCT01391156",
+     "NCT01643629",
+     "NCT01831791",
+     "NCT02014584",
+     "NCT02280603",
+     "NCT02781311",
+     "NCT02791243",
+     "NCT02824380",
+     "NCT03004469",
+     "NCT04594018",
+     "NCT04825561",
+     "NCT04945226",
+     "NCT05135468",
+     "NCT05599243",
+     "NCT05611593",
+     "NCT05990400",
+     "NCT06590779",
+     "NCT06826001",
+     "NCT06916793",
+     "NCT07038941",
+     "NCT07076706",
+     "NCT07435012"
+    ],
+    "reachable_trials": 29,
+    "unresolved_sent_to_model": 2,
+    "rejections": [],
+    "model": "claude-haiku-4-5",
+    "input_tokens": 20445,
+    "output_tokens": 577,
+    "tool_calls_made": 0
+   }
+  },
+  {
+   "gene": "IL17A",
+   "condition": "oily skin",
+   "disease": "acne",
+   "kind": "known",
+   "expect_nct": "NCT02998671",
+   "expect_read": "NO_BENEFIT",
+   "seconds": 0.6,
+   "cited_ok": true,
+   "read_ok": true,
+   "result": {
+    "state": "TESTED_REPORTED",
+    "read": "NO_BENEFIT",
+    "measured_disease": "acne",
+    "endpoint_asked": "oily skin",
+    "borrowed": true,
+    "consensus": "UNANIMOUS",
+    "split": "1 readable trial(s): 1 NO_BENEFIT.",
+    "minority": [],
+    "count_tally": {
+     "NO_BENEFIT": 1
+    },
+    "enrollment_tally": {
+     "NO_BENEFIT": 52
+    },
+    "reason": "All 1 readable trial(s) read NO_BENEFIT.",
+    "trials": [
+     {
+      "nct_id": "NCT02998671",
+      "read": "NO_BENEFIT",
+      "path": "DETERMINISTIC",
+      "why": "The 90% interval [0.79, 1.81] covers the null value 1.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 52,
+      "title": "Study of Efficacy and Safety of CJM112 in Patients With Moderate to Severe Inflammatory Acne",
+      "drug": "CJM-112",
+      "provenance": "LIVE"
+     }
+    ],
+    "excluded_by_attribution": [],
+    "rule_model_disagreements": [],
+    "could_not_determine": [],
+    "could_not_check": [],
+    "evidence_cited": [
+     "CHEMBL4297926",
+     "NCT02998671"
+    ],
+    "reachable_trials": 2,
+    "unresolved_sent_to_model": 0,
+    "rejections": [],
+    "model": "claude-haiku-4-5",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "tool_calls_made": 0
+   }
+  },
+  {
+   "gene": "PTGDR2",
+   "condition": "hair thinning",
+   "disease": "androgenetic alopecia",
+   "kind": "known",
+   "expect_nct": "NCT02781311",
+   "expect_read": "NO_BENEFIT",
+   "seconds": 0.1,
+   "cited_ok": true,
+   "read_ok": true,
+   "result": {
+    "state": "TESTED_REPORTED",
+    "read": "NO_BENEFIT",
+    "measured_disease": "androgenetic alopecia",
+    "endpoint_asked": "hair thinning",
+    "borrowed": true,
+    "consensus": "UNANIMOUS",
+    "split": "1 readable trial(s): 1 NO_BENEFIT.",
+    "minority": [],
+    "count_tally": {
+     "NO_BENEFIT": 1
+    },
+    "enrollment_tally": {
+     "NO_BENEFIT": 169
+    },
+    "reason": "All 1 readable trial(s) read NO_BENEFIT.",
+    "trials": [
+     {
+      "nct_id": "NCT02781311",
+      "read": "NO_BENEFIT",
+      "path": "DETERMINISTIC",
+      "why": "The 95% interval [-8.38, 9.23] covers the null value 0.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 169,
+      "title": "A Safety and Efficacy Study of Setipiprant Tablets in Androgenetic Alopecia in Males",
+      "drug": "SETIPIPRANT",
+      "provenance": "LIVE"
+     }
+    ],
+    "excluded_by_attribution": [],
+    "rule_model_disagreements": [],
+    "could_not_determine": [],
+    "could_not_check": [],
+    "evidence_cited": [
+     "CHEMBL2386081",
+     "NCT02781311"
+    ],
+    "reachable_trials": 1,
+    "unresolved_sent_to_model": 0,
+    "rejections": [],
+    "model": "claude-haiku-4-5",
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "tool_calls_made": 0
+   }
+  },
+  {
+   "gene": "RARG",
+   "condition": "oily skin",
+   "disease": "acne",
+   "kind": "cold",
+   "expect_nct": null,
+   "expect_read": "BENEFIT",
+   "seconds": 70.4,
+   "cited_ok": null,
+   "read_ok": false,
+   "result": {
+    "state": "TESTED_REPORTED",
+    "read": null,
+    "measured_disease": "acne",
+    "endpoint_asked": "oily skin",
+    "borrowed": true,
+    "consensus": "BALANCED",
+    "split": "3 readable trial(s): 2 BENEFIT, 1 NO_BENEFIT.",
+    "minority": [
+     {
+      "nct_id": "NCT05550337",
+      "read": "NO_BENEFIT",
+      "path": "MODEL",
+      "why": "Non-inferiority equivalence study: test trifarotene equivalent to reference AKLIEF (90% CI 0.927-1.076 and 1.017-1.228). Not better, only equivalent.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 807,
+      "title": "Study Comparing Trifarotene Cream, 0.005% To AKLIEF \u00ae (Trifarotene 0.005% Cream) In The Treatment Of Acne Vulgaris",
+      "drug": "TRIFAROTENE",
+      "provenance": "LIVE"
+     }
+    ],
+    "count_tally": {
+     "BENEFIT": 2,
+     "NO_BENEFIT": 1
+    },
+    "enrollment_tally": {
+     "BENEFIT": 425,
+     "NO_BENEFIT": 807
+    },
+    "reason": "Counting trials favours BENEFIT and summed enrolment favours NO_BENEFIT. The two units disagree. No verdict is taken from a balanced split.",
+    "trials": [
+     {
+      "nct_id": "NCT01616654",
+      "read": "BENEFIT",
+      "path": "MODEL",
+      "why": "Published p-values show CD5789 doses superior to vehicle on both success rate (p=0.040, p=0.041 for 50 and 100 mcg/g) and lesion count change (p=0.054, p=0.038 for 50 and 100 mcg/g).",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 304,
+      "title": "Dose Range Study of CD5789 in Acne Vulgaris",
+      "drug": "TRIFAROTENE",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT02189629",
+      "read": null,
+      "path": "MODEL",
+      "why": "Single-arm trial with no comparator.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 453,
+      "title": "CD5789 (Trifarotene) Long Term Safety Study on Acne Vulgaris",
+      "drug": "TRIFAROTENE",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT02556788",
+      "read": null,
+      "path": "MODEL",
+      "why": "No published statistical comparison between arms; per-arm values only.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 1212,
+      "title": "Double-Blind Efficacy and Safety of CD5789 (Trifarotene) 50\u00b5g/g Cream Versus Vehicle Cream in Acne Vulgaris",
+      "drug": "TRIFAROTENE",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT02566369",
+      "read": null,
+      "path": "MODEL",
+      "why": "No published statistical comparison between arms; per-arm values only.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 1208,
+      "title": "Efficacy and Safety of CD5789 (Trifarotene) 50\u03bcg/g Cream Versus Vehicle Cream in Acne Vulgaris",
+      "drug": "TRIFAROTENE",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03915860",
+      "read": null,
+      "path": "MODEL",
+      "why": "Single-arm trial measuring quality of life outcomes, not efficacy comparison.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 47,
+      "title": "Participant Reported Outcomes With Use of Trifarotene 50 \u03bcg/g Cream in the Treatment of Moderate Facial and Truncal Acne Vulgaris",
+      "drug": "TRIFAROTENE",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT04451330",
+      "read": null,
+      "path": "MODEL",
+      "why": "No published statistical comparison between arms; per-arm values only.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 202,
+      "title": "A Study to Compare Efficacy and Safety of Trifarotene Cream When Used With an Oral Antibiotic for the Treatment of Severe Acne Vulgaris (AV)",
+      "drug": "TRIFAROTENE",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT04856904",
+      "read": "BENEFIT",
+      "path": "MODEL",
+      "why": "Published p<0.0001 showing trifarotene significantly reduced atrophic acne scars compared to vehicle (-5.9 vs -2.7, difference -3.2).",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 121,
+      "title": "Study of Trifarotene Cream to Assess Risk of a Trophic Acne Scar Formation",
+      "drug": "TRIFAROTENE",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05089708",
+      "read": null,
+      "path": "MODEL",
+      "why": "No published statistical comparison between arms; per-arm values only.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 123,
+      "title": "AkLief Evaluation in Acne-induced Post-Inflammatory Hyperpigmentation",
+      "drug": "TRIFAROTENE",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05550337",
+      "read": "NO_BENEFIT",
+      "path": "MODEL",
+      "why": "Non-inferiority equivalence study: test trifarotene equivalent to reference AKLIEF (90% CI 0.927-1.076 and 1.017-1.228). Not better, only equivalent.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 807,
+      "title": "Study Comparing Trifarotene Cream, 0.005% To AKLIEF \u00ae (Trifarotene 0.005% Cream) In The Treatment Of Acne Vulgaris",
+      "drug": "TRIFAROTENE",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT06063473",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 762,
+      "drug": "TRIFAROTENE",
+      "title": "A Study Comparing Trifarotene Cream 0.005% to AKLIEF\u00ae Cream in the Treatment of Acne Vulgaris",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT06733402",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 1000,
+      "drug": "TRIFAROTENE",
+      "title": "A Study Comparing Trifarotene Cream 0.005% to AKLIEF\u00ae CREAM (US REFERENCE LISTED DRUG), AKLIEF\u2122 CREAM (CANADIAN REFERENCE PRODUCT) in the Treatment of Acne Vulgaris",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT07186413",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 561,
+      "drug": "TRIFAROTENE",
+      "title": "A Study to Compare the Efficacy, Safety and Pharmacokinetics of Trifarotene 50 mcg/g Cream in Chinese Subjects With Acne Vulgaris",
+      "provenance": "LIVE"
+     }
+    ],
+    "excluded_by_attribution": [
+     {
+      "nct_id": "NCT00145106",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00151541",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00160394",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00240513",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00416585",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00421993",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00422240",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00441415",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00446043",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00469755",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00598832",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00599521",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00660985",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00671749",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00687908",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00688064",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00689117",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00696449",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00713609",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00714714",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00757523",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00807014",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00829049",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00834210",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00835198",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00838812",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00841776",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00883233",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00887484",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00891982",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00907101",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00907257",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00907335",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00919191",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00952523",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT00964223",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01014689",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01016977",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01017120",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01017146",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01019603",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01047189",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01095640",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01111994",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01135069",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01138735",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01149330",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01182636",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01188538",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01206348",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01209949",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01220102",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01231334",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01243450",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01245946",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01257906",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01313728",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01387048",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01404130",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01422785",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01425320",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01448733",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01474590",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01501799",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01504204",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01522456",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01618773",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01742637",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01880320",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01910064",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT01951417",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02073448",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02160678",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02180425",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02218034",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02249104",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02249767",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02267746",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02411942",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02411955",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02498288",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02525549",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02525822",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02557399",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02593383",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02620813",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02651220",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02704507",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02709902",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02716090",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02721173",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02731105",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02849860",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02849873",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02886715",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02899000",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02932267",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02932306",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02938494",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT02965456",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT03168321",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT03168334",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT03170388",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT03292640",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT03341910",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT03393494",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT03427554",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT03433378",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT03585140",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT03599193",
+      "drug": "TAZAROTENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TAZAROTENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT03615768",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT03626298",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT03650361",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT03650881",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT03653403",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT03832647",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT04080869",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT04104685",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT04118296",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT04156815",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT04204304",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT04214639",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT04214652",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT04329403",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT04548349",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT04594759",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT04660916",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT04724473",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT04797793",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT04883736",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT04892706",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT04940767",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT05316675",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT05413200",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT05497323",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT05582434",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT05855629",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT05869188",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT05903716",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT06141330",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT06225570",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT06242288",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT06336603",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT06378983",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT06447480",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT06451237",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT06483971",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT06673641",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT06775314",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT06787222",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT07015931",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT07054398",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT07205107",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT07228481",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT07309341",
+      "drug": "ISOTRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ISOTRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT07348978",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT07421804",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT07469228",
+      "drug": "TRETINOIN",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through TRETINOIN, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT07473895",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     },
+     {
+      "nct_id": "NCT07524946",
+      "drug": "ADAPALENE",
+      "named_targets": [
+       "RARA",
+       "RARB",
+       "RARG"
+      ],
+      "why": "Reached only through ADAPALENE, whose mechanism record names RARA, RARB, RARG. A result on it does not isolate RARG."
+     }
+    ],
+    "rule_model_disagreements": [],
+    "could_not_determine": [
+     "Multiple trials measured acne lesion counts but published no statistical comparison between arms, only per-arm descriptive statistics. These include: NCT00421993, NCT00422240, NCT00598832, NCT00599521, NCT00687908, NCT00688064, NCT01014689, NCT01047189, NCT01135069, NCT01188538, NCT01231334, NCT01243450, NCT01313728, NCT01474590, NCT01504204, NCT01522456, NCT01880320, NCT02073448, NCT02249767, NCT02556788, NCT02566369, NCT02938494, NCT03168321, NCT03168334, NCT03170388, NCT03292640, NCT03341910, NCT03599193, NCT04214639, NCT04214652, NCT04451330, NCT04892706, NCT05089708.",
+     "Single-arm trials with no control arms cannot establish relative benefit: NCT00446043, NCT00671749, NCT00907101, NCT01209949, NCT01951417, NCT02189629, NCT02249104, NCT02932267, NCT03915860, NCT04594759, NCT06336603.",
+     "Trials measuring endpoints other than efficacy or structured as observational studies: NCT00660985 (pharmacokinetics), NCT00696449 (adherence), NCT01910064 (tolerability in long-term study), NCT02932267 (satisfaction), NCT04548349 (microbiome profiling), NCT03915860 (quality of life)."
+    ],
+    "could_not_check": [
+     "clinicaltrials/NCT06181838: could not be read: Client error '429 Too Many Requests' for url 'https://clinicaltrials.gov/api/v2/studies/NCT06181838?format=json'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+    ],
+    "evidence_cited": [
+     "CHEMBL1265",
+     "CHEMBL1657",
+     "CHEMBL3707313",
+     "CHEMBL38",
+     "CHEMBL547",
+     "NCT00145106",
+     "NCT00151541",
+     "NCT00160394",
+     "NCT00240513",
+     "NCT00416585",
+     "NCT00421993",
+     "NCT00422240",
+     "NCT00441415",
+     "NCT00446043",
+     "NCT00469755",
+     "NCT00598832",
+     "NCT00599521",
+     "NCT00660985",
+     "NCT00671749",
+     "NCT00687908",
+     "NCT00688064",
+     "NCT00689117",
+     "NCT00696449",
+     "NCT00713609",
+     "NCT00714714",
+     "NCT00757523",
+     "NCT00807014",
+     "NCT00829049",
+     "NCT00834210",
+     "NCT00835198",
+     "NCT00838812",
+     "NCT00841776",
+     "NCT00883233",
+     "NCT00887484",
+     "NCT00891982",
+     "NCT00907101",
+     "NCT00907257",
+     "NCT00907335",
+     "NCT00919191",
+     "NCT00952523",
+     "NCT00964223",
+     "NCT01014689",
+     "NCT01016977",
+     "NCT01017120",
+     "NCT01017146",
+     "NCT01019603",
+     "NCT01047189",
+     "NCT01095640",
+     "NCT01111994",
+     "NCT01135069",
+     "NCT01138735",
+     "NCT01149330",
+     "NCT01182636",
+     "NCT01188538",
+     "NCT01206348",
+     "NCT01209949",
+     "NCT01220102",
+     "NCT01231334",
+     "NCT01243450",
+     "NCT01245946",
+     "NCT01257906",
+     "NCT01313728",
+     "NCT01387048",
+     "NCT01404130",
+     "NCT01422785",
+     "NCT01425320",
+     "NCT01448733",
+     "NCT01474590",
+     "NCT01501799",
+     "NCT01504204",
+     "NCT01522456",
+     "NCT01616654",
+     "NCT01618773",
+     "NCT01742637",
+     "NCT01880320",
+     "NCT01910064",
+     "NCT01951417",
+     "NCT02073448",
+     "NCT02160678",
+     "NCT02180425",
+     "NCT02189629",
+     "NCT02218034",
+     "NCT02249104",
+     "NCT02249767",
+     "NCT02267746",
+     "NCT02411942",
+     "NCT02411955",
+     "NCT02498288",
+     "NCT02525549",
+     "NCT02525822",
+     "NCT02556788",
+     "NCT02557399",
+     "NCT02566369",
+     "NCT02593383",
+     "NCT02620813",
+     "NCT02651220",
+     "NCT02704507",
+     "NCT02709902",
+     "NCT02716090",
+     "NCT02721173",
+     "NCT02731105",
+     "NCT02849860",
+     "NCT02849873",
+     "NCT02886715",
+     "NCT02899000",
+     "NCT02932267",
+     "NCT02932306",
+     "NCT02938494",
+     "NCT02965456",
+     "NCT03168321",
+     "NCT03168334",
+     "NCT03170388",
+     "NCT03292640",
+     "NCT03341910",
+     "NCT03393494",
+     "NCT03427554",
+     "NCT03433378",
+     "NCT03585140",
+     "NCT03599193",
+     "NCT03615768",
+     "NCT03626298",
+     "NCT03650361",
+     "NCT03650881",
+     "NCT03653403",
+     "NCT03832647",
+     "NCT03915860",
+     "NCT04080869",
+     "NCT04104685",
+     "NCT04118296",
+     "NCT04156815",
+     "NCT04204304",
+     "NCT04214639",
+     "NCT04214652",
+     "NCT04329403",
+     "NCT04451330",
+     "NCT04548349",
+     "NCT04594759",
+     "NCT04660916",
+     "NCT04724473",
+     "NCT04797793",
+     "NCT04856904",
+     "NCT04883736",
+     "NCT04892706",
+     "NCT04940767",
+     "NCT05089708",
+     "NCT05316675",
+     "NCT05413200",
+     "NCT05497323",
+     "NCT05550337",
+     "NCT05582434",
+     "NCT05855629",
+     "NCT05869188",
+     "NCT05903716",
+     "NCT06063473",
+     "NCT06141330",
+     "NCT06225570",
+     "NCT06242288",
+     "NCT06336603",
+     "NCT06378983",
+     "NCT06447480",
+     "NCT06451237",
+     "NCT06483971",
+     "NCT06673641",
+     "NCT06733402",
+     "NCT06775314",
+     "NCT06787222",
+     "NCT07015931",
+     "NCT07054398",
+     "NCT07186413",
+     "NCT07205107",
+     "NCT07228481",
+     "NCT07309341",
+     "NCT07348978",
+     "NCT07421804",
+     "NCT07469228",
+     "NCT07473895",
+     "NCT07524946"
+    ],
+    "reachable_trials": 173,
+    "unresolved_sent_to_model": 75,
+    "rejections": [
+     "These are non-inferiority or equivalence designs. An interval covering the null there means not worse, never better, so BENEFIT is not available: NCT02267746, NCT02525549, NCT02651220, NCT03393494, NCT05550337."
+    ],
+    "model": "claude-haiku-4-5",
+    "input_tokens": 270041,
+    "output_tokens": 7512,
+    "tool_calls_made": 0
+   }
+  },
+  {
+   "gene": "IL4R",
+   "condition": "atopic dermatitis",
+   "disease": "atopic dermatitis",
+   "kind": "cold",
+   "expect_nct": null,
+   "expect_read": "BENEFIT",
+   "seconds": 19.9,
+   "cited_ok": null,
+   "read_ok": true,
+   "result": {
+    "state": "TESTED_REPORTED",
+    "read": "BENEFIT",
+    "measured_disease": "atopic eczema",
+    "endpoint_asked": "atopic dermatitis",
+    "borrowed": true,
+    "consensus": "DECIDED",
+    "split": "19 readable trial(s): 17 BENEFIT, 2 WORSE.",
+    "minority": [
+     {
+      "nct_id": "NCT03345914",
+      "read": "WORSE",
+      "path": "DETERMINISTIC",
+      "why": "The effect 18.1 excludes the null value 0, and for \"Percentage of Participants With Investigator's Global Assessment (IGA) 0 or 1 at Week 16\" lower is better.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 367,
+      "title": "Study to Investigate the Efficacy and Safety of Dupilumab Administered With Topical Corticosteroids (TCS) in Participants \u22656 to <12 Years With Severe Atopic Dermatitis (AD)",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT04447417",
+      "read": "WORSE",
+      "path": "DETERMINISTIC",
+      "why": "The effect 0.43 excludes the null value 0, and for 'Percent Change From Baseline in Transepidermal Water Loss After 5 Skin Tape Stripping (STS) on Lesional Skin (LS) in AD Patients at Week 16' lower is better.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 52,
+      "title": "Dupilumab Skin Barrier Function Study in Atopic Dermatitis",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     }
+    ],
+    "count_tally": {
+     "BENEFIT": 17,
+     "WORSE": 2
+    },
+    "enrollment_tally": {
+     "BENEFIT": 7535,
+     "WORSE": 419
+    },
+    "reason": "17 of 19 trials read BENEFIT, and summed enrolment agrees. Dissenting: NCT03345914 WORSE (n=367); NCT04447417 WORSE (n=52).",
+    "trials": [
+     {
+      "nct_id": "NCT01259323",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 30,
+      "drug": "DUPILUMAB",
+      "title": "Sequential Ascending Dose Study to Assess the Safety and Tolerability of REGN668 (SAR231893) in Patients With Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT01385657",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 37,
+      "drug": "DUPILUMAB",
+      "title": "Safety and Tolerability of Dupilumab in Participants With Moderate to Severe Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT01548404",
+      "read": null,
+      "path": "MODEL",
+      "why": "Trial published per-arm EASI percent change values (Placebo: -23.3% vs Dupilumab 300 mg: -74.0%) but no statistical comparison between arms. Computing a difference myself would violate the rules.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 109,
+      "title": "Study of Dupilumab in Adult Patients With Extrinsic Moderate-to-Severe Atopic Dermatitis",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT01639040",
+      "read": null,
+      "path": "MODEL",
+      "why": "Trial published adverse event percentages for each arm separately (TEAEs: Placebo 70.0% vs Dupilumab 57.1%; serious TEAEs: Placebo 10.0% vs Dupilumab 0%) but no statistical comparison. Any read would require computing a difference myself.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 31,
+      "title": "Study to Assess the Safety of Dupilumab (REGN668/SAR231893) Administered Concomitantly With Topical Corticosteroids (TCS) in Patients With Moderate-to-severe Atopic Dermatitis (AD)",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT01859988",
+      "read": "BENEFIT",
+      "path": "DETERMINISTIC",
+      "why": "The effect -55.7 excludes the null value 0, and for 'Percent Change in Eczema Area and Severity Index Score (EASI) From Baseline to Week 16' lower is better.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 380,
+      "title": "Study of Dupilumab Administered to Adult Patients With Moderate-to-Severe Atopic Dermatitis",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT01949311",
+      "read": null,
+      "path": "MODEL",
+      "why": "Open-label single-arm trial with no comparator. No comparison between arms is possible.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 2733,
+      "title": "Open-label Study of Dupilumab in Patients With Atopic Dermatitis",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT01979016",
+      "read": "BENEFIT",
+      "path": "DETERMINISTIC",
+      "why": "The effect -69.4 excludes the null value 0, and for 'Percent Change From Baseline in the Eczema Area Severity Index Score (EASI) to Week 16' lower is better.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 54,
+      "title": "Study to Determine the Safety and Effectiveness of Dupilumab for Treatment of Atopic Dermatitis (AD)",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT02210780",
+      "read": null,
+      "path": "MODEL",
+      "why": "Trial published vaccine response rates for each arm (Placebo 83.7% vs Dupilumab 300 mg 83.3%) but no statistical comparison between arms. Computing the difference myself would violate the rules.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 194,
+      "title": "Study of Dupilumab and Immune Responses in Adults With Atopic Dermatitis (AD)",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT02260986",
+      "read": "BENEFIT",
+      "path": "DETERMINISTIC",
+      "why": "The effect 26.3 excludes the null value 0, and for 'Percentage of Participants With Investigator\\'s Global Assessment (IGA) Score of \"0\" or \"1\" and Reduction From Baseline of \u22652 Points at Week 16' higher is better.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 740,
+      "title": "Study to Assess the Efficacy and Long-term Safety of Dupilumab (REGN668/SAR231893) in Adult Participants With Moderate-to-Severe Atopic Dermatitis",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT02277743",
+      "read": "BENEFIT",
+      "path": "DETERMINISTIC",
+      "why": "The effect 27.7 excludes the null value 0, and for 'Percentage of Participants With Investigator\\'s Global Assessment (IGA) Score of \"0\" or \"1\" and Reduction From Baseline of \u22652 Points at Week 16' higher is better.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 671,
+      "title": "Study of Dupilumab Monotherapy Administered to Adult Patients With Moderate-to-Severe Atopic Dermatitis",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT02277769",
+      "read": "BENEFIT",
+      "path": "DETERMINISTIC",
+      "why": "The effect 27.6 excludes the null value 0, and for 'Percentage of Participants With Investigator\\'s Global Assessment (IGA) Score of \"0\" or \"1\" and Reduction From Baseline of \u22652 Points at Week 16' higher is better.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 708,
+      "title": "Study of Dupilumab (REGN668/SAR231893) Monotherapy Administered to Adult Patients With Moderate-to-Severe Atopic Dermatitis",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT02395133",
+      "read": "BENEFIT",
+      "path": "MODEL",
+      "why": "Both coprimary outcomes demonstrated statistically significant superiority of Dupilumab over Placebo. First outcome: all three Dupilumab dose regimens showed significant improvement in EASI percent change versus Placebo (p=0.0001 to p<0.0001). Second outcome: EASI-75 maintenance significantly better with all Dupilumab regimens versus Placebo (p=0.0040 to p<0.0001). The trial measured atopic dermatitis as requested.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 422,
+      "title": "A Study to Confirm the Efficacy and Safety of Different Dupilumab Dose Regimens in Adults With Atopic Dermatitis (AD)",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT02407756",
+      "read": null,
+      "path": "MODEL",
+      "why": "Pediatric open-label single-arm pharmacokinetics/safety trial with no comparator. Primary outcomes are PK parameters and adverse events by dose group, not efficacy comparisons.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 78,
+      "title": "A Study to Determine the Safety and Tolerability of Dupilumab (REGN668/SAR231893) in Patients Aged \u22656 to <18 Years With Atopic Dermatitis (Eczema)",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT02612454",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "ACTIVE_NOT_RECRUITING",
+      "enrollment": 880,
+      "drug": "DUPILUMAB",
+      "title": "Study to Assess the Long-term Safety of Dupilumab Administered in Participants \u22656 Months to <18 Years of Age With Atopic Dermatitis (AD)",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT02647086",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 14,
+      "drug": "DUPILUMAB",
+      "title": "Open Label, Drug-Drug Interaction (DDI) Study of Dupilumab (REGN668/SAR231893) in Patients With Moderate to Severe Atopic Dermatitis (AD)",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT02755649",
+      "read": "BENEFIT",
+      "path": "DETERMINISTIC",
+      "why": "The effect 29.5 excludes the null value 0, and for 'Percentage of Participants With Eczema Area and Severity Index (EASI) 75 (\u226575% Improvement From Baseline) at Week 16' higher is better.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 325,
+      "title": "A Study to Assess the Efficacy and Safety of Dupilumab in Participants With Severe Atopic Dermatitis (AD) That Are Not Controlled With Oral Cyclosporine A (CSA) or for Those Who Cannot Take Oral CSA Because it is Not Medically Advisable",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03050151",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 176,
+      "drug": "DUPILUMAB",
+      "title": "Study of Dupilumab Auto-injector Device When Used by Patients With Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03054428",
+      "read": "BENEFIT",
+      "path": "DETERMINISTIC",
+      "why": "The effect 22 excludes the null value 0, and for \"Percentage of Participants With Investigator's Global Assessment (IGA) 0 or 1 (and Reduction From Baseline of \u22652 Points) at Week 16\" higher is better.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 251,
+      "title": "Efficacy and Safety of Dupilumab in Participants \u226512 to <18 Years of Age, With Moderate-to-severe Atopic Dermatitis",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03293030",
+      "read": null,
+      "path": "MODEL",
+      "why": "Single-arm open-label trial with no comparator. Outcome measures are immunological endpoints (CD4+ T effector cells) without comparison to a control group.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 17,
+      "title": "Immunogenetic Profiling of Dupilumab for the Treatment of Atopic Dermatitis",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03345914",
+      "read": "WORSE",
+      "path": "DETERMINISTIC",
+      "why": "The effect 18.1 excludes the null value 0, and for \"Percentage of Participants With Investigator's Global Assessment (IGA) 0 or 1 at Week 16\" lower is better.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 367,
+      "title": "Study to Investigate the Efficacy and Safety of Dupilumab Administered With Topical Corticosteroids (TCS) in Participants \u22656 to <12 Years With Severe Atopic Dermatitis (AD)",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03346434",
+      "read": "BENEFIT",
+      "path": "MODEL",
+      "why": "Part B primary outcomes (efficacy in preschool children aged \u22656 months to <6 years) showed Dupilumab superior to Placebo on both measures: IGA 0/1 at Week 16 (p<0.0001, difference 23.8%) and EASI-75 at Week 16 (p<0.0001, difference 42.3%). These demonstrate clinical benefit for atopic dermatitis in the pediatric population.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 202,
+      "title": "Safety, Pharmacokinetics and Efficacy of Dupilumab in Patients \u22656 Months to <6 Years With Moderate-to-Severe Atopic Dermatitis (Liberty AD PRESCHOOL)",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03358693",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 300,
+      "drug": "DUPILUMAB",
+      "title": "Molecular Signatures in Inflammatory Skin Disease",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03359356",
+      "read": null,
+      "path": "MODEL",
+      "why": "Trial published per-arm SALT score changes (Placebo Then Dupilumab: -6.3 vs Dupilumab: 2.3) but no statistical comparison. The trial also measured alopecia areata severity, not atopic dermatitis directly, though some enrolled participants had AD. Computing a difference myself would violate the rules.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 60,
+      "title": "Treatment of Alopecia Areata (AA) With Dupilumab in Patients With and Without Atopic Dermatitis (AD)",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03389893",
+      "read": "BENEFIT",
+      "path": "MODEL",
+      "why": "Trial was terminated due to inability to meet accrual goals (operational stop, not efficacy-driven). However, it published a primary outcome comparison: Staphylococcus aureus abundance on lesional skin was significantly lower in the Dupilumab arm versus Placebo (geometric mean ratio 0.033, p<0.001). Lower bacterial colonization associated with Dupilumab treatment indicates clinical benefit related to atopic dermatitis pathophysiology.",
+      "has_results": true,
+      "status": "TERMINATED",
+      "enrollment": 72,
+      "title": "Effect of Dupilumab (Anti-IL4R\u03b1) on the Host-Microbe Interface in Atopic Dermatitis",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03411837",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "TERMINATED",
+      "enrollment": 46,
+      "drug": "DUPILUMAB",
+      "title": "Dupilumab Phase 4 Study",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03428646",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "ACTIVE_NOT_RECRUITING",
+      "enrollment": 858,
+      "drug": "DUPILUMAB",
+      "title": "Study of Patients Receiving DUPIXENT\u00ae for Atopic Dermatitis (AD)",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03667014",
+      "read": null,
+      "path": "MODEL",
+      "why": "Single-arm open-label trial with no comparator. Outcome is quality of life (PGWB scale) measured only at baseline and week 16 without a control group for comparison.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 34,
+      "title": "The Impact of Dupilumab on Quality of Life in Moderate to Severe Atopic Dermatitis Patients",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03720470",
+      "read": "BENEFIT",
+      "path": "DETERMINISTIC",
+      "why": "The effect 23.1 excludes the null value 0, and for \"Percentage of Participants Achieving Investigator's Global Assessment (IGA) Response of Clear (0) or Almost Clear (1) and a Reduction of Greater Than or Equal to (>=) 2 Points From Baseline at Week 12\" higher is better.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 838,
+      "title": "Study Evaluating Efficacy and Safety of PF-04965842 and Dupilumab in Adult Subjects With Moderate to Severe Atopic Dermatitis on Background Topical Therapy",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03736967",
+      "read": null,
+      "path": "MODEL",
+      "why": "Trial published per-arm EASI percent change values at week 16 (Placebo: -52.4%, REGN3500: -66.6%, Dupilumab: -77.8%, combination: -76.9%) but no statistical comparisons between arms. Computing differences myself would violate the rules.",
+      "has_results": true,
+      "status": "TERMINATED",
+      "enrollment": 206,
+      "title": "Efficacy and Safety of REGN3500 Monotherapy and Combination of REGN3500 Plus Dupilumab in Adult Patients With Moderate-to-Severe Atopic Dermatitis",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03738397",
+      "read": "BENEFIT",
+      "path": "DETERMINISTIC",
+      "why": "The effect 9.7 excludes the null value 0, and for 'Percentage of Participants Achieving a 75% Reduction From Baseline in Eczema Area and Severity Index Score (EASI 75) at Week 16' higher is better.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 673,
+      "title": "A Study to Compare Safety and Efficacy of Upadacitinib to Dupilumab in Adult Participants With Moderate to Severe Atopic Dermatitis",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03912259",
+      "read": "BENEFIT",
+      "path": "DETERMINISTIC",
+      "why": "The effect 22.0 excludes the null value 0, and for 'Number of Participants With Investigator\\'s Global Assessment (IGA) Score of \"0\" or \"1\" and Reduction From Baseline of Greater Than or Equal to (>=) 2 Points at Week 16' higher is better.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 165,
+      "title": "Evaluation of Dupilumab in Chinese Adult Patients With Moderate to Severe Atopic Dermatitis",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03936335",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 3930,
+      "drug": "DUPILUMAB",
+      "title": "An Observational Retrospective Cohort Study Being Conducted in Women With Atopic Dermatitis (AD)",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03983460",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "UNKNOWN",
+      "enrollment": 20,
+      "drug": "DUPILUMAB",
+      "title": "Dupilumab Impact on Skin Resident Memory T Cells",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT03992417",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "ACTIVE_NOT_RECRUITING",
+      "enrollment": 955,
+      "drug": "DUPILUMAB",
+      "title": "Observational Study of Patients Receiving Dupixent\u00ae for Atopic Dermatitis (AD)",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT04033367",
+      "read": "BENEFIT",
+      "path": "MODEL",
+      "why": "Trial measured sleep quality improvement in atopic dermatitis patients. Dupilumab showed significantly greater improvement in sleep quality (percent change -47.71%) compared to Placebo (-32.98%), with a least squares mean difference of -15.52% (p<0.001). This demonstrates symptomatic benefit related to AD-associated sleep disturbance.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 188,
+      "title": "SAR231893-LPS15497- \"Dupilumab Effect on Sleep in AD Patients\"",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT04306965",
+      "read": null,
+      "path": "MODEL",
+      "why": "Single-arm open-label trial of Apremilast combined with Dupilumab with no comparator. Outcome reports only the count achieving IGA 0/1 (2 out of 10 patients) without a control group.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 10,
+      "title": "Apremilast 30 mg Twice Daily (BID) Combined With Dupilumab",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT04345367",
+      "read": "BENEFIT",
+      "path": "DETERMINISTIC",
+      "why": "The effect 22.6 excludes the null value 0, and for 'Percentage of Participants Achieving Greater Than or Equal to (>=) 4 Points Improvement in Peak Pruritus Numerical Rating Scale (PP-NRS4) From Baseline at Week 2' higher is better.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 727,
+      "title": "Study of Abrocitinib Compared With Dupilumab in Adults With Moderate to Severe Atopic Dermatitis on Background Topical Therapy",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT04358224",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 12,
+      "drug": "DUPILUMAB",
+      "title": "The Utility of Functionally Relevant Signature Genes in Assessing the Clinical Outcomes of Dupilumab Treatment",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT04447417",
+      "read": "WORSE",
+      "path": "DETERMINISTIC",
+      "why": "The effect 0.43 excludes the null value 0, and for 'Percent Change From Baseline in Transepidermal Water Loss After 5 Skin Tape Stripping (STS) on Lesional Skin (LS) in AD Patients at Week 16' lower is better.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 52,
+      "title": "Dupilumab Skin Barrier Function Study in Atopic Dermatitis",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT04520308",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "UNKNOWN",
+      "enrollment": 45,
+      "drug": "DUPILUMAB",
+      "title": "An Open-label, Single-arm Longitudinal Study With Dupilumab for Patients With Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT04678882",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 62,
+      "drug": "DUPILUMAB",
+      "title": "Dupilumab in Japanese Patients With Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT04718870",
+      "read": null,
+      "path": "MODEL",
+      "why": "Single-arm open-label trial measuring skin barrier function (TEWL) in atopic dermatitis participants at baseline and week 16 with no comparator group.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 41,
+      "title": "Dupilumab-PEdiatric Skin Barrier Function and LIpidomics STudy in Patients With Atopic Dermatitis",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT04791319",
+      "read": "BENEFIT",
+      "path": "MODEL",
+      "why": "Trial was terminated for futility of Bermekimab, not Dupilumab. The published comparison shows Dupilumab achieved EASI-75 response at 51.2% versus Placebo at 9.5% (p=0.001), demonstrating significant benefit. Although the trial was stopped, the Dupilumab data represents a valid efficacy comparison.",
+      "has_results": true,
+      "status": "TERMINATED",
+      "enrollment": 199,
+      "title": "A Study of Bermekimab (JNJ-77474462) in the Treatment of Participants With Moderate to Severe Atopic Dermatitis",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT04878770",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "UNKNOWN",
+      "enrollment": 318,
+      "drug": "DUPILUMAB",
+      "title": "NMF-CsA-Dupi Trial",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT04988022",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 44,
+      "drug": "DUPILUMAB",
+      "title": "Dupilumab in the Treatment of Keloids",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05042258",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 40,
+      "drug": "DUPILUMAB",
+      "title": "Using Dupilumab to Improve Circadian Function, Sleep and Pruritus in Children With Moderate/Severe Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05203380",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 45,
+      "drug": "DUPILUMAB",
+      "title": "Neuropsychologic Assessments of Dupilumab-Treated Adolescent Participants With Moderate-to-Severe Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05265234",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "UNKNOWN",
+      "enrollment": 15,
+      "drug": "DUPILUMAB",
+      "title": "Dupilmuab for Atopic Dermatitis Monitored With Noninvasive Imaging.",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05268107",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 30,
+      "drug": "DUPILUMAB",
+      "title": "Ethnic Differences in Mechanisms of Action of Dupilumab",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05285839",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 40,
+      "drug": "DUPILUMAB",
+      "title": "Dupixent and Narrowband UVB for Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05372003",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 7,
+      "drug": "DUPILUMAB",
+      "title": "IL-4 and Insulin Resistance for Treatment of Patients With Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05470114",
+      "read": null,
+      "path": "MODEL",
+      "why": "Trial published per-group gene expression changes (fold change in markers like S100A7, S100A8, S100A9, KRT genes) comparing two treatment groups (LEO 138559 vs Dupixent) but with no statistical comparisons provided. Computing differences myself would violate the rules.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 13,
+      "title": "A Multi-omics Disease Signature Trial in Adult Patients With Moderate to Severe AD",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05590585",
+      "read": null,
+      "path": "MODEL",
+      "why": "Single-arm open-label trial with no comparator. Outcome reports EASI-75 achievement rate (76.0%) in the Dupilumab group without a control arm for comparison.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 124,
+      "title": "Dupilumab in Adolescent and Adult Skin of Color Participants: Open-label Moderate-to-severe Eczema Trial",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05601882",
+      "read": "BENEFIT",
+      "path": "DETERMINISTIC",
+      "why": "The effect 11.0 excludes the null value 0, and for 'Percentage of Participants Achieving a \u2265 90% Reduction From Baseline in Eczema Area and Severity Index Score (EASI 90) and Worst Pruritus Numerical Rating Scale of 0 or 1 (WP-NRS 0/1) at Week 16' higher is better.",
+      "has_results": true,
+      "status": "COMPLETED",
+      "enrollment": 920,
+      "title": "A Study to Evaluate Adverse Events and Change in Disease Activity Comparing Oral Upadacitinib to Subcutaneous Dupilumab in Adolescent and Adult Participants With Moderate to Severe Atopic Dermatitis",
+      "drug": "DUPILUMAB",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05624112",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 44,
+      "drug": "DUPILUMAB",
+      "title": "Dupilumab Skin BArrier Function and LIpidomics STudy in Atopic Dermatitis in China",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05642208",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "ACTIVE_NOT_RECRUITING",
+      "enrollment": 256,
+      "drug": "DUPILUMAB",
+      "title": "Dupilumab Step-down Strategy to Maintain Remission in Adult and Adolescents Patients With Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05680298",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 34,
+      "drug": "DUPILUMAB",
+      "title": "Dupilumab-pediatric Skin Barrier Function and Lipidomics Study in Patients With Atopic Dermatitis in China",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05790330",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 90,
+      "drug": "DUPILUMAB",
+      "title": "Mind and Skin - the Neurocutaneous Axis in Atopic Eczema",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05858619",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 15,
+      "drug": "DUPILUMAB",
+      "title": "Molecular Signatures of Cutaneous Dupilumab Response",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT05983068",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "ACTIVE_NOT_RECRUITING",
+      "enrollment": 48,
+      "drug": "DUPILUMAB",
+      "title": "A Study of Long-term Effect of Dupilumab on Skin Barrier Function in Pediatric Participants With Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT06004986",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 216,
+      "drug": "DUPILUMAB",
+      "title": "DUPIlumab Dose REDUCtion in Patients With Controlled Atopic Eczema",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT06116526",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 30,
+      "drug": "DUPILUMAB",
+      "title": "Dupilumab De-escalation in Pediatric Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT06169527",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "ACTIVE_NOT_RECRUITING",
+      "enrollment": 303,
+      "drug": "DUPILUMAB",
+      "title": "A Long-term Data Collection Study of Participants in France Aged 6 Years Old or More With Atopic Dermatitis Receiving Dupilumab",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT06192563",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 150,
+      "drug": "DUPILUMAB",
+      "title": "A Study to Observe How Adolescent Patients With Severe Atopic Dermatitis Despite Less Extensive Skin Lesions (Eczema Area and Severity Index Score < 16) Respond to Dupilumab Treatment",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT06389136",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 200,
+      "drug": "DUPILUMAB",
+      "title": "A Study of Upadacitinib in Adult Participants With Moderate-to-Severe Atopic Dermatitis and Inadequate Response to Dupilumab",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT06415175",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "ACTIVE_NOT_RECRUITING",
+      "enrollment": 143,
+      "drug": "DUPILUMAB",
+      "title": "Study in Paediatric Patients With Atopic Dermatitis Treated With Dupilumab in Spain",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT06461897",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 675,
+      "drug": "DUPILUMAB",
+      "title": "A Study to Assess Adverse Events and Change in Disease Activity Comparing Oral Upadacitinib to Subcutaneous Dupilumab in Children From 2 to Less Than 12 Years of Age With Moderate to Severe Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT06509243",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "COMPLETED",
+      "enrollment": 132,
+      "drug": "DUPILUMAB",
+      "title": "Dupilumab and House Dust Mite Immunotherapy in Patients With Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT06882148",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 1167,
+      "drug": "DUPILUMAB",
+      "title": "Drug Survival of Target Therapies in Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT06937788",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 240,
+      "drug": "DUPILUMAB",
+      "title": "Replication of the Heads Up Atopic Dermatitis Trial With Registry Data",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT07187089",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "WITHDRAWN",
+      "enrollment": 0,
+      "drug": "DUPILUMAB",
+      "title": "Study of Growth and Bone Mineral Density in Children With Atopic Dermatitis (AD) Treated With Dupilumab",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT07330934",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 403,
+      "drug": "DUPILUMAB",
+      "title": "A Study to Evaluate Efficacy and Safety of IBI356 in Participants With Moderate to Severe Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT07352566",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "NOT_YET_RECRUITING",
+      "enrollment": 10,
+      "drug": "DUPILUMAB",
+      "title": "Utilization of a Microdevice for Psoriasis and Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT07386743",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "NOT_YET_RECRUITING",
+      "enrollment": 572,
+      "drug": "DUPILUMAB",
+      "title": "A Phase III Study of GS101 Injection to Dupixent\u00ae",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT07399067",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 120,
+      "drug": "DUPILUMAB",
+      "title": "A Proof-of-Concept Study of IBI3002 in Patients With Moderate to Severe Atopic Dermatitis",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT07448363",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "NOT_YET_RECRUITING",
+      "enrollment": 50,
+      "drug": "DUPILUMAB",
+      "title": "Atopic Dermatitis Treated With Dupilumab and JAK Inhibitors in Costa Rica",
+      "provenance": "LIVE"
+     },
+     {
+      "nct_id": "NCT07467564",
+      "read": null,
+      "path": "NONE",
+      "has_results": false,
+      "status": "RECRUITING",
+      "enrollment": 184,
+      "drug": "DUPILUMAB",
+      "title": "The Impact of Dupilumab Treatment on Anxiety and Depression Symptoms in Patients With Moderate-to-Severe Atopic Dermatitis",
+      "provenance": "LIVE"
+     }
+    ],
+    "excluded_by_attribution": [
+     {
+      "nct_id": "NCT05214326",
+      "drug": "DUPILUMAB",
+      "named_targets": [
+       "IL4R"
+      ],
+      "why": "DUPILUMAB reaches this trial only through a name search, and does not appear in an arm the trial is testing. A comparator arm is not what a trial is about."
+     },
+     {
+      "nct_id": "NCT05527964",
+      "drug": "DUPILUMAB",
+      "named_targets": [
+       "IL4R"
+      ],
+      "why": "DUPILUMAB reaches this trial only through a name search, and does not appear in an arm the trial is testing. A comparator arm is not what a trial is about."
+     },
+     {
+      "nct_id": "NCT06614907",
+      "drug": "DUPILUMAB",
+      "named_targets": [
+       "IL4R"
+      ],
+      "why": "DUPILUMAB reaches this trial only through a name search, and does not appear in an arm the trial is testing. A comparator arm is not what a trial is about."
+     },
+     {
+      "nct_id": "NCT06881251",
+      "drug": "DUPILUMAB",
+      "named_targets": [
+       "IL4R"
+      ],
+      "why": "DUPILUMAB reaches this trial only through a name search, and does not appear in an arm the trial is testing. A comparator arm is not what a trial is about."
+     },
+     {
+      "nct_id": "NCT07098000",
+      "drug": "DUPILUMAB",
+      "named_targets": [
+       "IL4R"
+      ],
+      "why": "DUPILUMAB reaches this trial only through a name search, and does not appear in an arm the trial is testing. A comparator arm is not what a trial is about."
+     },
+     {
+      "nct_id": "NCT07358156",
+      "drug": "DUPILUMAB",
+      "named_targets": [
+       "IL4R"
+      ],
+      "why": "DUPILUMAB reaches this trial only through a name search, and does not appear in an arm the trial is testing. A comparator arm is not what a trial is about."
+     },
+     {
+      "nct_id": "NCT07411755",
+      "drug": "DUPILUMAB",
+      "named_targets": [
+       "IL4R"
+      ],
+      "why": "DUPILUMAB reaches this trial only through a name search, and does not appear in an arm the trial is testing. A comparator arm is not what a trial is about."
+     }
+    ],
+    "rule_model_disagreements": [],
+    "could_not_determine": [
+     "NCT01548404: Per-arm EASI percent change published without statistical comparison",
+     "NCT01639040: Per-arm adverse event rates published without statistical comparison",
+     "NCT01949311: Open-label single-arm design precludes efficacy comparison",
+     "NCT02210780: Per-arm vaccine response rates published without statistical comparison",
+     "NCT02407756: Pediatric PK/safety single-arm trial without efficacy comparisons",
+     "NCT03293030: Single-arm immunological biomarker trial without control comparison",
+     "NCT03359356: Per-arm SALT score changes published without statistical comparison; trial measured alopecia areata severity",
+     "NCT03667014: Single-arm quality of life trial without control group",
+     "NCT03736967: Per-arm EASI percent changes published without statistical comparisons between arms",
+     "NCT04306965: Single-arm combination therapy trial without comparator",
+     "NCT04718870: Single-arm skin barrier measurement trial without control",
+     "NCT05470114: Per-group gene expression values published without statistical comparisons",
+     "NCT05590585: Single-arm open-label trial without comparator"
+    ],
+    "could_not_check": [],
+    "evidence_cited": [
+     "CHEMBL2108675",
+     "NCT01259323",
+     "NCT01385657",
+     "NCT01548404",
+     "NCT01639040",
+     "NCT01859988",
+     "NCT01949311",
+     "NCT01979016",
+     "NCT02210780",
+     "NCT02260986",
+     "NCT02277743",
+     "NCT02277769",
+     "NCT02395133",
+     "NCT02407756",
+     "NCT02612454",
+     "NCT02647086",
+     "NCT02755649",
+     "NCT03050151",
+     "NCT03054428",
+     "NCT03293030",
+     "NCT03345914",
+     "NCT03346434",
+     "NCT03358693",
+     "NCT03359356",
+     "NCT03389893",
+     "NCT03411837",
+     "NCT03428646",
+     "NCT03667014",
+     "NCT03720470",
+     "NCT03736967",
+     "NCT03738397",
+     "NCT03912259",
+     "NCT03936335",
+     "NCT03983460",
+     "NCT03992417",
+     "NCT04033367",
+     "NCT04306965",
+     "NCT04345367",
+     "NCT04358224",
+     "NCT04447417",
+     "NCT04520308",
+     "NCT04678882",
+     "NCT04718870",
+     "NCT04791319",
+     "NCT04878770",
+     "NCT04988022",
+     "NCT05042258",
+     "NCT05203380",
+     "NCT05214326",
+     "NCT05265234",
+     "NCT05268107",
+     "NCT05285839",
+     "NCT05372003",
+     "NCT05470114",
+     "NCT05527964",
+     "NCT05590585",
+     "NCT05601882",
+     "NCT05624112",
+     "NCT05642208",
+     "NCT05680298",
+     "NCT05790330",
+     "NCT05858619",
+     "NCT05983068",
+     "NCT06004986",
+     "NCT06116526",
+     "NCT06169527",
+     "NCT06192563",
+     "NCT06389136",
+     "NCT06415175",
+     "NCT06461897",
+     "NCT06509243",
+     "NCT06614907",
+     "NCT06881251",
+     "NCT06882148",
+     "NCT06937788",
+     "NCT07098000",
+     "NCT07187089",
+     "NCT07330934",
+     "NCT07352566",
+     "NCT07358156",
+     "NCT07386743",
+     "NCT07399067",
+     "NCT07411755",
+     "NCT07448363",
+     "NCT07467564"
+    ],
+    "reachable_trials": 85,
+    "unresolved_sent_to_model": 18,
+    "rejections": [],
+    "model": "claude-haiku-4-5",
+    "input_tokens": 17483,
+    "output_tokens": 2155,
+    "tool_calls_made": 0
+   }
+  },
+  {
+   "gene": "JAK2",
+   "condition": "atopic dermatitis",
+   "disease": "atopic dermatitis",
+   "kind": "cap",
+   "expect_nct": null,
+   "expect_read": null,
+   "seconds": 16.7,
+   "cited_ok": null,
+   "read_ok": null,
+   "result": {
+    "state": "NO_ATTRIBUTABLE_DRUG",
+    "read": null,
+    "measured_disease": "atopic eczema",
+    "endpoint_asked": "atopic dermatitis",
+    "borrowed": true,
+    "consensus": "NONE",
+    "split": "No trial resolved.",
+    "minority": [],
+    "count_tally": {},
+    "enrollment_tally": {},
+    "reason": "55 trial(s) were found and none of them can answer for JAK2. Reached only through TOFACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2.",
+    "trials": [],
+    "excluded_by_attribution": [
+     {
+      "nct_id": "NCT02001181",
+      "drug": "TOFACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through TOFACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT02576938",
+      "drug": "BARICITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2"
+      ],
+      "why": "Reached only through BARICITINIB, whose mechanism record names JAK1, JAK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT02925117",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03011892",
+      "drug": "RUXOLITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through RUXOLITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03139981",
+      "drug": "GUSACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "SYK",
+       "TYK2"
+      ],
+      "why": "Reached only through GUSACITINIB, whose mechanism record names JAK1, JAK2, JAK3, SYK, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03257644",
+      "drug": "RUXOLITINIB PHOSPHATE",
+      "named_targets": [
+       "JAK1",
+       "JAK2"
+      ],
+      "why": "Reached only through RUXOLITINIB PHOSPHATE, whose mechanism record names JAK1, JAK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03334396",
+      "drug": "BARICITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2"
+      ],
+      "why": "Reached only through BARICITINIB, whose mechanism record names JAK1, JAK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03334422",
+      "drug": "BARICITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2"
+      ],
+      "why": "Reached only through BARICITINIB, whose mechanism record names JAK1, JAK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03334435",
+      "drug": "BARICITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2"
+      ],
+      "why": "Reached only through BARICITINIB, whose mechanism record names JAK1, JAK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03358693",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03428100",
+      "drug": "BARICITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2"
+      ],
+      "why": "Reached only through BARICITINIB, whose mechanism record names JAK1, JAK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03435081",
+      "drug": "BARICITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2"
+      ],
+      "why": "Reached only through BARICITINIB, whose mechanism record names JAK1, JAK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03531957",
+      "drug": "GUSACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "SYK",
+       "TYK2"
+      ],
+      "why": "Reached only through GUSACITINIB, whose mechanism record names JAK1, JAK2, JAK3, SYK, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03559270",
+      "drug": "BARICITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2"
+      ],
+      "why": "Reached only through BARICITINIB, whose mechanism record names JAK1, JAK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03568318",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03569293",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03607422",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03646604",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03654755",
+      "drug": "GUSACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "SYK",
+       "TYK2"
+      ],
+      "why": "Reached only through GUSACITINIB, whose mechanism record names JAK1, JAK2, JAK3, SYK, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03661138",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03725722",
+      "drug": "DELGOCITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through DELGOCITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03733301",
+      "drug": "BARICITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2"
+      ],
+      "why": "Reached only through BARICITINIB, whose mechanism record names JAK1, JAK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03738397",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03745638",
+      "drug": "RUXOLITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through RUXOLITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03745651",
+      "drug": "RUXOLITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through RUXOLITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03826901",
+      "drug": "DELGOCITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through DELGOCITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03920852",
+      "drug": "RUXOLITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through RUXOLITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT03952559",
+      "drug": "BARICITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2"
+      ],
+      "why": "Reached only through BARICITINIB, whose mechanism record names JAK1, JAK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT04195698",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT04246372",
+      "drug": "TOFACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through TOFACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT04666675",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT04839380",
+      "drug": "RUXOLITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through RUXOLITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT04921969",
+      "drug": "RUXOLITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through RUXOLITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT05034822",
+      "drug": "RUXOLITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through RUXOLITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT05127421",
+      "drug": "RUXOLITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through RUXOLITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT05456529",
+      "drug": "RUXOLITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through RUXOLITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT05487963",
+      "drug": "TOFACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through TOFACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT05507580",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT05601882",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT05969730",
+      "drug": "BARICITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2"
+      ],
+      "why": "Reached only through BARICITINIB, whose mechanism record names JAK1, JAK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT06238817",
+      "drug": "RUXOLITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through RUXOLITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT06389136",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT06390722",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT06461897",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT06498167",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT06627335",
+      "drug": "RUXOLITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through RUXOLITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT06673654",
+      "drug": "RUXOLITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through RUXOLITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT06701331",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT06810050",
+      "drug": "TOFACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through TOFACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT06832618",
+      "drug": "RUXOLITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through RUXOLITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT06882148",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT06923228",
+      "drug": "RUXOLITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through RUXOLITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT06937788",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT07262983",
+      "drug": "BARICITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2"
+      ],
+      "why": "Reached only through BARICITINIB, whose mechanism record names JAK1, JAK2. A result on it does not isolate JAK2."
+     },
+     {
+      "nct_id": "NCT07448363",
+      "drug": "UPADACITINIB",
+      "named_targets": [
+       "JAK1",
+       "JAK2",
+       "JAK3",
+       "TYK2"
+      ],
+      "why": "Reached only through UPADACITINIB, whose mechanism record names JAK1, JAK2, JAK3, TYK2. A result on it does not isolate JAK2."
+     }
+    ],
+    "rule_model_disagreements": [],
+    "could_not_determine": [
+     "NCT02576938: Published only per-arm numbers with p-values for pairwise comparisons; rule forbids computing own comparisons from per-arm data.",
+     "NCT03334435: Published point estimates and CIs across multiple arms and timepoints but no direct arm-to-arm statistical comparisons in analyses.",
+     "NCT03531957: Published per-arm means for EASI change but no statistical analysis comparing treatment arms to placebo.",
+     "NCT03559270: Trial terminated for regulatory reasons rather than efficacy/futility; operational stop does not constitute efficacy evidence.",
+     "NCT03654755: Single-arm trial with no comparator; per-arm changes reported but no inter-arm comparisons available.",
+     "NCT04195698: Open-label extension study without primary efficacy outcomes; focused on safety signals in two active treatment arms.",
+     "NCT04246372: No comparator arm; primary outcomes are safety count and mechanistic interferon score; clinical polarity for benefit unclear.",
+     "NCT04839380: Single-arm study; baseline and day-2 change reported but no control group for comparison.",
+     "NCT05456529: Single-arm study; safety outcomes reported with no efficacy endpoint or control group.",
+     "NCT05507580: Published per-arm EASI90 percentages across four treatment groups but no statistical comparisons between arms reported."
+    ],
+    "could_not_check": [],
+    "evidence_cited": [
+     "CHEMBL1789941",
+     "CHEMBL1795071",
+     "CHEMBL2105759",
+     "CHEMBL221959",
+     "CHEMBL3622821",
+     "CHEMBL4297507",
+     "CHEMBL4594275",
+     "NCT02001181",
+     "NCT02576938",
+     "NCT02925117",
+     "NCT03011892",
+     "NCT03139981",
+     "NCT03257644",
+     "NCT03334396",
+     "NCT03334422",
+     "NCT03334435",
+     "NCT03358693",
+     "NCT03428100",
+     "NCT03435081",
+     "NCT03531957",
+     "NCT03559270",
+     "NCT03568318",
+     "NCT03569293",
+     "NCT03607422",
+     "NCT03646604",
+     "NCT03654755",
+     "NCT03661138",
+     "NCT03725722",
+     "NCT03733301",
+     "NCT03738397",
+     "NCT03745638",
+     "NCT03745651",
+     "NCT03826901",
+     "NCT03920852",
+     "NCT03952559",
+     "NCT04195698",
+     "NCT04246372",
+     "NCT04666675",
+     "NCT04839380",
+     "NCT04921969",
+     "NCT05034822",
+     "NCT05127421",
+     "NCT05456529",
+     "NCT05487963",
+     "NCT05507580",
+     "NCT05601882",
+     "NCT05969730",
+     "NCT06238817",
+     "NCT06389136",
+     "NCT06390722",
+     "NCT06461897",
+     "NCT06498167",
+     "NCT06627335",
+     "NCT06673654",
+     "NCT06701331",
+     "NCT06810050",
+     "NCT06832618",
+     "NCT06882148",
+     "NCT06923228",
+     "NCT06937788",
+     "NCT07262983",
+     "NCT07448363"
+    ],
+    "reachable_trials": 55,
+    "unresolved_sent_to_model": 13,
+    "rejections": [],
+    "model": "claude-haiku-4-5",
+    "input_tokens": 26536,
+    "output_tokens": 1797,
+    "tool_calls_made": 0
+   }
+  }
+ ]
+}

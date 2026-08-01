@@ -1,0 +1,3273 @@
+{
+ "atopic_dermatitis": {
+  "borrowed_from": null,
+  "rating": "NONE",
+  "refuse": false,
+  "disease": "atopic eczema",
+  "disease_id": "MONDO_0004980",
+  "assessed": 30,
+  "rows": [
+   {
+    "gene": "IL13",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "ACTIONABLE",
+    "confidence": "HIGH",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_ACTIONABLE",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 2,
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.407,
+     "genetic_association": 0.867,
+     "clinical": 0.972
+    }
+   },
+   {
+    "gene": "TNFSF4",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "ACTIONABLE",
+    "confidence": "HIGH",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_ACTIONABLE",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "1a": 2,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.201,
+     "genetic_association": 0.698,
+     "clinical": 0.638
+    }
+   },
+   {
+    "gene": "IL4R",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "ACTIONABLE",
+    "confidence": "HIGH",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_ACTIONABLE",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 2,
+     "5": 2,
+     "2": 1
+    },
+    "scores": {
+     "literature": 0.219,
+     "rna_expression": 0.033,
+     "genetic_association": 0.056,
+     "clinical": 0.984
+    }
+   },
+   {
+    "gene": "FLG",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 2,
+     "5": 2,
+     "4": 1
+    },
+    "scores": {
+     "rna_expression": 0.039,
+     "genetic_literature": 0.73,
+     "literature": 0.806,
+     "genetic_association": 0.925,
+     "animal_model": 0.415
+    }
+   },
+   {
+    "gene": "IL6R",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.086,
+     "genetic_association": 0.907
+    }
+   },
+   {
+    "gene": "IL7R",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 2
+    },
+    "scores": {
+     "literature": 0.093,
+     "rna_expression": 0.037,
+     "genetic_association": 0.903
+    }
+   },
+   {
+    "gene": "CYP24A1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.145,
+     "genetic_association": 0.86
+    }
+   },
+   {
+    "gene": "TESPA1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.03,
+     "genetic_association": 0.84
+    }
+   },
+   {
+    "gene": "DOK2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.84
+    }
+   },
+   {
+    "gene": "IL22",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1,
+     "1a": 1
+    },
+    "scores": {
+     "literature": 0.225,
+     "genetic_association": 0.837,
+     "clinical": 0.122
+    }
+   },
+   {
+    "gene": "NLRP10",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.061,
+     "genetic_association": 0.813
+    }
+   },
+   {
+    "gene": "PRKCQ",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 2
+    },
+    "scores": {
+     "literature": 0.03,
+     "rna_expression": 0.014,
+     "genetic_association": 0.804
+    }
+   },
+   {
+    "gene": "SATB1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.012,
+     "genetic_association": 0.765
+    }
+   },
+   {
+    "gene": "SERPINB7",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 2
+    },
+    "scores": {
+     "literature": 0.075,
+     "rna_expression": 0.095,
+     "genetic_association": 0.763
+    }
+   },
+   {
+    "gene": "BACH2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.036,
+     "genetic_association": 0.759
+    }
+   },
+   {
+    "gene": "CREB5",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "rna_expression": 0.014,
+     "genetic_association": 0.757
+    }
+   },
+   {
+    "gene": "AHR",
+    "position": "DOWNSTREAM",
+    "outcome": "ACTIONABLE",
+    "confidence": "HIGH",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_ACTIONABLE",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 2,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.318,
+     "clinical": 0.832
+    }
+   },
+   {
+    "gene": "IL31RA",
+    "position": "DOWNSTREAM",
+    "outcome": "ACTIONABLE",
+    "confidence": "HIGH",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_ACTIONABLE",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 2,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.097,
+     "clinical": 0.877
+    }
+   },
+   {
+    "gene": "JAK1",
+    "position": "DOWNSTREAM",
+    "outcome": "ACTIONABLE",
+    "confidence": "HIGH",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_ACTIONABLE",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 2,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.223,
+     "clinical": 0.973
+    }
+   },
+   {
+    "gene": "NR3C1",
+    "position": "DOWNSTREAM",
+    "outcome": "ACTIONABLE",
+    "confidence": "HIGH",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_ACTIONABLE",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 2,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.151,
+     "clinical": 0.997
+    }
+   },
+   {
+    "gene": "JAK2",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.097,
+     "clinical": 0.957
+    }
+   },
+   {
+    "gene": "JAK3",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 2
+    },
+    "scores": {
+     "literature": 0.089,
+     "rna_expression": 0.022,
+     "clinical": 0.946
+    }
+   },
+   {
+    "gene": "PDE4A",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.17,
+     "clinical": 0.977
+    }
+   },
+   {
+    "gene": "PDE4B",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.116,
+     "clinical": 0.977
+    }
+   },
+   {
+    "gene": "PDE4D",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.213,
+     "clinical": 0.977
+    }
+   },
+   {
+    "gene": "TYK2",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.199,
+     "clinical": 0.946
+    }
+   },
+   {
+    "gene": "FKBP1A",
+    "position": "DOWNSTREAM",
+    "outcome": "NOT_ACTIONABLE",
+    "confidence": "HIGH",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_NOT_ACTIONABLE",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 2,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.021,
+     "clinical": 0.987
+    }
+   },
+   {
+    "gene": "HRH1",
+    "position": "DOWNSTREAM",
+    "outcome": "NOT_ACTIONABLE",
+    "confidence": "HIGH",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_NOT_ACTIONABLE",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 2,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.172,
+     "clinical": 0.959
+    }
+   },
+   {
+    "gene": "SLC6A2",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.76
+    }
+   },
+   {
+    "gene": "PDE4C",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_4_symbol_ambiguous",
+    "evidence_class": "NOT_ASSESSABLE",
+    "tiers": {},
+    "scores": {}
+   }
+  ]
+ },
+ "hair_thinning": {
+  "borrowed_from": "Androgenetic alopecia",
+  "rating": "MODERATE",
+  "refuse": false,
+  "disease": "androgenetic alopecia",
+  "disease_id": "MONDO_0005339",
+  "assessed": 30,
+  "rows": [
+   {
+    "gene": "SRD5A2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "ACTIONABLE",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_ACTIONABLE",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 2,
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.079,
+     "genetic_association": 0.703,
+     "clinical": 0.976
+    }
+   },
+   {
+    "gene": "FGF5",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "4": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.134,
+     "animal_model": 0.446,
+     "genetic_association": 0.844
+    }
+   },
+   {
+    "gene": "RUNX1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.012,
+     "genetic_association": 0.828
+    }
+   },
+   {
+    "gene": "IRF4",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.015,
+     "genetic_association": 0.812
+    }
+   },
+   {
+    "gene": "EBF1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.012,
+     "genetic_association": 0.811
+    }
+   },
+   {
+    "gene": "TWIST2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.806
+    }
+   },
+   {
+    "gene": "TWIST1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.782
+    }
+   },
+   {
+    "gene": "WNT10A",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.041,
+     "genetic_association": 0.782
+    }
+   },
+   {
+    "gene": "TBX15",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.038,
+     "genetic_association": 0.774
+    }
+   },
+   {
+    "gene": "PRDM6",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.758
+    }
+   },
+   {
+    "gene": "FMN1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.757
+    }
+   },
+   {
+    "gene": "RSPO2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.757
+    }
+   },
+   {
+    "gene": "PAX3",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.038,
+     "genetic_association": 0.755
+    }
+   },
+   {
+    "gene": "HDAC9",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.073,
+     "genetic_association": 0.75
+    }
+   },
+   {
+    "gene": "DKK2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.747
+    }
+   },
+   {
+    "gene": "RUNX3",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.743
+    }
+   },
+   {
+    "gene": "PBX1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.739
+    }
+   },
+   {
+    "gene": "PDGFA",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.739
+    }
+   },
+   {
+    "gene": "GLIS1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.733
+    }
+   },
+   {
+    "gene": "SPAG17",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.73
+    }
+   },
+   {
+    "gene": "COMMD7",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.725
+    }
+   },
+   {
+    "gene": "RREB1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.719
+    }
+   },
+   {
+    "gene": "KLF15",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.709
+    }
+   },
+   {
+    "gene": "CEP112",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.707
+    }
+   },
+   {
+    "gene": "MRPS22",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.03,
+     "genetic_association": 0.703
+    }
+   },
+   {
+    "gene": "EYA4",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.703
+    }
+   },
+   {
+    "gene": "CIROZ",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.702
+    }
+   },
+   {
+    "gene": "AR",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.32,
+     "genetic_association": 0.604,
+     "clinical": 0.456
+    }
+   },
+   {
+    "gene": "SRD5A1",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.078,
+     "clinical": 0.828
+    }
+   },
+   {
+    "gene": "SRD5A3",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.023,
+     "clinical": 0.828
+    }
+   }
+  ]
+ },
+ "androgenetic_alopecia": {
+  "borrowed_from": null,
+  "rating": "NONE",
+  "refuse": false,
+  "disease": "androgenetic alopecia",
+  "disease_id": "MONDO_0005339",
+  "assessed": 30,
+  "rows": [
+   {
+    "gene": "SRD5A2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "ACTIONABLE",
+    "confidence": "HIGH",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_ACTIONABLE",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 2,
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.079,
+     "genetic_association": 0.703,
+     "clinical": 0.976
+    }
+   },
+   {
+    "gene": "FGF5",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "4": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.134,
+     "animal_model": 0.446,
+     "genetic_association": 0.844
+    }
+   },
+   {
+    "gene": "RUNX1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.012,
+     "genetic_association": 0.828
+    }
+   },
+   {
+    "gene": "IRF4",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.015,
+     "genetic_association": 0.812
+    }
+   },
+   {
+    "gene": "EBF1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.012,
+     "genetic_association": 0.811
+    }
+   },
+   {
+    "gene": "TWIST2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.806
+    }
+   },
+   {
+    "gene": "TWIST1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.782
+    }
+   },
+   {
+    "gene": "WNT10A",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.041,
+     "genetic_association": 0.782
+    }
+   },
+   {
+    "gene": "TBX15",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.038,
+     "genetic_association": 0.774
+    }
+   },
+   {
+    "gene": "PRDM6",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.758
+    }
+   },
+   {
+    "gene": "FMN1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.757
+    }
+   },
+   {
+    "gene": "RSPO2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.757
+    }
+   },
+   {
+    "gene": "PAX3",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.038,
+     "genetic_association": 0.755
+    }
+   },
+   {
+    "gene": "HDAC9",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.073,
+     "genetic_association": 0.75
+    }
+   },
+   {
+    "gene": "DKK2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.747
+    }
+   },
+   {
+    "gene": "RUNX3",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.743
+    }
+   },
+   {
+    "gene": "PBX1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.739
+    }
+   },
+   {
+    "gene": "PDGFA",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.739
+    }
+   },
+   {
+    "gene": "GLIS1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.733
+    }
+   },
+   {
+    "gene": "SPAG17",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.73
+    }
+   },
+   {
+    "gene": "COMMD7",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.725
+    }
+   },
+   {
+    "gene": "RREB1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.719
+    }
+   },
+   {
+    "gene": "KLF15",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.709
+    }
+   },
+   {
+    "gene": "CEP112",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.707
+    }
+   },
+   {
+    "gene": "MRPS22",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.03,
+     "genetic_association": 0.703
+    }
+   },
+   {
+    "gene": "EYA4",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.703
+    }
+   },
+   {
+    "gene": "CIROZ",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.702
+    }
+   },
+   {
+    "gene": "AR",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.32,
+     "genetic_association": 0.604,
+     "clinical": 0.456
+    }
+   },
+   {
+    "gene": "SRD5A1",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.078,
+     "clinical": 0.828
+    }
+   },
+   {
+    "gene": "SRD5A3",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.023,
+     "clinical": 0.828
+    }
+   }
+  ]
+ },
+ "uneven_tone": {
+  "borrowed_from": "Freckles / pigmented-spot genetics",
+  "rating": "MODERATE",
+  "refuse": false,
+  "disease": "freckles",
+  "disease_id": "EFO_0003963",
+  "assessed": 30,
+  "rows": [
+   {
+    "gene": "NF1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.07,
+     "genetic_association": 0.868
+    }
+   },
+   {
+    "gene": "IRF4",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.035,
+     "genetic_association": 0.708
+    }
+   },
+   {
+    "gene": "BNC2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.018,
+     "genetic_association": 0.655
+    }
+   },
+   {
+    "gene": "TYR",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.241,
+     "genetic_association": 0.552,
+     "clinical": 0.304
+    }
+   },
+   {
+    "gene": "MC1R",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "5": 1,
+     "2": 1
+    },
+    "scores": {
+     "literature": 0.568,
+     "genetic_association": 0.523
+    }
+   },
+   {
+    "gene": "SLC45A2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.118,
+     "genetic_association": 0.486
+    }
+   },
+   {
+    "gene": "PPARGC1B",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.478
+    }
+   },
+   {
+    "gene": "HSPA12A",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.417
+    }
+   },
+   {
+    "gene": "RAB11FIP2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.203
+    }
+   },
+   {
+    "gene": "EIF6",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.191
+    }
+   },
+   {
+    "gene": "NR3C1",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.018,
+     "clinical": 0.866
+    }
+   },
+   {
+    "gene": "PLG",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.143,
+     "clinical": 0.626
+    }
+   },
+   {
+    "gene": "MT-ND1",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.163
+    }
+   },
+   {
+    "gene": "MT-ND4L",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.163
+    }
+   },
+   {
+    "gene": "MT-ND5",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.163
+    }
+   },
+   {
+    "gene": "MT-ND6",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.163
+    }
+   },
+   {
+    "gene": "NDUFA1",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.163
+    }
+   },
+   {
+    "gene": "NDUFA6",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.163
+    }
+   },
+   {
+    "gene": "NDUFB2",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.163
+    }
+   },
+   {
+    "gene": "NDUFB6",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.163
+    }
+   },
+   {
+    "gene": "NDUFB8",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.163
+    }
+   },
+   {
+    "gene": "NDUFC1",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.163
+    }
+   },
+   {
+    "gene": "NDUFS2",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.163
+    }
+   },
+   {
+    "gene": "NDUFS5",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.163
+    }
+   },
+   {
+    "gene": "NDUFS7",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.163
+    }
+   },
+   {
+    "gene": "NDUFV1",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.163
+    }
+   },
+   {
+    "gene": "NDUFV2",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.163
+    }
+   },
+   {
+    "gene": "RARA",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.856
+    }
+   },
+   {
+    "gene": "RARB",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.856
+    }
+   },
+   {
+    "gene": "RARG",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.856
+    }
+   }
+  ]
+ },
+ "hyperpigmentation_via_vitiligo": {
+  "borrowed_from": "Vitiligo",
+  "rating": "LOW",
+  "refuse": true,
+  "disease": "vitiligo",
+  "disease_id": "MONDO_0008661",
+  "assessed": 30,
+  "rows": [
+   {
+    "gene": "TYR",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "4": 1,
+     "2": 1,
+     "5": 2,
+     "1a": 1
+    },
+    "scores": {
+     "rna_expression": 0.213,
+     "clinical": 0.608,
+     "literature": 0.694,
+     "genetic_association": 0.804,
+     "animal_model": 0.994
+    }
+   },
+   {
+    "gene": "MC1R",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "4": 1,
+     "2": 1,
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.338,
+     "animal_model": 0.888,
+     "genetic_association": 0.579,
+     "clinical": 0.482
+    }
+   },
+   {
+    "gene": "CD80",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1,
+     "1a": 1
+    },
+    "scores": {
+     "literature": 0.164,
+     "genetic_association": 0.486,
+     "clinical": 0.061
+    }
+   },
+   {
+    "gene": "JAK1",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.343,
+     "clinical": 0.843
+    }
+   },
+   {
+    "gene": "JAK2",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.13,
+     "clinical": 0.842
+    }
+   },
+   {
+    "gene": "JAK3",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.115,
+     "clinical": 0.66
+    }
+   },
+   {
+    "gene": "TYK2",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.052,
+     "clinical": 0.656
+    }
+   },
+   {
+    "gene": "BACH2",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.026,
+     "genetic_association": 0.764
+    }
+   },
+   {
+    "gene": "IRF4",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 2
+    },
+    "scores": {
+     "literature": 0.023,
+     "rna_expression": 0.041,
+     "genetic_association": 0.75
+    }
+   },
+   {
+    "gene": "C1QTNF6",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.012,
+     "genetic_association": 0.748
+    }
+   },
+   {
+    "gene": "PTPN22",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 2,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.531,
+     "genetic_association": 0.703,
+     "genetic_literature": 0.608
+    }
+   },
+   {
+    "gene": "LPP",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.023,
+     "genetic_association": 0.694
+    }
+   },
+   {
+    "gene": "SH2B3",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.07,
+     "genetic_association": 0.68
+    }
+   },
+   {
+    "gene": "IL2RA",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.342,
+     "genetic_association": 0.617
+    }
+   },
+   {
+    "gene": "UBASH3A",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.039,
+     "genetic_association": 0.615
+    }
+   },
+   {
+    "gene": "IFIH1",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.546,
+     "genetic_association": 0.614
+    }
+   },
+   {
+    "gene": "NLRP1",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "5": 1,
+     "2": 1
+    },
+    "scores": {
+     "literature": 0.719,
+     "genetic_literature": 0.608
+    }
+   },
+   {
+    "gene": "CPVL",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.015,
+     "genetic_association": 0.587
+    }
+   },
+   {
+    "gene": "GZMB",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.401,
+     "genetic_association": 0.55
+    }
+   },
+   {
+    "gene": "SLC1A2",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.122,
+     "genetic_association": 0.546
+    }
+   },
+   {
+    "gene": "ATXN1",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.523
+    }
+   },
+   {
+    "gene": "KL",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.523
+    }
+   },
+   {
+    "gene": "PDE1A",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.523
+    }
+   },
+   {
+    "gene": "PTPRC",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.056,
+     "genetic_association": 0.521
+    }
+   },
+   {
+    "gene": "FAP",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.513
+    }
+   },
+   {
+    "gene": "RNASET2",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "5": 1,
+     "2": 1
+    },
+    "scores": {
+     "literature": 0.636,
+     "genetic_association": 0.509
+    }
+   },
+   {
+    "gene": "SP3",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.496
+    }
+   },
+   {
+    "gene": "CTLA4",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "5": 1,
+     "2": 1
+    },
+    "scores": {
+     "literature": 0.572,
+     "genetic_association": 0.495
+    }
+   },
+   {
+    "gene": "FAAP24",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.49
+    }
+   },
+   {
+    "gene": "EDNRB",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_2_proxy_refused",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "4": 1,
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.212,
+     "animal_model": 0.918,
+     "genetic_association": 0.458
+    }
+   }
+  ]
+ },
+ "oily_skin": {
+  "borrowed_from": "Acne vulgaris",
+  "rating": "LOW",
+  "refuse": false,
+  "disease": "acne",
+  "disease_id": "MONDO_0011438",
+  "assessed": 30,
+  "rows": [
+   {
+    "gene": "SEMA4B",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.243,
+     "genetic_association": 0.724
+    }
+   },
+   {
+    "gene": "LAMC1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.705
+    }
+   },
+   {
+    "gene": "TIMP3",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.015,
+     "genetic_association": 0.667
+    }
+   },
+   {
+    "gene": "FST",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.13,
+     "genetic_association": 0.656
+    }
+   },
+   {
+    "gene": "WNT10A",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.191,
+     "genetic_association": 0.638
+    }
+   },
+   {
+    "gene": "LAMC2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.116,
+     "genetic_association": 0.629
+    }
+   },
+   {
+    "gene": "LYPLAL1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.582
+    }
+   },
+   {
+    "gene": "CSTA",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.213,
+     "genetic_association": 0.581
+    }
+   },
+   {
+    "gene": "TGFB2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.265,
+     "genetic_association": 0.557
+    }
+   },
+   {
+    "gene": "CDC42BPG",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.549
+    }
+   },
+   {
+    "gene": "TIMP4",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "5": 2,
+     "2": 1
+    },
+    "scores": {
+     "literature": 0.633,
+     "rna_expression": 0.014,
+     "genetic_association": 0.529
+    }
+   },
+   {
+    "gene": "PNPLA3",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 2
+    },
+    "scores": {
+     "literature": 0.065,
+     "rna_expression": 0.048,
+     "genetic_association": 0.525
+    }
+   },
+   {
+    "gene": "MYEOV",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.524
+    }
+   },
+   {
+    "gene": "NAV2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.503
+    }
+   },
+   {
+    "gene": "MOCS2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.497
+    }
+   },
+   {
+    "gene": "ESR1",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.476,
+     "clinical": 0.981
+    }
+   },
+   {
+    "gene": "MMP1",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 2
+    },
+    "scores": {
+     "literature": 0.312,
+     "rna_expression": 0.172,
+     "clinical": 0.992
+    }
+   },
+   {
+    "gene": "MMP13",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.053,
+     "clinical": 0.992
+    }
+   },
+   {
+    "gene": "NR3C1",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.17,
+     "clinical": 0.837
+    }
+   },
+   {
+    "gene": "NR3C2",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 2
+    },
+    "scores": {
+     "literature": 0.038,
+     "rna_expression": 0.041,
+     "clinical": 0.952
+    }
+   },
+   {
+    "gene": "PGR",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.018,
+     "clinical": 0.981
+    }
+   },
+   {
+    "gene": "RARA",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.073,
+     "clinical": 0.997
+    }
+   },
+   {
+    "gene": "RARB",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.024,
+     "clinical": 0.997
+    }
+   },
+   {
+    "gene": "RARG",
+    "position": "DOWNSTREAM",
+    "outcome": "UNKNOWN",
+    "confidence": "LOW",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.121,
+     "clinical": 0.997
+    }
+   },
+   {
+    "gene": "AR",
+    "position": "DOWNSTREAM",
+    "outcome": "NOT_ACTIONABLE",
+    "confidence": "LOW",
+    "rule_fired": "POS_DOWNSTREAM_NO_GENETICS+TGT_NOT_ACTIONABLE",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 2,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.424,
+     "clinical": 0.95
+    }
+   },
+   {
+    "gene": "ACACA",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.594
+    }
+   },
+   {
+    "gene": "ACACB",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.594
+    }
+   },
+   {
+    "gene": "MMP7",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.992
+    }
+   },
+   {
+    "gene": "MMP8",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.992
+    }
+   },
+   {
+    "gene": "PGA5",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.608
+    }
+   }
+  ]
+ },
+ "photoaging": {
+  "skipped": "no search term; the borrow was rejected",
+  "rating": "NONE",
+  "rows": []
+ },
+ "cosmetic_dry_skin": {
+  "borrowed_from": "Atopic dermatitis, restricted to FLG",
+  "rating": "MODERATE",
+  "refuse": false,
+  "disease": "Dry skin",
+  "disease_id": "HP_0000958",
+  "assessed": 30,
+  "rows": [
+   {
+    "gene": "FLG",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1,
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.302,
+     "genetic_association": 0.588
+    }
+   },
+   {
+    "gene": "DIPK1A",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.559
+    }
+   },
+   {
+    "gene": "RPL5",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.559
+    }
+   },
+   {
+    "gene": "PKD1",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.195
+    }
+   },
+   {
+    "gene": "HRNR",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.107
+    }
+   },
+   {
+    "gene": "FLG2",
+    "position": "UPSTREAM_DRIVER",
+    "outcome": "UNKNOWN",
+    "confidence": "MODERATE",
+    "rule_fired": "POS_UPSTREAM_GENETIC+TGT_UNKNOWN",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "2": 1
+    },
+    "scores": {
+     "genetic_association": 0.095
+    }
+   },
+   {
+    "gene": "NR3C1",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "POS_INSUFFICIENT",
+    "evidence_class": "TIER_1_OR_2",
+    "tiers": {
+     "1a": 1
+    },
+    "scores": {
+     "clinical": 0.426
+    }
+   },
+   {
+    "gene": "AKT1",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.091
+    }
+   },
+   {
+    "gene": "AQP3",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.083
+    }
+   },
+   {
+    "gene": "CASP3",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.061
+    }
+   },
+   {
+    "gene": "CD4",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.121
+    }
+   },
+   {
+    "gene": "CXCR3",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.188
+    }
+   },
+   {
+    "gene": "EGFR",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.159
+    }
+   },
+   {
+    "gene": "F2RL1",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.07
+    }
+   },
+   {
+    "gene": "GPT",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.074
+    }
+   },
+   {
+    "gene": "GRP",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.182
+    }
+   },
+   {
+    "gene": "GSDME",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.079
+    }
+   },
+   {
+    "gene": "HRH4",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.097
+    }
+   },
+   {
+    "gene": "IGHE",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.081
+    }
+   },
+   {
+    "gene": "IL33",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.113
+    }
+   },
+   {
+    "gene": "JAK1",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.079
+    }
+   },
+   {
+    "gene": "MLKL",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.076
+    }
+   },
+   {
+    "gene": "RIPK3",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.076
+    }
+   },
+   {
+    "gene": "TAC1",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.101
+    }
+   },
+   {
+    "gene": "TMEM100",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.152
+    }
+   },
+   {
+    "gene": "TRPM8",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.122
+    }
+   },
+   {
+    "gene": "TRPV1",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.107
+    }
+   },
+   {
+    "gene": "TRPV4",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.135
+    }
+   },
+   {
+    "gene": "TSLP",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.106
+    }
+   },
+   {
+    "gene": "WNK2",
+    "position": "INSUFFICIENT",
+    "outcome": "UNKNOWN",
+    "confidence": null,
+    "rule_fired": "ABSTAIN_5_literature_only",
+    "evidence_class": "EXPRESSION_OR_LITERATURE_ONLY",
+    "tiers": {
+     "5": 1
+    },
+    "scores": {
+     "literature": 0.067
+    }
+   }
+  ]
+ }
+}

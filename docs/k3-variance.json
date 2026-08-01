@@ -1,0 +1,571 @@
+{
+ "model": "claude-haiku-4-5",
+ "k": 3,
+ "cases": {
+  "AHR x atopic dermatitis": {
+   "kind": "on the floor, 2 of 3",
+   "k": 3,
+   "runs": [
+    {
+     "read": "BENEFIT",
+     "consensus": "DECIDED",
+     "split": "3 readable trial(s): 2 BENEFIT, 1 NO_BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "NO_BENEFIT": 1,
+      "BENEFIT": 2
+     },
+     "share": 0.6666666666666666,
+     "readable_ids": [
+      "NCT02564055",
+      "NCT05014568",
+      "NCT05032859"
+     ],
+     "readable": 3,
+     "model_read": 2,
+     "reachable": 12,
+     "unresolved_sent": 2
+    },
+    {
+     "read": "BENEFIT",
+     "consensus": "DECIDED",
+     "split": "3 readable trial(s): 2 BENEFIT, 1 NO_BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "NO_BENEFIT": 1,
+      "BENEFIT": 2
+     },
+     "share": 0.6666666666666666,
+     "readable_ids": [
+      "NCT02564055",
+      "NCT05014568",
+      "NCT05032859"
+     ],
+     "readable": 3,
+     "model_read": 2,
+     "reachable": 12,
+     "unresolved_sent": 2
+    },
+    {
+     "read": "BENEFIT",
+     "consensus": "DECIDED",
+     "split": "3 readable trial(s): 2 BENEFIT, 1 NO_BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "NO_BENEFIT": 1,
+      "BENEFIT": 2
+     },
+     "share": 0.6666666666666666,
+     "readable_ids": [
+      "NCT02564055",
+      "NCT05014568",
+      "NCT05032859"
+     ],
+     "readable": 3,
+     "model_read": 2,
+     "reachable": 12,
+     "unresolved_sent": 2
+    }
+   ],
+   "verdict_varies": false,
+   "consensus_varies": false,
+   "split_varies": false,
+   "distinct_readable_sets": 1,
+   "crosses_floor": false
+  },
+  "TNFRSF4 x atopic dermatitis": {
+   "kind": "on the floor, 2 of 3",
+   "k": 3,
+   "runs": [
+    {
+     "read": "BENEFIT",
+     "consensus": "DECIDED",
+     "split": "5 readable trial(s): 4 BENEFIT, 1 NO_BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "BENEFIT": 4,
+      "NO_BENEFIT": 1
+     },
+     "share": 0.8,
+     "readable_ids": [
+      "NCT03568162",
+      "NCT03703102",
+      "NCT05398445",
+      "NCT05651711",
+      "NCT05899816"
+     ],
+     "readable": 5,
+     "model_read": 4,
+     "reachable": 16,
+     "unresolved_sent": 4
+    },
+    {
+     "read": "BENEFIT",
+     "consensus": "DECIDED",
+     "split": "5 readable trial(s): 4 BENEFIT, 1 NO_BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "BENEFIT": 4,
+      "NO_BENEFIT": 1
+     },
+     "share": 0.8,
+     "readable_ids": [
+      "NCT03568162",
+      "NCT03703102",
+      "NCT05398445",
+      "NCT05651711",
+      "NCT05899816"
+     ],
+     "readable": 5,
+     "model_read": 4,
+     "reachable": 16,
+     "unresolved_sent": 4
+    },
+    {
+     "read": "BENEFIT",
+     "consensus": "DECIDED",
+     "split": "5 readable trial(s): 4 BENEFIT, 1 NO_BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "BENEFIT": 4,
+      "NO_BENEFIT": 1
+     },
+     "share": 0.8,
+     "readable_ids": [
+      "NCT03568162",
+      "NCT03703102",
+      "NCT05398445",
+      "NCT05651711",
+      "NCT05899816"
+     ],
+     "readable": 5,
+     "model_read": 4,
+     "reachable": 16,
+     "unresolved_sent": 4
+    }
+   ],
+   "verdict_varies": false,
+   "consensus_varies": false,
+   "split_varies": false,
+   "distinct_readable_sets": 1,
+   "crosses_floor": false
+  },
+  "IL4R x atopic dermatitis": {
+   "kind": "lopsided",
+   "k": 3,
+   "runs": [
+    {
+     "read": "BENEFIT",
+     "consensus": "DECIDED",
+     "split": "21 readable trial(s): 19 BENEFIT, 2 WORSE.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "BENEFIT": 19,
+      "WORSE": 2
+     },
+     "share": 0.9047619047619048,
+     "readable_ids": [
+      "NCT01548404",
+      "NCT01859988",
+      "NCT01979016",
+      "NCT02260986",
+      "NCT02277743",
+      "NCT02277769",
+      "NCT02395133",
+      "NCT02755649",
+      "NCT03054428",
+      "NCT03345914",
+      "NCT03346434",
+      "NCT03389893",
+      "NCT03720470",
+      "NCT03736967",
+      "NCT03738397",
+      "NCT03912259",
+      "NCT04033367",
+      "NCT04345367",
+      "NCT04447417",
+      "NCT04791319",
+      "NCT05601882"
+     ],
+     "readable": 21,
+     "model_read": 18,
+     "reachable": 85,
+     "unresolved_sent": 18
+    },
+    {
+     "read": "BENEFIT",
+     "consensus": "DECIDED",
+     "split": "20 readable trial(s): 18 BENEFIT, 2 WORSE.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "BENEFIT": 18,
+      "WORSE": 2
+     },
+     "share": 0.9,
+     "readable_ids": [
+      "NCT01548404",
+      "NCT01859988",
+      "NCT01979016",
+      "NCT02260986",
+      "NCT02277743",
+      "NCT02277769",
+      "NCT02395133",
+      "NCT02755649",
+      "NCT03054428",
+      "NCT03345914",
+      "NCT03346434",
+      "NCT03720470",
+      "NCT03738397",
+      "NCT03912259",
+      "NCT04033367",
+      "NCT04345367",
+      "NCT04447417",
+      "NCT04791319",
+      "NCT05590585",
+      "NCT05601882"
+     ],
+     "readable": 20,
+     "model_read": 18,
+     "reachable": 85,
+     "unresolved_sent": 18
+    },
+    {
+     "read": "BENEFIT",
+     "consensus": "DECIDED",
+     "split": "21 readable trial(s): 19 BENEFIT, 2 WORSE.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "BENEFIT": 19,
+      "WORSE": 2
+     },
+     "share": 0.9047619047619048,
+     "readable_ids": [
+      "NCT01548404",
+      "NCT01859988",
+      "NCT01979016",
+      "NCT02260986",
+      "NCT02277743",
+      "NCT02277769",
+      "NCT02395133",
+      "NCT02755649",
+      "NCT03054428",
+      "NCT03345914",
+      "NCT03346434",
+      "NCT03389893",
+      "NCT03720470",
+      "NCT03736967",
+      "NCT03738397",
+      "NCT03912259",
+      "NCT04033367",
+      "NCT04345367",
+      "NCT04447417",
+      "NCT04791319",
+      "NCT05601882"
+     ],
+     "readable": 21,
+     "model_read": 18,
+     "reachable": 85,
+     "unresolved_sent": 18
+    }
+   ],
+   "verdict_varies": false,
+   "consensus_varies": false,
+   "split_varies": true,
+   "distinct_readable_sets": 2,
+   "crosses_floor": false
+  },
+  "IL13 x atopic dermatitis": {
+   "kind": "lopsided",
+   "k": 3,
+   "runs": [
+    {
+     "read": "BENEFIT",
+     "consensus": "DECIDED",
+     "split": "14 readable trial(s): 13 BENEFIT, 1 NO_BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "BENEFIT": 13,
+      "NO_BENEFIT": 1
+     },
+     "share": 0.9285714285714286,
+     "readable_ids": [
+      "NCT02347176",
+      "NCT03131648",
+      "NCT03160885",
+      "NCT03363854",
+      "NCT03443024",
+      "NCT03526861",
+      "NCT03761537",
+      "NCT04146363",
+      "NCT04178967",
+      "NCT04250337",
+      "NCT04587453",
+      "NCT04760314",
+      "NCT04800315",
+      "NCT05149313"
+     ],
+     "readable": 14,
+     "model_read": 14,
+     "reachable": 55,
+     "unresolved_sent": 14
+    },
+    {
+     "read": "BENEFIT",
+     "consensus": "DECIDED",
+     "split": "14 readable trial(s): 13 BENEFIT, 1 NO_BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "BENEFIT": 13,
+      "NO_BENEFIT": 1
+     },
+     "share": 0.9285714285714286,
+     "readable_ids": [
+      "NCT02347176",
+      "NCT03131648",
+      "NCT03160885",
+      "NCT03363854",
+      "NCT03443024",
+      "NCT03526861",
+      "NCT03761537",
+      "NCT04146363",
+      "NCT04178967",
+      "NCT04250337",
+      "NCT04587453",
+      "NCT04760314",
+      "NCT04800315",
+      "NCT05149313"
+     ],
+     "readable": 14,
+     "model_read": 14,
+     "reachable": 55,
+     "unresolved_sent": 14
+    },
+    {
+     "read": "BENEFIT",
+     "consensus": "DECIDED",
+     "split": "14 readable trial(s): 13 BENEFIT, 1 NO_BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "BENEFIT": 13,
+      "NO_BENEFIT": 1
+     },
+     "share": 0.9285714285714286,
+     "readable_ids": [
+      "NCT02347176",
+      "NCT03131648",
+      "NCT03160885",
+      "NCT03363854",
+      "NCT03443024",
+      "NCT03526861",
+      "NCT03761537",
+      "NCT04146363",
+      "NCT04178967",
+      "NCT04250337",
+      "NCT04587453",
+      "NCT04760314",
+      "NCT04800315",
+      "NCT05149313"
+     ],
+     "readable": 14,
+     "model_read": 14,
+     "reachable": 55,
+     "unresolved_sent": 14
+    }
+   ],
+   "verdict_varies": false,
+   "consensus_varies": false,
+   "split_varies": false,
+   "distinct_readable_sets": 1,
+   "crosses_floor": false
+  },
+  "SRD5A2 x androgenetic alopecia": {
+   "kind": "demo opener",
+   "k": 3,
+   "runs": [
+    {
+     "read": "BENEFIT",
+     "consensus": "UNANIMOUS",
+     "split": "2 readable trial(s): 2 BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "BENEFIT": 2
+     },
+     "share": 1.0,
+     "readable_ids": [
+      "NCT01231607",
+      "NCT03004469"
+     ],
+     "readable": 2,
+     "model_read": 1,
+     "reachable": 29,
+     "unresolved_sent": 2
+    },
+    {
+     "read": "BENEFIT",
+     "consensus": "UNANIMOUS",
+     "split": "2 readable trial(s): 2 BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "BENEFIT": 2
+     },
+     "share": 1.0,
+     "readable_ids": [
+      "NCT01231607",
+      "NCT03004469"
+     ],
+     "readable": 2,
+     "model_read": 1,
+     "reachable": 29,
+     "unresolved_sent": 2
+    },
+    {
+     "read": "BENEFIT",
+     "consensus": "UNANIMOUS",
+     "split": "2 readable trial(s): 2 BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "BENEFIT": 2
+     },
+     "share": 1.0,
+     "readable_ids": [
+      "NCT01231607",
+      "NCT03004469"
+     ],
+     "readable": 2,
+     "model_read": 1,
+     "reachable": 29,
+     "unresolved_sent": 2
+    }
+   ],
+   "verdict_varies": false,
+   "consensus_varies": false,
+   "split_varies": false,
+   "distinct_readable_sets": 1,
+   "crosses_floor": false
+  },
+  "IL17A x oily skin": {
+   "kind": "demo passenger",
+   "k": 3,
+   "runs": [
+    {
+     "read": "NO_BENEFIT",
+     "consensus": "UNANIMOUS",
+     "split": "1 readable trial(s): 1 NO_BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "NO_BENEFIT": 1
+     },
+     "share": 1.0,
+     "readable_ids": [
+      "NCT02998671"
+     ],
+     "readable": 1,
+     "model_read": 0,
+     "reachable": 2,
+     "unresolved_sent": 0
+    },
+    {
+     "read": "NO_BENEFIT",
+     "consensus": "UNANIMOUS",
+     "split": "1 readable trial(s): 1 NO_BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "NO_BENEFIT": 1
+     },
+     "share": 1.0,
+     "readable_ids": [
+      "NCT02998671"
+     ],
+     "readable": 1,
+     "model_read": 0,
+     "reachable": 2,
+     "unresolved_sent": 0
+    },
+    {
+     "read": "NO_BENEFIT",
+     "consensus": "UNANIMOUS",
+     "split": "1 readable trial(s): 1 NO_BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "NO_BENEFIT": 1
+     },
+     "share": 1.0,
+     "readable_ids": [
+      "NCT02998671"
+     ],
+     "readable": 1,
+     "model_read": 0,
+     "reachable": 2,
+     "unresolved_sent": 0
+    }
+   ],
+   "verdict_varies": false,
+   "consensus_varies": false,
+   "split_varies": false,
+   "distinct_readable_sets": 1,
+   "crosses_floor": false
+  },
+  "PTGDR2 x hair thinning": {
+   "kind": "demo passenger",
+   "k": 3,
+   "runs": [
+    {
+     "read": "NO_BENEFIT",
+     "consensus": "UNANIMOUS",
+     "split": "1 readable trial(s): 1 NO_BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "NO_BENEFIT": 1
+     },
+     "share": 1.0,
+     "readable_ids": [
+      "NCT02781311"
+     ],
+     "readable": 1,
+     "model_read": 0,
+     "reachable": 1,
+     "unresolved_sent": 0
+    },
+    {
+     "read": "NO_BENEFIT",
+     "consensus": "UNANIMOUS",
+     "split": "1 readable trial(s): 1 NO_BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "NO_BENEFIT": 1
+     },
+     "share": 1.0,
+     "readable_ids": [
+      "NCT02781311"
+     ],
+     "readable": 1,
+     "model_read": 0,
+     "reachable": 1,
+     "unresolved_sent": 0
+    },
+    {
+     "read": "NO_BENEFIT",
+     "consensus": "UNANIMOUS",
+     "split": "1 readable trial(s): 1 NO_BENEFIT.",
+     "state": "TESTED_REPORTED",
+     "tally": {
+      "NO_BENEFIT": 1
+     },
+     "share": 1.0,
+     "readable_ids": [
+      "NCT02781311"
+     ],
+     "readable": 1,
+     "model_read": 0,
+     "reachable": 1,
+     "unresolved_sent": 0
+    }
+   ],
+   "verdict_varies": false,
+   "consensus_varies": false,
+   "split_varies": false,
+   "distinct_readable_sets": 1,
+   "crosses_floor": false
+  }
+ }
+}

@@ -1,0 +1,1166 @@
+{
+ "generated_for": "open item 1, enrolment on the disagreeing pairs",
+ "conditions": [
+  "acne",
+  "androgenetic alopecia",
+  "alopecia areata",
+  "atopic dermatitis",
+  "vitiligo",
+  "melasma",
+  "rosacea",
+  "photoaging"
+ ],
+ "pairs_considered": 131,
+ "trials_fetched": 576,
+ "trials_with_results": 188,
+ "trials_deterministic": 59,
+ "deterministic_without_enrollment": [],
+ "summary": {
+  "multi_readable_pairs": 10,
+  "multi_readable_signatures": 10,
+  "disagreeing_pairs": 5,
+  "disagreeing_signatures": 5,
+  "units_disagree": 0,
+  "tied_on_count": 0,
+  "tied_on_enrollment": 0
+ },
+ "pairs": [
+  {
+   "gene": "IL4R",
+   "condition": "atopic dermatitis",
+   "trials_linked": 74,
+   "trials_readable": 14,
+   "reads": [
+    "BENEFIT",
+    "WORSE"
+   ],
+   "disagrees": true,
+   "by_count": "BENEFIT",
+   "count_tally": {
+    "BENEFIT": 12.0,
+    "WORSE": 2.0
+   },
+   "by_enrollment": "BENEFIT",
+   "enrollment_tally": {
+    "BENEFIT": 6452.0,
+    "WORSE": 419.0
+   },
+   "units_agree": true,
+   "total_enrollment": 6871,
+   "winner_enrollment_share": 0.939,
+   "trials": [
+    {
+     "nct_id": "NCT01859988",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect -55.7 excludes the null value 0, and for 'Percent Change in Eczema Area and Severity Index Score (EASI) From Baseline to Week 16' lower is better.",
+     "enrollment": 380,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE2"
+     ],
+     "brief_title": "Study of Dupilumab Administered to Adult Patients With Moderate-to-Severe Atopic Dermatitis",
+     "primary_titles": [
+      "Percent Change in Eczema Area and Severity Index Score (EASI) From Baseline to Week 16"
+     ],
+     "drug": "DUPILUMAB"
+    },
+    {
+     "nct_id": "NCT01979016",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect -69.4 excludes the null value 0, and for 'Percent Change From Baseline in the Eczema Area Severity Index Score (EASI) to Week 16' lower is better.",
+     "enrollment": 54,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE2"
+     ],
+     "brief_title": "Study to Determine the Safety and Effectiveness of Dupilumab for Treatment of Atopic Dermatitis (AD)",
+     "primary_titles": [
+      "Percent Change From Baseline in the Eczema Area Severity Index Score (EASI) to Week 16"
+     ],
+     "drug": "DUPILUMAB"
+    },
+    {
+     "nct_id": "NCT02260986",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 26.3 excludes the null value 0, and for 'Percentage of Participants With Investigator\\'s Global Assessment (IGA) Score of \"0\" or \"1\" and Reduction From Baseline of \u22652 Points at Week 16' higher is better.",
+     "enrollment": 740,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Study to Assess the Efficacy and Long-term Safety of Dupilumab (REGN668/SAR231893) in Adult Participants With Moderate-to-Severe Atopic Dermatitis",
+     "primary_titles": [
+      "Percentage of Participants With Investigator's Global Assessment (IGA) Score of \"0\" or \"1\" and Reduction From Baseline of \u22652 Points at Week 16"
+     ],
+     "drug": "DUPILUMAB"
+    },
+    {
+     "nct_id": "NCT02277743",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 27.7 excludes the null value 0, and for 'Percentage of Participants With Investigator\\'s Global Assessment (IGA) Score of \"0\" or \"1\" and Reduction From Baseline of \u22652 Points at Week 16' higher is better.",
+     "enrollment": 671,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Study of Dupilumab Monotherapy Administered to Adult Patients With Moderate-to-Severe Atopic Dermatitis",
+     "primary_titles": [
+      "Percentage of Participants With Investigator's Global Assessment (IGA) Score of \"0\" or \"1\" and Reduction From Baseline of \u22652 Points at Week 16"
+     ],
+     "drug": "DUPILUMAB"
+    },
+    {
+     "nct_id": "NCT02277769",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 27.6 excludes the null value 0, and for 'Percentage of Participants With Investigator\\'s Global Assessment (IGA) Score of \"0\" or \"1\" and Reduction From Baseline of \u22652 Points at Week 16' higher is better.",
+     "enrollment": 708,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Study of Dupilumab (REGN668/SAR231893) Monotherapy Administered to Adult Patients With Moderate-to-Severe Atopic Dermatitis",
+     "primary_titles": [
+      "Percentage of Participants With Investigator's Global Assessment (IGA) Score of \"0\" or \"1\" and Reduction From Baseline of \u22652 Points at Week 16"
+     ],
+     "drug": "DUPILUMAB"
+    },
+    {
+     "nct_id": "NCT02755649",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 29.5 excludes the null value 0, and for 'Percentage of Participants With Eczema Area and Severity Index (EASI) 75 (\u226575% Improvement From Baseline) at Week 16' higher is better.",
+     "enrollment": 325,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "A Study to Assess the Efficacy and Safety of Dupilumab in Participants With Severe Atopic Dermatitis (AD) That Are Not Controlled With Oral Cyclosporine A (CSA) or for Those Who Cannot Take Oral CSA Because it is Not Medically Advisable",
+     "primary_titles": [
+      "Percentage of Participants With Eczema Area and Severity Index (EASI) 75 (\u226575% Improvement From Baseline) at Week 16"
+     ],
+     "drug": "DUPILUMAB"
+    },
+    {
+     "nct_id": "NCT03054428",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 22 excludes the null value 0, and for \"Percentage of Participants With Investigator's Global Assessment (IGA) 0 or 1 (and Reduction From Baseline of \u22652 Points) at Week 16\" higher is better.",
+     "enrollment": 251,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Efficacy and Safety of Dupilumab in Participants \u226512 to <18 Years of Age, With Moderate-to-severe Atopic Dermatitis",
+     "primary_titles": [
+      "Percentage of Participants With Investigator's Global Assessment (IGA) 0 or 1 (and Reduction From Baseline of \u22652 Points) at Week 16",
+      "Percentage of Participants With Eczema Area and Severity Index (EASI)-75 (\u226575% Improvement From Baseline) at Week 16"
+     ],
+     "drug": "DUPILUMAB"
+    },
+    {
+     "nct_id": "NCT03345914",
+     "read": "WORSE",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 18.1 excludes the null value 0, and for \"Percentage of Participants With Investigator's Global Assessment (IGA) 0 or 1 at Week 16\" lower is better.",
+     "enrollment": 367,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Study to Investigate the Efficacy and Safety of Dupilumab Administered With Topical Corticosteroids (TCS) in Participants \u22656 to <12 Years With Severe Atopic Dermatitis (AD)",
+     "primary_titles": [
+      "Percentage of Participants With Investigator's Global Assessment (IGA) 0 or 1 at Week 16"
+     ],
+     "drug": "DUPILUMAB"
+    },
+    {
+     "nct_id": "NCT03720470",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 23.1 excludes the null value 0, and for \"Percentage of Participants Achieving Investigator's Global Assessment (IGA) Response of Clear (0) or Almost Clear (1) and a Reduction of Greater Than or Equal to (>=) 2 Points From Baseline at Week 12\" higher is better.",
+     "enrollment": 838,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Study Evaluating Efficacy and Safety of PF-04965842 and Dupilumab in Adult Subjects With Moderate to Severe Atopic Dermatitis on Background Topical Therapy",
+     "primary_titles": [
+      "Percentage of Participants Achieving Investigator's Global Assessment (IGA) Response of Clear (0) or Almost Clear (1) and a Reduction of Greater Than or Equal to (>=) 2 Points From Baseline at Week 12",
+      "Percentage of Participants Achieving Eczema Area and Severity Index (EASI) Response >=75 Percent (%) Improvement From Baseline at Week 12"
+     ],
+     "drug": "DUPILUMAB"
+    },
+    {
+     "nct_id": "NCT03738397",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 9.7 excludes the null value 0, and for 'Percentage of Participants Achieving a 75% Reduction From Baseline in Eczema Area and Severity Index Score (EASI 75) at Week 16' higher is better.",
+     "enrollment": 673,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "A Study to Compare Safety and Efficacy of Upadacitinib to Dupilumab in Adult Participants With Moderate to Severe Atopic Dermatitis",
+     "primary_titles": [
+      "Percentage of Participants Achieving a 75% Reduction From Baseline in Eczema Area and Severity Index Score (EASI 75) at Week 16"
+     ],
+     "drug": "DUPILUMAB"
+    },
+    {
+     "nct_id": "NCT03912259",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 22.0 excludes the null value 0, and for 'Number of Participants With Investigator\\'s Global Assessment (IGA) Score of \"0\" or \"1\" and Reduction From Baseline of Greater Than or Equal to (>=) 2 Points at Week 16' higher is better.",
+     "enrollment": 165,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Evaluation of Dupilumab in Chinese Adult Patients With Moderate to Severe Atopic Dermatitis",
+     "primary_titles": [
+      "Number of Participants With Investigator's Global Assessment (IGA) Score of \"0\" or \"1\" and Reduction From Baseline of Greater Than or Equal to (>=) 2 Points at Week 16"
+     ],
+     "drug": "DUPILUMAB"
+    },
+    {
+     "nct_id": "NCT04345367",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 22.6 excludes the null value 0, and for 'Percentage of Participants Achieving Greater Than or Equal to (>=) 4 Points Improvement in Peak Pruritus Numerical Rating Scale (PP-NRS4) From Baseline at Week 2' higher is better.",
+     "enrollment": 727,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Study of Abrocitinib Compared With Dupilumab in Adults With Moderate to Severe Atopic Dermatitis on Background Topical Therapy",
+     "primary_titles": [
+      "Percentage of Participants Achieving Greater Than or Equal to (>=) 4 Points Improvement in Peak Pruritus Numerical Rating Scale (PP-NRS4) From Baseline at Week 2",
+      "Percentage of Participants Achieving >= 90% Improvement From Baseline in Eczema Area and Severity Index (EASI-90) Response at Week 4"
+     ],
+     "drug": "DUPILUMAB"
+    },
+    {
+     "nct_id": "NCT04447417",
+     "read": "WORSE",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 0.43 excludes the null value 0, and for 'Percent Change From Baseline in Transepidermal Water Loss After 5 Skin Tape Stripping (STS) on Lesional Skin (LS) in AD Patients at Week 16' lower is better.",
+     "enrollment": 52,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE4"
+     ],
+     "brief_title": "Dupilumab Skin Barrier Function Study in Atopic Dermatitis",
+     "primary_titles": [
+      "Percent Change From Baseline in Transepidermal Water Loss After 5 Skin Tape Stripping (STS) on Lesional Skin (LS) in AD Patients at Week 16"
+     ],
+     "drug": "DUPILUMAB"
+    },
+    {
+     "nct_id": "NCT05601882",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 11.0 excludes the null value 0, and for 'Percentage of Participants Achieving a \u2265 90% Reduction From Baseline in Eczema Area and Severity Index Score (EASI 90) and Worst Pruritus Numerical Rating Scale of 0 or 1 (WP-NRS 0/1) at Week 16' higher is better.",
+     "enrollment": 920,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "A Study to Evaluate Adverse Events and Change in Disease Activity Comparing Oral Upadacitinib to Subcutaneous Dupilumab in Adolescent and Adult Participants With Moderate to Severe Atopic Dermatitis",
+     "primary_titles": [
+      "Percentage of Participants Achieving a \u2265 90% Reduction From Baseline in Eczema Area and Severity Index Score (EASI 90) and Worst Pruritus Numerical Rating Scale of 0 or 1 (WP-NRS 0/1) at Week 16"
+     ],
+     "drug": "DUPILUMAB"
+    }
+   ],
+   "signature": "NCT01859988|NCT01979016|NCT02260986|NCT02277743|NCT02277769|NCT02755649|NCT03054428|NCT03345914|NCT03720470|NCT03738397|NCT03912259|NCT04345367|NCT04447417|NCT05601882"
+  },
+  {
+   "gene": "FKBP1A",
+   "condition": "atopic dermatitis",
+   "trials_linked": 64,
+   "trials_readable": 2,
+   "reads": [
+    "NO_BENEFIT"
+   ],
+   "disagrees": false,
+   "by_count": "NO_BENEFIT",
+   "count_tally": {
+    "NO_BENEFIT": 2.0
+   },
+   "by_enrollment": "NO_BENEFIT",
+   "enrollment_tally": {
+    "NO_BENEFIT": 746.0
+   },
+   "units_agree": true,
+   "total_enrollment": 746,
+   "winner_enrollment_share": 1.0,
+   "trials": [
+    {
+     "nct_id": "NCT03107611",
+     "read": "NO_BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "p = 0.0817 does not reach 0.05.",
+     "enrollment": 654,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Bioequivalence Study of Pimecrolimus Cream, 1% and Elidel\u00ae Cream, 1% in Mild to Moderate Atopic Dermatitis",
+     "primary_titles": [
+      "Proportion of Modified Intent to Treat Subjects With Success on Investigator's Global Assessment of Disease Severity (Success Being a Score of Clear [0] or Almost Clear [1])",
+      "Proportion of Per Protocol Subjects With Success on Investigator's Global Assessment of Disease Severity (Success Being a Score of Clear [0] or Almost Clear [1])"
+     ],
+     "drug": "PIMECROLIMUS"
+    },
+    {
+     "nct_id": "NCT03645057",
+     "read": "NO_BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "p = 0.433 does not reach 0.05.",
+     "enrollment": 92,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "ASPIRE: PROs & Caregiver Burden in Children With Atopic Dermatitis",
+     "primary_titles": [
+      "Mean Change in Children's PROMIS Pediatric Itch Short-Form",
+      "Mean Change in PROMIS Pain Interference-Children (Adaptive Test)"
+     ],
+     "drug": "TACROLIMUS"
+    }
+   ],
+   "signature": "NCT03107611|NCT03645057"
+  },
+  {
+   "gene": "NR3C1",
+   "condition": "atopic dermatitis",
+   "trials_linked": 61,
+   "trials_readable": 4,
+   "reads": [
+    "BENEFIT"
+   ],
+   "disagrees": false,
+   "by_count": "BENEFIT",
+   "count_tally": {
+    "BENEFIT": 4.0
+   },
+   "by_enrollment": "BENEFIT",
+   "enrollment_tally": {
+    "BENEFIT": 2403.0
+   },
+   "units_agree": true,
+   "total_enrollment": 2403,
+   "winner_enrollment_share": 1.0,
+   "trials": [
+    {
+     "nct_id": "NCT03011892",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect -59.66 excludes the null value 0, and for 'Mean Percentage Change From Baseline in Eczema Area and Severity Index (EASI) Score at Week 4 in Participants Treated With Ruxolitinib 1.5% Cream Twice a Day (BID) Compared With Participants Treated With Vehicle Cream BID' lower is better.",
+     "enrollment": 307,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE2"
+     ],
+     "brief_title": "A Study to Evaluate the Safety and Efficacy of Ruxolitinib Phosphate Cream Applied Topically to Adults With Atopic Dermatitis",
+     "primary_titles": [
+      "Mean Percentage Change From Baseline in Eczema Area and Severity Index (EASI) Score at Week 4 in Participants Treated With Ruxolitinib 1.5% Cream Twice a Day (BID) Compared With Participants Treated With Vehicle Cream BID"
+     ],
+     "drug": "TRIAMCINOLONE"
+    },
+    {
+     "nct_id": "NCT03568318",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 50.6 excludes the null value 0, and for 'Main Study: Percentage of Participants Achieving at Least a 75% Reduction in Eczema Area and Severity Index Score (EASI 75) From Baseline at Week 16' higher is better.",
+     "enrollment": 1533,
+     "enrollment_type": "ACTUAL",
+     "status": "ACTIVE_NOT_RECRUITING",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "A Study to Evaluate Upadacitinib in Combination With Topical Corticosteroids in Adolescent and Adult Participants With Moderate to Severe Atopic Dermatitis",
+     "primary_titles": [
+      "Main Study: Percentage of Participants Achieving at Least a 75% Reduction in Eczema Area and Severity Index Score (EASI 75) From Baseline at Week 16",
+      "Main Study: Percentage of Participants Achieving Validated Investigator Global Assessment for Atopic Dermatitis (vIGA-AD) of 0 or 1 With a Reduction From Baseline of \u2265 2 Points at Week 16"
+     ],
+     "drug": "TRIAMCINOLONE"
+    },
+    {
+     "nct_id": "NCT03761537",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 14.1 excludes the null value 0, and for 'At Least 75% Reduction in Eczema Area and Severity Index (EASI75) From Week 0 to Week 16' higher is better.",
+     "enrollment": 277,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Tralokinumab in Combination With Topical Corticosteroids in Subjects With Severe Atopic Dermatitis - ECZTRA 7",
+     "primary_titles": [
+      "At Least 75% Reduction in Eczema Area and Severity Index (EASI75) From Week 0 to Week 16"
+     ],
+     "drug": "TRIAMCINOLONE"
+    },
+    {
+     "nct_id": "NCT04760314",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 22.6 excludes the null value 0, and for 'Percentage of Participants With an Investigators Global Assessment (IGA) Score of 0 or 1 and a Reduction \u22652 Points From Baseline to Week 16' higher is better.",
+     "enrollment": 286,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "A Study of Lebrikizumab (LY3650150) in Combination With Topical Corticosteroids in Japanese Participants With Moderate-to-Severe Atopic Dermatitis",
+     "primary_titles": [
+      "Percentage of Participants With an Investigators Global Assessment (IGA) Score of 0 or 1 and a Reduction \u22652 Points From Baseline to Week 16",
+      "Percentage of Participants Achieving Eczema Area Severity Index-75 (EASI-75) (\u226575% Reduction in EASI Score) at Week 16"
+     ],
+     "drug": "TRIAMCINOLONE"
+    }
+   ],
+   "signature": "NCT03011892|NCT03568318|NCT03761537|NCT04760314"
+  },
+  {
+   "gene": "IL13",
+   "condition": "atopic dermatitis",
+   "trials_linked": 41,
+   "trials_readable": 11,
+   "reads": [
+    "BENEFIT",
+    "NO_BENEFIT"
+   ],
+   "disagrees": true,
+   "by_count": "BENEFIT",
+   "count_tally": {
+    "BENEFIT": 10.0,
+    "NO_BENEFIT": 1.0
+   },
+   "by_enrollment": "BENEFIT",
+   "enrollment_tally": {
+    "BENEFIT": 4268.0,
+    "NO_BENEFIT": 106.0
+   },
+   "units_agree": true,
+   "total_enrollment": 4374,
+   "winner_enrollment_share": 0.976,
+   "trials": [
+    {
+     "nct_id": "NCT03131648",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 8.6 excludes the null value 0, and for \"Subjects With Investigator's Global Assessment (IGA) Score of 0 (Clear) or 1 (Almost Clear) at Week 16\" higher is better.",
+     "enrollment": 802,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Tralokinumab Monotherapy for Moderate to Severe Atopic Dermatitis - ECZTRA 1 (ECZema TRAlokinumab Trial no. 1)",
+     "primary_titles": [
+      "Subjects With Investigator's Global Assessment (IGA) Score of 0 (Clear) or 1 (Almost Clear) at Week 16",
+      "Subjects Achieving at Least 75% Reduction in Eczema Area and Severity Index [EASI] at Week 16"
+     ],
+     "drug": "TRALOKINUMAB"
+    },
+    {
+     "nct_id": "NCT03160885",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 11.1 excludes the null value 0, and for \"Subjects With Investigator's Global Assessment (IGA) Score of 0 (Clear) or 1 (Almost Clear) at Week 16.\" higher is better.",
+     "enrollment": 794,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Tralokinumab Monotherapy for Moderate to Severe Atopic Dermatitis - ECZTRA 2 (ECZema TRAlokinumab Trial no. 2)",
+     "primary_titles": [
+      "Subjects With Investigator's Global Assessment (IGA) Score of 0 (Clear) or 1 (Almost Clear) at Week 16.",
+      "Subjects Achieving at Least 75% Reduction in Eczema Area and Severity Index [EASI]."
+     ],
+     "drug": "TRALOKINUMAB"
+    },
+    {
+     "nct_id": "NCT03363854",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 12.4 excludes the null value 0, and for \"Participants With Investigator's Global Assessment (IGA) Score of 0 (Clear) or 1 (Almost Clear) at Week 16\" higher is better.",
+     "enrollment": 380,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Tralokinumab in Combination With Topical Corticosteroids for Moderate to Severe Atopic Dermatitis - ECZTRA 3",
+     "primary_titles": [
+      "Participants With Investigator's Global Assessment (IGA) Score of 0 (Clear) or 1 (Almost Clear) at Week 16",
+      "Participants Achieving at Least 75% Reduction in Eczema Area and Severity Index (EASI) at Week 16"
+     ],
+     "drug": "TRALOKINUMAB"
+    },
+    {
+     "nct_id": "NCT03526861",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 13.8 excludes the null value 0, and for \"Subjects With Investigator's Global Assessment (IGA) Score of 0 (Clear) or 1 (Almost Clear) at Week 16\" higher is better.",
+     "enrollment": 301,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Tralokinumab Monotherapy for Adolescent Subjects With Moderate to Severe Atopic Dermatitis - ECZTRA 6 (ECZema TRAlokinumab Trial no. 6).",
+     "primary_titles": [
+      "Subjects With Investigator's Global Assessment (IGA) Score of 0 (Clear) or 1 (Almost Clear) at Week 16",
+      "Subjects With at Least 75% Reduction in Eczema Area and Severity Index (EASI75) at Week 16"
+     ],
+     "drug": "TRALOKINUMAB"
+    },
+    {
+     "nct_id": "NCT03761537",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 14.1 excludes the null value 0, and for 'At Least 75% Reduction in Eczema Area and Severity Index (EASI75) From Week 0 to Week 16' higher is better.",
+     "enrollment": 277,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Tralokinumab in Combination With Topical Corticosteroids in Subjects With Severe Atopic Dermatitis - ECZTRA 7",
+     "primary_titles": [
+      "At Least 75% Reduction in Eczema Area and Severity Index (EASI75) From Week 0 to Week 16"
+     ],
+     "drug": "TRALOKINUMAB"
+    },
+    {
+     "nct_id": "NCT04146363",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 29.7 excludes the null value 0, and for 'Percentage of Participants With an Investigator Global Assessment (IGA) Score of 0 or 1 and a Reduction \u22652 Points From Baseline to Week 16' higher is better.",
+     "enrollment": 424,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Evaluation of the Efficacy and Safety of Lebrikizumab (LY3650150) in Moderate to Severe Atopic Dermatitis (ADvocate1)",
+     "primary_titles": [
+      "Percentage of Participants With an Investigator Global Assessment (IGA) Score of 0 or 1 and a Reduction \u22652 Points From Baseline to Week 16",
+      "Percentage of Participants Achieving Eczema Area And Severity Index (EASI-75) (\u226575% Reduction in EASI Score) From Baseline to Week 16"
+     ],
+     "drug": "LEBRIKIZUMAB"
+    },
+    {
+     "nct_id": "NCT04178967",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 21.9 excludes the null value 0, and for 'Percentage of Participants With an Investigator Global Assessment (IGA) Score of 0 or 1 and a Reduction \u22652 Points From Baseline to Week 16' higher is better.",
+     "enrollment": 445,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Evaluation of the Efficacy and Safety of Lebrikizumab (LY3650150) in Moderate to Severe Atopic Dermatitis",
+     "primary_titles": [
+      "Percentage of Participants With an Investigator Global Assessment (IGA) Score of 0 or 1 and a Reduction \u22652 Points From Baseline to Week 16",
+      "Percentage of Participants Achieving Eczema Area And Severity Index (EASI-75) (\u226575% Reduction in EASI Score) From Baseline to Week 16"
+     ],
+     "drug": "LEBRIKIZUMAB"
+    },
+    {
+     "nct_id": "NCT04250337",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 18.3 excludes the null value 0, and for \"Percentage of Participants With an Investigator's Global Assessment (IGA) Score of 0 or 1 and a Reduction \u22652-points From Baseline to Week 16.\" higher is better.",
+     "enrollment": 228,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Safety and Efficacy of Lebrikizumab (LY3650150) in Combination With Topical Corticosteroid in Moderate-to-Severe Atopic Dermatitis.",
+     "primary_titles": [
+      "Percentage of Participants With an Investigator's Global Assessment (IGA) Score of 0 or 1 and a Reduction \u22652-points From Baseline to Week 16.",
+      "Percentage of Participants Achieving Eczema Area and Severity Index (EASI-75) (\u226575% Reduction From Baseline in EASI Score) at Week 16"
+     ],
+     "drug": "LEBRIKIZUMAB"
+    },
+    {
+     "nct_id": "NCT04587453",
+     "read": "NO_BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The 95% interval [-11.2, 22.5] covers the null value 0.",
+     "enrollment": 106,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Tralokinumab in Combination With Topical Corticosteroids in Japanese Subjects With Moderate-to-severe Atopic Dermatitis",
+     "primary_titles": [
+      "Investigator's Global Assessment (IGA) Score of 0 (Clear) or 1 (Almost Clear) at Week 16",
+      "At Least 75% Reduction in Eczema Area and Severity Index (EASI75) at Week 16"
+     ],
+     "drug": "TRALOKINUMAB"
+    },
+    {
+     "nct_id": "NCT04760314",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 22.6 excludes the null value 0, and for 'Percentage of Participants With an Investigators Global Assessment (IGA) Score of 0 or 1 and a Reduction \u22652 Points From Baseline to Week 16' higher is better.",
+     "enrollment": 286,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "A Study of Lebrikizumab (LY3650150) in Combination With Topical Corticosteroids in Japanese Participants With Moderate-to-Severe Atopic Dermatitis",
+     "primary_titles": [
+      "Percentage of Participants With an Investigators Global Assessment (IGA) Score of 0 or 1 and a Reduction \u22652 Points From Baseline to Week 16",
+      "Percentage of Participants Achieving Eczema Area Severity Index-75 (EASI-75) (\u226575% Reduction in EASI Score) at Week 16"
+     ],
+     "drug": "LEBRIKIZUMAB"
+    },
+    {
+     "nct_id": "NCT05149313",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 27.88 excludes the null value 0, and for 'Double-blind Induction Period: Percentage of Participants Who Achieved Eczema Area and Severity Index (EASI) 75 (>=75% Reduction From Baseline in EASI Score) at Week 16' higher is better.",
+     "enrollment": 331,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "A Study of Lebrikizumab in Combination With Topical Corticosteroids in Patients With Atopic Dermatitis (AD) That Are Not Adequately Controlled With or Are Non-eligible for Cyclosporine",
+     "primary_titles": [
+      "Double-blind Induction Period: Percentage of Participants Who Achieved Eczema Area and Severity Index (EASI) 75 (>=75% Reduction From Baseline in EASI Score) at Week 16"
+     ],
+     "drug": "LEBRIKIZUMAB"
+    }
+   ],
+   "signature": "NCT03131648|NCT03160885|NCT03363854|NCT03526861|NCT03761537|NCT04146363|NCT04178967|NCT04250337|NCT04587453|NCT04760314|NCT05149313"
+  },
+  {
+   "gene": "JAK1",
+   "condition": "atopic dermatitis",
+   "trials_linked": 23,
+   "trials_readable": 6,
+   "reads": [
+    "BENEFIT",
+    "WORSE"
+   ],
+   "disagrees": true,
+   "by_count": "BENEFIT",
+   "count_tally": {
+    "BENEFIT": 5.0,
+    "WORSE": 1.0
+   },
+   "by_enrollment": "BENEFIT",
+   "enrollment_tally": {
+    "BENEFIT": 2630.0,
+    "WORSE": 1235.0
+   },
+   "units_agree": true,
+   "total_enrollment": 3865,
+   "winner_enrollment_share": 0.68,
+   "trials": [
+    {
+     "nct_id": "NCT03349060",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 15.8 excludes the null value 0, and for \"Percentage of Participants Achieving Investigator's Global Assessment (IGA) Response of Clear (0) or Almost Clear (1) and Greater Than or Equal to 2 Points Improvement From Baseline at Week 12\" higher is better.",
+     "enrollment": 387,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Study to Evaluate Efficacy and Safety of PF-04965842 in Subjects Aged 12 Years And Older With Moderate to Severe Atopic Dermatitis",
+     "primary_titles": [
+      "Percentage of Participants Achieving Investigator's Global Assessment (IGA) Response of Clear (0) or Almost Clear (1) and Greater Than or Equal to 2 Points Improvement From Baseline at Week 12",
+      "Percentage of Participants Achieving Eczema Area and Severity Index (EASI) Response of >=75 Percent (%) Improvement From Baseline at Week 12"
+     ],
+     "drug": "ABROCITINIB"
+    },
+    {
+     "nct_id": "NCT03575871",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 19.3 excludes the null value 0, and for \"Percentage of Participants Achieving Investigator's Global Assessment (IGA) Response of Clear (0) or Almost Clear (1) and Greater Than or Equal to (>=) 2 Points Improvement From Baseline at Week 12\" higher is better.",
+     "enrollment": 391,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Study Evaluating Efficacy and Safety of PF-04965842 in Subjects Aged 12 Years And Older With Moderate to Severe Atopic Dermatitis",
+     "primary_titles": [
+      "Percentage of Participants Achieving Investigator's Global Assessment (IGA) Response of Clear (0) or Almost Clear (1) and Greater Than or Equal to (>=) 2 Points Improvement From Baseline at Week 12",
+      "Percentage of Participants Achieving Eczema Area and Severity Index Response of >=75 Percent (%) Improvement (EASI-75) From Baseline at Week 12"
+     ],
+     "drug": "ABROCITINIB"
+    },
+    {
+     "nct_id": "NCT03627767",
+     "read": "WORSE",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 0.27 excludes the null value 1, and for 'Time to Loss of Response: Double-blind Period' higher is better.",
+     "enrollment": 1235,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Study to Investigate Efficacy and Safety of PF-04965842 in Subjects Aged 12 Years and Over With Moderate to Severe Atopic Dermatitis With the Option of Rescue Treatment in Flaring Subjects",
+     "primary_titles": [
+      "Percentage of Participants With Loss of Response: Double-blind (DB) Period",
+      "Time to Loss of Response: Double-blind Period"
+     ],
+     "drug": "ABROCITINIB"
+    },
+    {
+     "nct_id": "NCT03720470",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 23.1 excludes the null value 0, and for \"Percentage of Participants Achieving Investigator's Global Assessment (IGA) Response of Clear (0) or Almost Clear (1) and a Reduction of Greater Than or Equal to (>=) 2 Points From Baseline at Week 12\" higher is better.",
+     "enrollment": 838,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Study Evaluating Efficacy and Safety of PF-04965842 and Dupilumab in Adult Subjects With Moderate to Severe Atopic Dermatitis on Background Topical Therapy",
+     "primary_titles": [
+      "Percentage of Participants Achieving Investigator's Global Assessment (IGA) Response of Clear (0) or Almost Clear (1) and a Reduction of Greater Than or Equal to (>=) 2 Points From Baseline at Week 12",
+      "Percentage of Participants Achieving Eczema Area and Severity Index (EASI) Response >=75 Percent (%) Improvement From Baseline at Week 12"
+     ],
+     "drug": "ABROCITINIB"
+    },
+    {
+     "nct_id": "NCT03796676",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 16.7 excludes the null value 0, and for \"Percentage of Participants Achieving Investigator's Global Assessment (IGA) Response of 'Clear' (0) or 'Almost Clear' (1) and \u22652 Points Improvement From Baseline at Week 12\" higher is better.",
+     "enrollment": 287,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "JAK1 Inhibitor With Medicated Topical Therapy in Adolescents With Atopic Dermatitis",
+     "primary_titles": [
+      "Percentage of Participants Achieving Investigator's Global Assessment (IGA) Response of 'Clear' (0) or 'Almost Clear' (1) and \u22652 Points Improvement From Baseline at Week 12",
+      "Percentage of Participants Achieving Eczema Area and Severity Index (EASI) Response \u2265 75% Improvement From Baseline at Week 12"
+     ],
+     "drug": "ABROCITINIB"
+    },
+    {
+     "nct_id": "NCT04345367",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 22.6 excludes the null value 0, and for 'Percentage of Participants Achieving Greater Than or Equal to (>=) 4 Points Improvement in Peak Pruritus Numerical Rating Scale (PP-NRS4) From Baseline at Week 2' higher is better.",
+     "enrollment": 727,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Study of Abrocitinib Compared With Dupilumab in Adults With Moderate to Severe Atopic Dermatitis on Background Topical Therapy",
+     "primary_titles": [
+      "Percentage of Participants Achieving Greater Than or Equal to (>=) 4 Points Improvement in Peak Pruritus Numerical Rating Scale (PP-NRS4) From Baseline at Week 2",
+      "Percentage of Participants Achieving >= 90% Improvement From Baseline in Eczema Area and Severity Index (EASI-90) Response at Week 4"
+     ],
+     "drug": "ABROCITINIB"
+    }
+   ],
+   "signature": "NCT03349060|NCT03575871|NCT03627767|NCT03720470|NCT03796676|NCT04345367"
+  },
+  {
+   "gene": "TNFRSF4",
+   "condition": "atopic dermatitis",
+   "trials_linked": 12,
+   "trials_readable": 3,
+   "reads": [
+    "BENEFIT",
+    "NO_BENEFIT"
+   ],
+   "disagrees": true,
+   "by_count": "BENEFIT",
+   "count_tally": {
+    "BENEFIT": 2.0,
+    "NO_BENEFIT": 1.0
+   },
+   "by_enrollment": "BENEFIT",
+   "enrollment_tally": {
+    "BENEFIT": 1495.0,
+    "NO_BENEFIT": 221.0
+   },
+   "units_agree": true,
+   "total_enrollment": 1716,
+   "winner_enrollment_share": 0.871,
+   "trials": [
+    {
+     "nct_id": "NCT05398445",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 8.0 excludes the null value 0, and for \"Number of Participants Who Achieved Validated Investigator's Global Assessment for AD (vIGA-AD) 1 Response With Presence of Only Barely Perceptible Erythema or vIGA-AD 0 Response (Revised Investigator's Global Assessment [rIGA] 0/1) at Week 24\" higher is better.",
+     "enrollment": 769,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "A Study Evaluating Rocatinlimab in Moderate-to-severe Atopic Dermatitis (ROCKET-IGNITE)",
+     "primary_titles": [
+      "Number of Participants Who Achieved Validated Investigator's Global Assessment for AD (vIGA-AD) 1 Response With Presence of Only Barely Perceptible Erythema or vIGA-AD 0 Response (Revised Investigator's Global Assessment [rIGA] 0/1) at Week 24",
+      "Number of Participants Who Achieved \u2265 75% Reduction From Baseline in Eczema Area and Severity Index Score (EASI 75) at Week 24"
+     ],
+     "drug": "ROCATINLIMAB"
+    },
+    {
+     "nct_id": "NCT05651711",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 11.5 excludes the null value 0, and for \"Number of Participants Who Achieved Validated Investigator's Global Assessment for AD (vIGA-AD) 1 Response With Presence of Only Barely Perceptible Erythema or vIGA-AD 0 Response (Revised Investigator's Global Assessment [rIGA] 0/1) at Week 24\" higher is better.",
+     "enrollment": 726,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "A Study Assessing Rocatinlimab (AMG 451) Monotherapy in Moderate-to-severe Atopic Dermatitis (AD) (ROCKET-Horizon)",
+     "primary_titles": [
+      "Number of Participants Who Achieved Validated Investigator's Global Assessment for AD (vIGA-AD) 1 Response With Presence of Only Barely Perceptible Erythema or vIGA-AD 0 Response (Revised Investigator's Global Assessment [rIGA] 0/1) at Week 24",
+      "Number of Participants Who Achieved \u2265 75% Reduction From Baseline in Eczema Area and Severity Index Score (EASI 75) at Week 24"
+     ],
+     "drug": "ROCATINLIMAB"
+    },
+    {
+     "nct_id": "NCT05899816",
+     "read": "NO_BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The 95% interval [-13.5, 5.9] covers the null value 0.",
+     "enrollment": 221,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "A Study Assessing Rocatinlimab on Vaccine Antibody Response in Moderate-to-severe Atopic Dermatitis (AD) (ROCKET - VOYAGER)",
+     "primary_titles": [
+      "Percentage of Participants With a Positive Anti-tetanus Response at Week 24",
+      "Percentage of Participants With a Positive Anti-meningococcal Response at Week 24"
+     ],
+     "drug": "ROCATINLIMAB"
+    }
+   ],
+   "signature": "NCT05398445|NCT05651711|NCT05899816"
+  },
+  {
+   "gene": "AHR",
+   "condition": "atopic dermatitis",
+   "trials_linked": 11,
+   "trials_readable": 3,
+   "reads": [
+    "BENEFIT",
+    "NO_BENEFIT"
+   ],
+   "disagrees": true,
+   "by_count": "BENEFIT",
+   "count_tally": {
+    "NO_BENEFIT": 1.0,
+    "BENEFIT": 2.0
+   },
+   "by_enrollment": "BENEFIT",
+   "enrollment_tally": {
+    "NO_BENEFIT": 247.0,
+    "BENEFIT": 813.0
+   },
+   "units_agree": true,
+   "total_enrollment": 1060,
+   "winner_enrollment_share": 0.767,
+   "trials": [
+    {
+     "nct_id": "NCT02564055",
+     "read": "NO_BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The 95% interval [-2.4, 45.5] covers the null value 0.",
+     "enrollment": 247,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE2"
+     ],
+     "brief_title": "A Dose-Finding Study of GSK2894512 Cream in Subjects With Atopic Dermatitis (AD)",
+     "primary_titles": [
+      "Percentage of Participants Who Have an Investigator Global Assessment (IGA) Score of Clear or Almost Clear (0 or 1) at Week 12 and a Minimum 2 Grade Improvement in IGA Score From Baseline to Week 12 for Intent to Treat (ITT) Population"
+     ],
+     "drug": "TAPINAROF"
+    },
+    {
+     "nct_id": "NCT05014568",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 2.60 excludes the null value 1, and for 'Percent of Subjects Who Have a Validated Investigator Global Assessment for Atopic Dermatitis (vIGA-AD) Score of Clear or Almost Clear (0 or 1) With a Minimum 2-grade Improvement From Baseline to Week 8. Analyses Were Done Using Multiple Imputation.' higher is better.",
+     "enrollment": 407,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Tapinarof for the Treatment of Atopic Dermatitis in Children and Adults",
+     "primary_titles": [
+      "Percent of Subjects Who Have a Validated Investigator Global Assessment for Atopic Dermatitis (vIGA-AD) Score of Clear or Almost Clear (0 or 1) With a Minimum 2-grade Improvement From Baseline to Week 8. Analyses Were Done Using Multiple Imputation."
+     ],
+     "drug": "TAPINAROF"
+    },
+    {
+     "nct_id": "NCT05032859",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 2.27 excludes the null value 1, and for 'Percent of Subjects Who Have a Validated Investigator Global Assessment for Atopic Dermatitis (vIGA-AD) Score of Clear or Almost Clear (0 or 1) With a Minimum 2-grade Improvement From Baseline to Week 8. Analyses Were Done Using Multiple Imputation.' higher is better.",
+     "enrollment": 406,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Tapinarof for the Treatment of Atopic Dermatitis in Children and Adults (DMVT-505-3102)",
+     "primary_titles": [
+      "Percent of Subjects Who Have a Validated Investigator Global Assessment for Atopic Dermatitis (vIGA-AD) Score of Clear or Almost Clear (0 or 1) With a Minimum 2-grade Improvement From Baseline to Week 8. Analyses Were Done Using Multiple Imputation."
+     ],
+     "drug": "TAPINAROF"
+    }
+   ],
+   "signature": "NCT02564055|NCT05014568|NCT05032859"
+  },
+  {
+   "gene": "IL31RA",
+   "condition": "atopic dermatitis",
+   "trials_linked": 9,
+   "trials_readable": 3,
+   "reads": [
+    "BENEFIT"
+   ],
+   "disagrees": false,
+   "by_count": "BENEFIT",
+   "count_tally": {
+    "BENEFIT": 3.0
+   },
+   "by_enrollment": "BENEFIT",
+   "enrollment_tally": {
+    "BENEFIT": 1992.0
+   },
+   "units_agree": true,
+   "total_enrollment": 1992,
+   "winner_enrollment_share": 1.0,
+   "trials": [
+    {
+     "nct_id": "NCT01986933",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect -21.39 excludes the null value 0, and for 'Percent Changes From Baseline in Pruritus Visual Analogue Scale (VAS) at Week 12' lower is better.",
+     "enrollment": 264,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE2"
+     ],
+     "brief_title": "A Phase 2 Study of CIM331 for Atopic Dermatitis Patients",
+     "primary_titles": [
+      "Percent Changes From Baseline in Pruritus Visual Analogue Scale (VAS) at Week 12"
+     ],
+     "drug": "NEMOLIZUMAB"
+    },
+    {
+     "nct_id": "NCT03985943",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 11.5 excludes the null value 0, and for \"Percentage of Participants With an Investigator's Global Assessment (IGA) Success (IGA of 0 or 1 and a More Than Equal to [>=] 2-point Reduction): Intent-To-Treat (ITT) Population\" higher is better.",
+     "enrollment": 941,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Efficacy and Safety of Nemolizumab in Subjects With Moderate-to-Severe Atopic Dermatitis",
+     "primary_titles": [
+      "Percentage of Participants With an Investigator's Global Assessment (IGA) Success (IGA of 0 or 1 and a More Than Equal to [>=] 2-point Reduction): Intent-To-Treat (ITT) Population",
+      "Percentage of Participants With an Investigator's Global Assessment (IGA) Success (IGA of 0 or 1 and a >= 2-point Reduction): Severe Pruritus Population",
+      "Percentage of Participants With >=75% Improvement in Eczema Area and Severity Index (EASI-75) at Week 16: ITT Population",
+      "Percentage of Participants With >=75% Improvement in Eczema Area and Severity Index (EASI-75) at 16: Severe Pruritus Population"
+     ],
+     "drug": "NEMOLIZUMAB"
+    },
+    {
+     "nct_id": "NCT03989349",
+     "read": "BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The effect 12.2 excludes the null value 0, and for \"Percentage of Participants With Investigator's Global Assessment (IGA) Success at Week 16: Intent-To-Treat (ITT) Population\" higher is better.",
+     "enrollment": 787,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE3"
+     ],
+     "brief_title": "Efficacy & Safety of Nemolizumab in Subjects With Moderate-to-Severe Atopic Dermatitis",
+     "primary_titles": [
+      "Percentage of Participants With Investigator's Global Assessment (IGA) Success at Week 16: Intent-To-Treat (ITT) Population",
+      "Percentage of Participants With Investigator's Global Assessment (IGA) Success at Week 16: Severe Pruritus Population",
+      "Percentage of Participants With >=75% Improvement in Eczema Area and Severity Index (EASI-75) at Week 16: ITT Population",
+      "Percentage of Participants With >=75% Improvement in Eczema Area and Severity Index (EASI-75) at Week 16: Severe Pruritus Population"
+     ],
+     "drug": "NEMOLIZUMAB"
+    }
+   ],
+   "signature": "NCT01986933|NCT03985943|NCT03989349"
+  },
+  {
+   "gene": "IL33",
+   "condition": "atopic dermatitis",
+   "trials_linked": 4,
+   "trials_readable": 2,
+   "reads": [
+    "NO_BENEFIT"
+   ],
+   "disagrees": false,
+   "by_count": "NO_BENEFIT",
+   "count_tally": {
+    "NO_BENEFIT": 2.0
+   },
+   "by_enrollment": "NO_BENEFIT",
+   "enrollment_tally": {
+    "NO_BENEFIT": 438.0
+   },
+   "units_agree": true,
+   "total_enrollment": 438,
+   "winner_enrollment_share": 1.0,
+   "trials": [
+    {
+     "nct_id": "NCT03533751",
+     "read": "NO_BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The 95% interval [-12.4066, 27.8983] covers the null value 0.",
+     "enrollment": 302,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE2"
+     ],
+     "brief_title": "Efficacy, Safety, and Pharmacokinetic Profile of Etokimab (ANB020) in Adult Participants With Moderate-to-Severe Atopic Dermatitis",
+     "primary_titles": [
+      "Percent Change From Baseline to Week 16 in Eczema Area and Severity Index (EASI) Score"
+     ],
+     "drug": "ETOKIMAB"
+    },
+    {
+     "nct_id": "NCT03831191",
+     "read": "NO_BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The 95% interval [0.04, 6.81] covers the null value 1.",
+     "enrollment": 136,
+     "enrollment_type": "ACTUAL",
+     "status": "TERMINATED",
+     "phases": [
+      "PHASE2"
+     ],
+     "brief_title": "A Study of LY3375880 in Adults With Moderate-to-Severe Atopic Dermatitis",
+     "primary_titles": [
+      "Percentage of Participants Achieving Validated Investigator's Global Assessment for AD (vIGA-AD) of 0 or 1 With a \u22652 Point Improvement"
+     ],
+     "drug": "TORUDOKIMAB"
+    }
+   ],
+   "signature": "NCT03533751|NCT03831191"
+  },
+  {
+   "gene": "TSLP",
+   "condition": "atopic dermatitis",
+   "trials_linked": 3,
+   "trials_readable": 2,
+   "reads": [
+    "NO_BENEFIT"
+   ],
+   "disagrees": false,
+   "by_count": "NO_BENEFIT",
+   "count_tally": {
+    "NO_BENEFIT": 2.0
+   },
+   "by_enrollment": "NO_BENEFIT",
+   "enrollment_tally": {
+    "NO_BENEFIT": 364.0
+   },
+   "units_agree": true,
+   "total_enrollment": 364,
+   "winner_enrollment_share": 1.0,
+   "trials": [
+    {
+     "nct_id": "NCT02525094",
+     "read": "NO_BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The 95% interval [0.90, 4.33] covers the null value 1.",
+     "enrollment": 113,
+     "enrollment_type": "ACTUAL",
+     "status": "COMPLETED",
+     "phases": [
+      "PHASE2"
+     ],
+     "brief_title": "Phase 2a Study to Evaluate the Efficacy and Safety of MEDI9929 in Adults With Atopic Dermatitis",
+     "primary_titles": [
+      "Percentage of Participants Achieving Greater Than or Equal to (>=) 50 Percent (%) Reduction From Baseline in Eczema Area and Severity Index (EASI 50) at Week 12"
+     ],
+     "drug": "TEZEPELUMAB"
+    },
+    {
+     "nct_id": "NCT03809663",
+     "read": "NO_BENEFIT",
+     "path": "DETERMINISTIC",
+     "reason": "The 95% interval [0.290, 9.809] covers the null value 1.",
+     "enrollment": 251,
+     "enrollment_type": "ACTUAL",
+     "status": "TERMINATED",
+     "phases": [
+      "PHASE2"
+     ],
+     "brief_title": "A Dose Ranging Placebo-Controlled Double-Blind Study to Evaluate the Safety and Efficacy of Tezepelumab in Atopic Dermatitis",
+     "primary_titles": [
+      "Number of Participants With Investigator's Global Assessment (IGA) Score of 0 (Clear) or 1 (Almost Clear) (IGA 0/1) at Week 16",
+      "Number of Participants Who Experienced a 75% Reduction From Baseline in Eczema Area and Severity Index (EASI 75) at Week 16"
+     ],
+     "drug": "TEZEPELUMAB"
+    }
+   ],
+   "signature": "NCT02525094|NCT03809663"
+  }
+ ]
+}
