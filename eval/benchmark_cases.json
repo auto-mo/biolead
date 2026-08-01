@@ -1,0 +1,188 @@
+[
+ {
+  "gene": "SRD5A2",
+  "condition": "androgenetic alopecia",
+  "expect_position": "UPSTREAM_DRIVER",
+  "expect_targetability": "ACTIONABLE",
+  "expect_mode": "GENETICS",
+  "expect_tiers": [
+   "1a",
+   "2",
+   "5"
+  ],
+  "expect_confidence": "HIGH",
+  "why": "The finasteride case, on the target finasteride's mechanism record names. No borrow, nothing capped. The only case that reaches HIGH."
+ },
+ {
+  "gene": "SRD5A2",
+  "condition": "hair thinning",
+  "expect_position": "UPSTREAM_DRIVER",
+  "expect_targetability": "ACTIONABLE",
+  "expect_mode": "GENETICS",
+  "expect_tiers": [
+   "1a",
+   "2",
+   "5"
+  ],
+  "expect_confidence": "MODERATE",
+  "why": "The same trial through a MODERATE borrow. Capped one band and the outcome cell says it was measured on androgenetic alopecia. Paired with the case above this is what a borrow costs on the outcome axis."
+ },
+ {
+  "gene": "AR",
+  "condition": "androgenetic alopecia",
+  "expect_position": "UPSTREAM_DRIVER",
+  "expect_targetability": "UNKNOWN",
+  "expect_mode": "GENETICS",
+  "expect_tiers": [
+   "1a",
+   "2",
+   "5"
+  ],
+  "expect_confidence": "MODERATE",
+  "why": "Tested and silent, the largest band in the retrievable set and a different fact from untested. Three completed clascoterone trials in androgenetic alopecia, NCT02279823 n=95, NCT05914805 n=762 and NCT05910450 n=703, 1,560 people between them, none posting results. Asserts the state, not only the verdict, because UNKNOWN alone cannot tell this apart from nobody having tried.",
+  "expect_outcome_state": "TESTED_UNREPORTED"
+ },
+ {
+  "gene": "AR",
+  "condition": "hair thinning",
+  "expect_position": "UPSTREAM_DRIVER",
+  "expect_targetability": "UNKNOWN",
+  "expect_mode": "GENETICS",
+  "expect_tiers": [
+   "1a",
+   "2",
+   "5"
+  ],
+  "why": "Tested and silent, which is not untested. Clascoterone is a genuine androgen receptor antagonist and both its androgenetic alopecia trials, NCT02279823 n=95 and NCT05914805 n=762, completed with no results posted. The finasteride result moved to SRD5A2, whose mechanism record the trial actually names.",
+  "expect_confidence": "MODERATE"
+ },
+ {
+  "gene": "IL17A",
+  "condition": "oily skin",
+  "expect_position": "DOWNSTREAM",
+  "expect_targetability": "NOT_ACTIONABLE",
+  "expect_mode": "MECHANISM",
+  "expect_tiers": [
+   "5",
+   "1a"
+  ],
+  "why": "THE PASSENGER. Papers, no genetics, a trial that lost to placebo. Tier 1a is fetched.",
+  "expect_confidence": "LOW"
+ },
+ {
+  "gene": "PTGDR2",
+  "condition": "hair thinning",
+  "expect_position": "DOWNSTREAM",
+  "expect_targetability": "NOT_ACTIONABLE",
+  "expect_mode": "MECHANISM",
+  "expect_tiers": [
+   "5",
+   "1a"
+  ],
+  "why": "Second passenger, different condition. PGD2 elevated in bald scalp (202 citations), no genetics, setipiprant moved hair count 0.4 vs placebo. Fire truck with a trial.",
+  "expect_confidence": "MODERATE"
+ },
+ {
+  "gene": "TNF",
+  "condition": "oily skin",
+  "expect_position": "INSUFFICIENT",
+  "expect_targetability": "UNKNOWN",
+  "expect_mode": "MECHANISM",
+  "expect_tiers": [
+   "5"
+  ],
+  "why": "RE-DERIVED AT STAGE 7. This was DOWNSTREAM / UNKNOWN / LOW on tier 1b, and the 1b came from a single hand-written row in clinical_facts.yaml asserting that anti-TNF therapy does not resolve acne. That claim was already known to be inverted (step zero found ~100 observational patients suggesting it helps) and the file is retired, so the row is gone and nothing retrieved replaces it: no drug's mechanism record names TNF for acne. The case now abstains on literature alone. THIS IS THE RETIREMENT WORKING, not a regression. It is also the clearest single illustration of what the curated file was doing: supplying a confident tier 1 layer from one unverified sentence.",
+  "expect_confidence": null
+ },
+ {
+  "gene": "FASN",
+  "condition": "oily skin",
+  "expect_position": "INSUFFICIENT",
+  "expect_targetability": "UNKNOWN",
+  "expect_mode": "MECHANISM",
+  "expect_tiers": [],
+  "why": "Abstention: thin evidence. Real gene, real condition, genuinely not enough.",
+  "expect_confidence": null
+ },
+ {
+  "gene": "FLG",
+  "condition": "atopic dermatitis",
+  "expect_position": "UPSTREAM_DRIVER",
+  "expect_targetability": "UNKNOWN",
+  "expect_mode": "GENETICS",
+  "expect_tiers": [
+   "2"
+  ],
+  "why": "Control: real disease, no borrow needed.",
+  "expect_confidence": "MODERATE"
+ },
+ {
+  "gene": "FLG",
+  "condition": "cosmetic dry skin",
+  "expect_position": "UPSTREAM_DRIVER",
+  "expect_targetability": "UNKNOWN",
+  "expect_mode": "GENETICS",
+  "expect_tiers": [
+   "2"
+  ],
+  "why": "Same gene, same verdict, but standing on a borrow the reference tool does not record.",
+  "expect_confidence": "MODERATE"
+ },
+ {
+  "gene": "WNT10A",
+  "condition": "hair thinning",
+  "expect_position": "UPSTREAM_DRIVER",
+  "expect_targetability": "UNKNOWN",
+  "expect_mode": "GENETICS",
+  "expect_tiers": [
+   "2"
+  ],
+  "why": "Was the abstention case until six GWAS refuted that. Genetics 0.78, higher than AR.",
+  "expect_confidence": "MODERATE"
+ },
+ {
+  "gene": "TYR",
+  "condition": "hyperpigmentation",
+  "expect_position": "UPSTREAM_DRIVER",
+  "expect_targetability": "UNKNOWN",
+  "expect_mode": "GENETICS",
+  "expect_tiers": [
+   "2"
+  ],
+  "why": "Reached only via freckles. Precedence no longer earns ACTIONABLE.",
+  "expect_confidence": "MODERATE"
+ },
+ {
+  "gene": "NOTAGENE",
+  "condition": "hair thinning",
+  "expect_position": "INSUFFICIENT",
+  "expect_targetability": "UNKNOWN",
+  "expect_mode": "MECHANISM",
+  "expect_tiers": [],
+  "why": "Trigger 4: exact-match failure, rather than resolving to a plausible wrong gene.",
+  "expect_confidence": null
+ },
+ {
+  "gene": "AR",
+  "condition": "rosacea",
+  "expect_position": "INSUFFICIENT",
+  "expect_targetability": "UNKNOWN",
+  "expect_mode": "MECHANISM",
+  "expect_tiers": [],
+  "why": "Trigger 1: no curated proxy. The table refuses to guess.",
+  "expect_confidence": null
+ },
+ {
+  "gene": "RARG",
+  "condition": "oily skin",
+  "expect_position": "DOWNSTREAM",
+  "expect_targetability": "ACTIONABLE",
+  "expect_mode": "MECHANISM",
+  "expect_tiers": [
+   "5"
+  ],
+  "expect_confidence": "LOW",
+  "expect_outcome_state": "TESTED_REPORTED",
+  "why": "RE-DERIVED TWICE, AND THE HISTORY IS THE POINT. Written as a prediction of DOWNSTREAM/ACTIONABLE before the graph existed. The first build returned UNKNOWN and the expectation was changed to assert that refusal, because the model was reaching benefit by subtracting per-arm counts, which the goal statement forbids. Enforcing that prohibition in the validator removed those reads. What remains is legitimate: NCT01616654 publishes p=0.040 on a co-primary and NCT04856904 publishes p<0.0001 with a confidence interval, so trifarotene does have readable benefit in acne. The original prediction was right for reasons the first two runs could not show. THIS IS THE ONE CASE WHOSE VERDICT IS NOT REPRODUCIBLE: 75 trials go to the model and it has returned UNKNOWN on some runs. Expect this case to go red occasionally. See DEBT.md."
+ }
+]
