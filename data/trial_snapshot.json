@@ -1,0 +1,667 @@
+{
+ "fetched_on": "2026-08-01",
+ "source": "https://clinicaltrials.gov/api/v2/studies",
+ "note": "Settled trial records only. A completed trial's registry entry does not change, so this is a pinned copy of stable facts. Records served from here are marked SNAPSHOT and carry fetched_on. Rebuild with tools/snapshot_trials.py.",
+ "trials": {
+  "NCT01231607": {
+   "nct_id": "NCT01231607",
+   "exists": true,
+   "status": "COMPLETED",
+   "has_results": true,
+   "title": null,
+   "enrollment": 917,
+   "why_stopped": null,
+   "primary_outcomes": [
+    {
+     "title": "Change From Baseline (BL) in Target Area Hair Count (HC) Within a 2.54 Centimeter (cm) (1 Inch) Diameter Circle at the Vertex at Week 24, as Assessed by Macrophotographic Technique (MT)",
+     "param_type": "LEAST_SQUARES_MEAN",
+     "unit": "Hair count",
+     "groups": [
+      "Placebo",
+      "Dutasteride 0.02 mg",
+      "Dutasteride 0.1 mg",
+      "Dutasteride 0.5 mg",
+      "Finasteride 1 mg"
+     ],
+     "classes": [
+      {
+       "categories": [
+        {
+         "measurements": [
+          {
+           "groupId": "OG000",
+           "value": "-4.9",
+           "spread": "7.89"
+          },
+          {
+           "groupId": "OG001",
+           "value": "17.1",
+           "spread": "7.74"
+          },
+          {
+           "groupId": "OG002",
+           "value": "63.0",
+           "spread": "7.67"
+          },
+          {
+           "groupId": "OG003",
+           "value": "89.6",
+           "spread": "7.87"
+          },
+          {
+           "groupId": "OG004",
+           "value": "56.5",
+           "spread": "8.12"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "analyses": [
+      {
+       "pValue": "0.046",
+       "statisticalMethod": "General linear model",
+       "paramType": "Least-squares (LS) mean difference",
+       "paramValue": "22",
+       "ciPctValue": "98.33",
+       "ciLowerLimit": "-4.4",
+       "ciUpperLimit": "48.4",
+       "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+       "estimateComment": "Estimates are based on the adjusted (least-squares) means from the general linear model: Change from Baseline = Treatment + Cluster + Baseline Value. The estimation value represents the dutasteride 0.02 mg LS mean minus the placebo LS mean.",
+       "groupIds": [
+        "OG000",
+        "OG001"
+       ]
+      },
+      {
+       "pValue": "<0.001",
+       "statisticalMethod": "General linear model",
+       "paramType": "LS mean difference",
+       "paramValue": "67.9",
+       "ciPctValue": "98.33",
+       "ciLowerLimit": "41.6",
+       "ciUpperLimit": "94.2",
+       "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+       "estimateComment": "Estimates are based on the adjusted (least-squares) means from the general linear model: Change from Baseline = Treatment + Cluster + Baseline Value. The estimation value represents the dutasteride 0.1 mg LS mean minus the placebo LS mean.",
+       "groupIds": [
+        "OG000",
+        "OG002"
+       ]
+      },
+      {
+       "pValue": "<0.001",
+       "statisticalMethod": "General linear model",
+       "paramType": "LS mean difference",
+       "paramValue": "94.4",
+       "ciPctValue": "98.33",
+       "ciLowerLimit": "67.8",
+       "ciUpperLimit": "121.0",
+       "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+       "estimateComment": "Estimates are based on the adjusted (least-squares) means from the general linear model: Change from Baseline = Treatment + Cluster + Baseline Value. The estimation value represents the dutasteride 0.5 mg LS mean minus the placebo LS mean.",
+       "groupIds": [
+        "OG000",
+        "OG003"
+       ]
+      },
+      {
+       "pValue": "<0.001",
+       "statisticalMethod": "General linear model",
+       "paramType": "Least squares mean difference",
+       "paramValue": "61.4",
+       "ciPctValue": "98.33",
+       "ciLowerLimit": "34.4",
+       "ciUpperLimit": "88.4",
+       "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+       "estimateComment": "Estimates are based on the adjusted (least-squares) means from the general linear model: Change from Baseline = Treatment + Cluster + Baseline Value. The estimation value represents the finasteride 1 mg LS mean minus the placebo LS mean.",
+       "groupIds": [
+        "OG000",
+        "OG004"
+       ]
+      },
+      {
+       "pValue": "<0.001",
+       "statisticalMethod": "General linear model",
+       "paramType": "Least squares mean difference",
+       "paramValue": "-39.4",
+       "ciPctValue": "99.165",
+       "ciLowerLimit": "-66.1",
+       "ciUpperLimit": "-12.7",
+       "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+       "estimateComment": "Estimates are based on the adjusted (least-squares) means from the general linear model: Change from Baseline = Treatment + Cluster + Baseline Value. The estimation value represents the finasteride 1 mg LS mean minus the Dutasteride 0.02 mg LS mean.",
+       "groupIds": [
+        "OG001",
+        "OG004"
+       ]
+      },
+      {
+       "pValue": "0.28",
+       "statisticalMethod": "General linear model",
+       "paramType": "Least squares mean difference",
+       "paramValue": "6.5",
+       "ciPctValue": "99.165",
+       "ciLowerLimit": "-20.1",
+       "ciUpperLimit": "33.1",
+       "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+       "estimateComment": "Estimates are based on the adjusted (least-squares) means from the general linear model: Change from Baseline = Treatment + Cluster + Baseline Value. The estimation value represents the finasteride 1 mg LS mean minus the Dutasteride 0.1 mg LS mean.",
+       "groupIds": [
+        "OG002",
+        "OG004"
+       ]
+      },
+      {
+       "pValue": "0.002",
+       "statisticalMethod": "General linear model",
+       "paramType": "Least squares mean difference",
+       "paramValue": "33",
+       "ciPctValue": "99.165",
+       "ciLowerLimit": "6.1",
+       "ciUpperLimit": "60",
+       "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+       "estimateComment": "Estimates are based on the adjusted (least-squares) means from the general linear model: Change from Baseline = Treatment + Cluster + Baseline Value. The estimation value represents the finasteride 1 mg LS mean minus the Dutasteride 0.5 mg LS mean.",
+       "groupIds": [
+        "OG003",
+        "OG004"
+       ]
+      },
+      {
+       "pValue": "<0.001",
+       "statisticalMethod": "General linear model",
+       "paramType": "Least squares mean difference",
+       "paramValue": "-39.4",
+       "ciPctValue": "98.33",
+       "ciLowerLimit": "-66.1",
+       "ciUpperLimit": "-12.7",
+       "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+       "estimateComment": "Estimates are based on the adjusted (least-squares) means from the general linear model: Change from Baseline = Treatment + Cluster + Baseline Value. The estimation value represents the finasteride 1 mg LS mean minus the Dutasteride 0.02 mg LS mean.",
+       "groupIds": [
+        "OG001",
+        "OG004"
+       ]
+      },
+      {
+       "pValue": "0.56",
+       "statisticalMethod": "General linear model",
+       "paramType": "Least squares mean difference",
+       "paramValue": "6.5",
+       "ciPctValue": "98.33",
+       "ciLowerLimit": "-20.1",
+       "ciUpperLimit": "33.1",
+       "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+       "estimateComment": "Estimates are based on the adjusted (least-squares) means from the general linear model: Change from Baseline = Treatment + Cluster + Baseline Value. The estimation value represents the finasteride 1 mg LS mean minus the Dutasteride 0.1 mg LS mean.",
+       "groupIds": [
+        "OG002",
+        "OG004"
+       ]
+      },
+      {
+       "pValue": "0.003",
+       "statisticalMethod": "General linear model",
+       "paramType": "Least squares mean difference",
+       "paramValue": "33",
+       "ciPctValue": "98.33",
+       "ciLowerLimit": "6.1",
+       "ciUpperLimit": "60",
+       "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+       "estimateComment": "Estimates are based on the adjusted (least-squares) means from the general linear model: Change from Baseline = Treatment + Cluster + Baseline Value. The estimation value represents the finasteride 1 mg LS mean minus the Dutasteride 0.5 mg LS mean.",
+       "groupIds": [
+        "OG003",
+        "OG004"
+       ]
+      }
+     ]
+    }
+   ],
+   "conditions": [
+    "Androgenetic Alopecia"
+   ],
+   "interventions": [
+    "1mg Finasteride active",
+    "0.02mg dutasteride",
+    "0.1mg dutasteride",
+    "0.5mg dutasteride",
+    "Finasteride placebo",
+    "Dutasteride placebo"
+   ],
+   "experimental_interventions": []
+  },
+  "NCT02279823": {
+   "nct_id": "NCT02279823",
+   "exists": true,
+   "status": "COMPLETED",
+   "has_results": false,
+   "title": null,
+   "enrollment": 95,
+   "why_stopped": null,
+   "primary_outcomes": [],
+   "conditions": [
+    "Androgenetic Alopecia"
+   ],
+   "interventions": [
+    "CB-03-01 solution",
+    "Minoxidil Solution 5%",
+    "Placebo solution"
+   ],
+   "experimental_interventions": [
+    "CB-03-01 solution"
+   ]
+  },
+  "NCT02421172": {
+   "nct_id": "NCT02421172",
+   "exists": true,
+   "status": "COMPLETED",
+   "has_results": true,
+   "title": null,
+   "enrollment": 66,
+   "why_stopped": null,
+   "primary_outcomes": [
+    {
+     "title": "Clinical Responder Rate at Period 1: Week 16",
+     "param_type": "NUMBER",
+     "unit": "participants",
+     "groups": [
+      "Period 1: CJM112 High Dose",
+      "Period 1: Placebo"
+     ],
+     "classes": [
+      {
+       "categories": [
+        {
+         "measurements": [
+          {
+           "groupId": "OG000",
+           "value": "10"
+          },
+          {
+           "groupId": "OG001",
+           "value": "4"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "analyses": [
+      {
+       "pValue": null,
+       "statisticalMethod": null,
+       "paramType": "Posterior probablility",
+       "paramValue": "0.9729",
+       "ciPctValue": null,
+       "ciLowerLimit": null,
+       "ciUpperLimit": null,
+       "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+       "estimateComment": null,
+       "groupIds": [
+        "OG000",
+        "OG001"
+       ]
+      }
+     ]
+    }
+   ],
+   "conditions": [
+    "Hidradenitis Suppurativa (Acne Inversa)"
+   ],
+   "interventions": [
+    "CJM112",
+    "Placebo"
+   ],
+   "experimental_interventions": [
+    "CJM112"
+   ]
+  },
+  "NCT02781311": {
+   "nct_id": "NCT02781311",
+   "exists": true,
+   "status": "COMPLETED",
+   "has_results": true,
+   "title": null,
+   "enrollment": 169,
+   "why_stopped": null,
+   "primary_outcomes": [
+    {
+     "title": "Change From Baseline in Target Area Hair Count (TAHC) at Week 24",
+     "param_type": "LEAST_SQUARES_MEAN",
+     "unit": "terminal hairs/cm^2",
+     "groups": [
+      "Placebo",
+      "Setipiprant"
+     ],
+     "classes": [
+      {
+       "categories": [
+        {
+         "measurements": [
+          {
+           "groupId": "OG000",
+           "value": "6.7",
+           "spread": "3.25"
+          },
+          {
+           "groupId": "OG001",
+           "value": "7.1",
+           "spread": "3.03"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "analyses": [
+      {
+       "pValue": "0.9239",
+       "statisticalMethod": "ANCOVA",
+       "paramType": "Least-squares Mean Difference",
+       "paramValue": "0.4",
+       "ciPctValue": "95",
+       "ciLowerLimit": "-8.38",
+       "ciUpperLimit": "9.23",
+       "nonInferiorityType": "SUPERIORITY",
+       "estimateComment": null,
+       "groupIds": [
+        "OG000",
+        "OG001"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Subject Self-Assessment (SSA) Score in Hair Growth at Week 24",
+     "param_type": "LEAST_SQUARES_MEAN",
+     "unit": "score on a scale",
+     "groups": [
+      "Placebo",
+      "Setipiprant"
+     ],
+     "classes": [
+      {
+       "categories": [
+        {
+         "measurements": [
+          {
+           "groupId": "OG000",
+           "value": "-0.2",
+           "spread": "0.15"
+          },
+          {
+           "groupId": "OG001",
+           "value": "-0.3",
+           "spread": "0.14"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "analyses": [
+      {
+       "pValue": "0.9101",
+       "statisticalMethod": "ANCOVA",
+       "paramType": "Least-squares Mean Difference",
+       "paramValue": "0.0",
+       "ciPctValue": "95",
+       "ciLowerLimit": "-0.42",
+       "ciUpperLimit": "0.37",
+       "nonInferiorityType": "SUPERIORITY",
+       "estimateComment": null,
+       "groupIds": [
+        "OG000",
+        "OG001"
+       ]
+      }
+     ]
+    }
+   ],
+   "conditions": [
+    "Alopecia"
+   ],
+   "interventions": [
+    "Setipiprant",
+    "Placebo",
+    "Finasteride"
+   ],
+   "experimental_interventions": [
+    "Setipiprant"
+   ]
+  },
+  "NCT02998671": {
+   "nct_id": "NCT02998671",
+   "exists": true,
+   "status": "COMPLETED",
+   "has_results": true,
+   "title": null,
+   "enrollment": 52,
+   "why_stopped": null,
+   "primary_outcomes": [
+    {
+     "title": "Total Inflammatory Facial Lesion Count at Day 85",
+     "param_type": "GEOMETRIC_MEAN",
+     "unit": "Lesions",
+     "groups": [
+      "P1: CJM112 High Dose / P2: CJM112 High Dose",
+      "P1: CJM112 Low Dose / P2: CJM112 Low Dose",
+      "P1: Placebo / P2 CJM112 Low Dose or High Dose"
+     ],
+     "classes": [
+      {
+       "categories": [
+        {
+         "measurements": [
+          {
+           "groupId": "OG000",
+           "value": "21.9",
+           "lowerLimit": "16.58",
+           "upperLimit": "29.14"
+          },
+          {
+           "groupId": "OG001",
+           "value": "20.3",
+           "lowerLimit": "13.76",
+           "upperLimit": "29.66"
+          },
+          {
+           "groupId": "OG002",
+           "value": "18.5",
+           "lowerLimit": "13.51",
+           "upperLimit": "25.13"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "analyses": [
+      {
+       "pValue": null,
+       "statisticalMethod": "Bayesian model for repeated measurements",
+       "paramType": "Ratio of geometric means",
+       "paramValue": "1.18",
+       "ciPctValue": "90",
+       "ciLowerLimit": "0.79",
+       "ciUpperLimit": "1.81",
+       "nonInferiorityType": "SUPERIORITY",
+       "estimateComment": "Ratio of Geometric Means (CJM112 / Placebo) calculated. A value \\> 1 indicates a higher number of lesion counts in the CJM112 group.\n\nBayesian analysis. The \"credible interval\" was calculated and presented under \"confidence interval\".",
+       "groupIds": [
+        "OG000",
+        "OG002"
+       ]
+      },
+      {
+       "pValue": null,
+       "statisticalMethod": "Bayesian model for repeated measurements",
+       "paramType": "Ratio of geometric means",
+       "paramValue": "1.10",
+       "ciPctValue": "90",
+       "ciLowerLimit": "0.66",
+       "ciUpperLimit": "1.80",
+       "nonInferiorityType": "SUPERIORITY",
+       "estimateComment": "Ratio of Geometric Means (CJM112 / Placebo) calculated. A value \\> 1 indicates a higher number of lesion counts in the CJM112 group.\n\nBayesian analysis. The \"credible interval\" was calculated and presented under \"confidence interval\".",
+       "groupIds": [
+        "OG001",
+        "OG002"
+       ]
+      }
+     ]
+    }
+   ],
+   "conditions": [
+    "Acne Vulgaris"
+   ],
+   "interventions": [
+    "CJM112",
+    "Placebo"
+   ],
+   "experimental_interventions": [
+    "CJM112"
+   ]
+  },
+  "NCT04856917": {
+   "nct_id": "NCT04856917",
+   "exists": true,
+   "status": "COMPLETED",
+   "has_results": true,
+   "title": null,
+   "enrollment": 123,
+   "why_stopped": null,
+   "primary_outcomes": [
+    {
+     "title": "Change From Baseline in Facial Inflammatory Lesion Counts at Week 12",
+     "param_type": "MEAN",
+     "unit": "lesions",
+     "groups": [
+      "Imsidolimab 400/200 mg",
+      "Imsidolimab 200/100 mg",
+      "Placebo"
+     ],
+     "classes": [
+      {
+       "categories": [
+        {
+         "measurements": [
+          {
+           "groupId": "OG000",
+           "value": "-6.8",
+           "spread": "13.63"
+          },
+          {
+           "groupId": "OG001",
+           "value": "-7.4",
+           "spread": "16.38"
+          },
+          {
+           "groupId": "OG002",
+           "value": "-9.6",
+           "spread": "10.66"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "analyses": [
+      {
+       "pValue": "0.3757",
+       "statisticalMethod": "LRMM",
+       "paramType": "LS Mean Difference",
+       "paramValue": "2.9",
+       "ciPctValue": "90",
+       "ciLowerLimit": "-2.47",
+       "ciUpperLimit": "8.19",
+       "nonInferiorityType": "SUPERIORITY",
+       "estimateComment": null,
+       "groupIds": [
+        "OG000",
+        "OG002"
+       ]
+      },
+      {
+       "pValue": "0.6183",
+       "statisticalMethod": "LRMM",
+       "paramType": "LS Mean Difference",
+       "paramValue": "1.6",
+       "ciPctValue": "90",
+       "ciLowerLimit": "-3.73",
+       "ciUpperLimit": "6.95",
+       "nonInferiorityType": "SUPERIORITY",
+       "estimateComment": null,
+       "groupIds": [
+        "OG001",
+        "OG002"
+       ]
+      }
+     ]
+    }
+   ],
+   "conditions": [
+    "Acne Vulgaris"
+   ],
+   "interventions": [
+    "Imsidolimab",
+    "Placebo"
+   ],
+   "experimental_interventions": [
+    "Imsidolimab"
+   ]
+  },
+  "NCT05910450": {
+   "nct_id": "NCT05910450",
+   "exists": true,
+   "status": "COMPLETED",
+   "has_results": false,
+   "title": null,
+   "enrollment": 703,
+   "why_stopped": null,
+   "primary_outcomes": [],
+   "conditions": [
+    "Alopecia, Androgenetic"
+   ],
+   "interventions": [
+    "Clascoterone 5% solution",
+    "Vehicle solution"
+   ],
+   "experimental_interventions": [
+    "Clascoterone 5% solution",
+    "Vehicle solution"
+   ]
+  },
+  "NCT05914805": {
+   "nct_id": "NCT05914805",
+   "exists": true,
+   "status": "COMPLETED",
+   "has_results": false,
+   "title": null,
+   "enrollment": 762,
+   "why_stopped": null,
+   "primary_outcomes": [],
+   "conditions": [
+    "Alopecia, Androgenetic"
+   ],
+   "interventions": [
+    "Clascoterone 5% solution",
+    "Vehicle solution"
+   ],
+   "experimental_interventions": [
+    "Clascoterone 5% solution",
+    "Vehicle solution"
+   ]
+  }
+ },
+ "searches": {
+  "clascoterone|androgenetic alopecia": [
+   "NCT05910450",
+   "NCT02279823",
+   "NCT05914805"
+  ],
+  "cjm-112|acne vulgaris": [
+   "NCT02421172",
+   "NCT02998671"
+  ],
+  "imsidolimab|acne vulgaris": [
+   "NCT04856917"
+  ],
+  "setipiprant|androgenetic alopecia": [
+   "NCT02781311"
+  ]
+ }
+}
