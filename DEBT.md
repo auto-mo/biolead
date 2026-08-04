@@ -110,6 +110,15 @@ file for the class name before adding it.** Check the token names too: this styl
 `--surface-*`, `--on-surface-*` and `--outline*`, and `--md-sys-color-*` names appear only in
 generated ramp comments, so writing against them fails silently.
 
+**A light panel inside the dark verdict box must set its own text colour.** `.verdict` sets
+`color: var(--on-inverse)`, so any light-surfaced child that does not set a colour of its own
+inherits near-white text onto a near-white background and disappears. Only the children that
+happen to carry their own colour stay readable, which makes it look like a content bug rather
+than a cascade one. This has now happened to `.outcome-state`, `.insuf`, `.outcome-split
+.sp-block` and `.outcome-provider`. **Any new panel rendered inside the verdict sets
+`color: var(--on-surface)`.** Neither `tsc` nor the build can see this, which is the argument
+for looking at the render.
+
 **The deterministic stub hides defects in the paths only it exercises.** An invalid
 structured-output schema, a `max_tokens` too small for adaptive thinking, and evidence links
 pointing at site roots all survived every stub run and surfaced the moment a real key and a real

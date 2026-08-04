@@ -868,6 +868,14 @@ section.borrow .misses, section.borrow .caveat { border-top: 1px solid var(--ass
   border: 1px solid var(--outline-variant);
   border-left: 3px solid var(--primary);
   border-radius: 10px;
+
+  /* Light island inside the dark verdict panel, so it sets its own text colour. See the
+     note on `.outcome-state`. Without this the "what was checked" and "what would change
+     this" lists inherit `.verdict`'s near-white `--on-inverse` onto a light background and
+     vanish, while the headings and the footer read fine because they carry a colour of
+     their own. Abstention is the most common output, so this panel is the one users see
+     most. */
+  color: var(--on-surface);
 }
 .insuf-h { display: block; margin: 0 0 0.4rem; color: var(--on-surface-variant); }
 .insuf-h + * { margin-top: 0; }
@@ -954,6 +962,8 @@ section.borrow .misses, section.borrow .caveat { border-top: 1px solid var(--ass
   border-radius: 10px;
   padding: 14px 16px;
   background: var(--surface-lowest);
+  /* Light island; sets its own colour. `.sp-tally` carries none of its own. */
+  color: var(--on-surface);
 }
 .outcome-split .sp-head { color: var(--on-surface-variant); margin: 0 0 6px; }
 .outcome-split .sp-tally { margin: 0 0 4px; font-weight: 600; }
@@ -982,6 +992,8 @@ section.borrow .misses, section.borrow .caveat { border-top: 1px solid var(--ass
 .outcome-provider {
   margin-top: 14px; padding: 12px 16px; border-radius: 10px;
   border: 1px solid var(--outline-variant); background: var(--surface-lowest);
+  /* Light island; sets its own colour. `.op-name` carries none of its own. */
+  color: var(--on-surface);
 }
 .outcome-provider .op-line {
   display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px;
